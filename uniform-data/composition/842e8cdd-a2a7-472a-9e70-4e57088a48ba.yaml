@@ -1,0 +1,126 @@
+composition:
+  _name: Destination Detail
+  _id: 842e8cdd-a2a7-472a-9e70-4e57088a48ba
+  _slug: ':destination'
+  type: page
+  slots:
+    footer:
+      - _id: 85700cbd-7c20-42e5-9c6b-e7fd90f30c82
+        type: footer
+        _pattern: 45074c59-cda0-4ca5-979f-917d69e6f224
+    header:
+      - _id: c289fc4f-ab2e-4449-9a98-e18d65da1a48
+        type: header
+        _pattern: 81ff5114-1240-444e-bdcc-a3afa2c09597
+    content:
+      - _id: baefd565-577a-4135-b109-7a4c5f568cad
+        type: card
+        _pattern: b02062a2-288e-4fb5-bacb-eb10481ad2d1
+      - _id: 08536719-02fe-4d4d-b2f1-68561934febd
+        type: grid
+        slots:
+          gridItems:
+            - _id: 48e61206-2e0c-478a-8e2e-4e658da1da95
+              type: text
+              parameters:
+                size:
+                  type: select
+                  value: small
+            - _id: 1d471a9c-6c20-4811-99b2-8900a74a132e
+              type: card
+              slots:
+                cta:
+                  - _id: 369fca6f-cd02-4dfd-a0b3-0a661c2579a6
+                    type: button
+                    parameters:
+                      size:
+                        type: select
+                        value: medium
+                      text:
+                        type: text
+                        value: Reserve Trip
+                      style:
+                        type: select
+                        value: outline
+              parameters:
+                headline:
+                  type: text
+                  value: Other destinations
+                backgroundColor:
+                  type: select
+                  value: lightGray
+        parameters:
+          gap:
+            type: select
+            value: small
+          name:
+            type: text
+            value: Main Content
+          columns:
+            type: select
+            value: '2'
+          padding:
+            type: select
+            value: small
+  _dataResources:
+    Destination by Slug Content:
+      type: destinationBySlug
+      variables:
+        slug: ${destination}
+  _overrides:
+    baefd565-577a-4135-b109-7a4c5f568cad:
+      parameters:
+        layout:
+          type: select
+          value: overlay
+        margin:
+          type: select
+          value: none
+        eyebrow:
+          type: text
+          value: null
+        padding:
+          type: select
+          value: none
+        headline:
+          type: text
+          value: ${#jptr:/Destination by Slug Content/entry/_name}
+        description:
+          type: richText
+          value: null
+        backgroundImage:
+          type: asset
+          value:
+            - _id: fe26cf76-0c83-4064-a3d1-9a52e62e92f4
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: ${#jptr:/Destination by Slug Content/entry/_thumbnail}
+              _source: custom-url
+    baefd565-577a-4135-b109-7a4c5f568cad|7e06fb98-c4a5-437f-85d6-1f47a5c5eb16:
+      slots:
+        $slotSectionItems:
+          - _id: 83bdcdb7-52ad-4aee-a6fa-d935ad1b5f8a
+            type: text
+            parameters:
+              text:
+                type: text
+                value: >-
+                  ${#jptr:/Destination by Slug
+                  Content/entry/fields/quickOverview/value}
+    baefd565-577a-4135-b109-7a4c5f568cad|d0e042ef-a744-47dc-8406-428f7ac8fce3:
+      slots:
+        $slotSectionItems:
+          - _id: b865eb64-8818-4415-ba12-9f3ef074b72f
+            type: pill
+            parameters:
+              text:
+                type: text
+                value: Destination
+              style:
+                type: select
+                value: light
+created: '2025-08-26T15:36:54.325435+00:00'
+modified: '2025-08-26T15:49:21.674331+00:00'
+pattern: false

@@ -1,0 +1,56 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: tourCard
+name: Tour Card
+icon: screen
+parameters:
+  - id: tourTitle
+    name: Tour Title
+    type: text
+    guidance: Name of the tour
+    localizable: true
+  - id: tourDescription
+    name: Tour Description
+    type: text
+    guidance: Brief description of the tour
+    localizable: true
+  - id: tourImage
+    name: Tour Image
+    type: asset
+    guidance: Main tour image
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: duration
+    name: Duration
+    type: text
+    guidance: Tour duration (e.g., 7 days)
+    localizable: true
+  - id: price
+    name: Price
+    type: text
+    guidance: Tour price (e.g., $1,299)
+  - id: rating
+    name: Rating
+    type: number
+    guidance: Tour rating out of 5
+    typeConfig:
+      max: 5
+      min: 0
+  - id: location
+    name: Location
+    type: text
+    guidance: Tour location
+    localizable: true
+  - id: tourUrl
+    name: Tour URL
+    type: link
+    guidance: Link to full tour details
+description: Individual tour card with image, details, and pricing
+useTeamPermissions: true
+slots: []
+titleParameter: tourTitle
+thumbnailParameter: tourImage
+canBeComposition: false
+created: '2025-08-14T20:05:39.383184+00:00'
+updated: '2025-08-14T20:05:39.383184+00:00'

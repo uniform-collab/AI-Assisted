@@ -1,0 +1,23 @@
+created: '2025-08-18T19:34:21.090305+00:00'
+modified: '2025-08-18T19:34:21.090305+00:00'
+pattern: false
+entry:
+  _id: d1baf9e8-e7c6-4d5c-bf4f-9f8e7d6c5b4a
+  _name: Eco-Friendly Shopping
+  _slug: eco-friendly-shopping
+  type: interest
+  fields:
+    name:
+      type: text
+      value: Eco-Friendly Shopping
+    description:
+      type: text
+      value: >-
+        Discover vibrant markets, charming boutiques, and lively shopping
+        districts as you search for unique treasures. Whether you're looking for
+        handmade crafts, local fashion, or one-of-a-kind souvenirs, you'll enjoy
+        the thrill of finding something special while supporting local
+        communities. Join us in exploring the best spots for planet-positive
+        shopping and memorable experiences.
+  _overridability:
+    hideLockedParameters: true

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6ed0e9b5-8ff9-4b13-96af-7867f6938364
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: building-castle.svg
+    file:
+      type: file
+      value: a21922d3-4e75-4a5f-83fb-fd5385dfef67
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/6Z2nuvyqT5KjBcvUMhHekw-building-castle.svg
+      type: text
+    size:
+      value: 480
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:45.873719+00:00'
+modified: '2025-08-18T14:28:45.873719+00:00'

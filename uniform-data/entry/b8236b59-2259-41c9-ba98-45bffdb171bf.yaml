@@ -1,0 +1,220 @@
+created: '2025-08-19T13:09:37.968073+00:00'
+modified: '2025-08-20T15:38:31.828612+00:00'
+pattern: false
+entry:
+  _id: b8236b59-2259-41c9-ba98-45bffdb171bf
+  _name: Paris and Normandy Highlights
+  _slug: paris-and-normandy-highlights
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/qzgh1a7mQW2FjUV_gkMx_w-paris-normandy-pascal-bernardon-v4xZGuP2ZSM-unsplash.jpg
+  type: tour
+  fields:
+    end:
+      type: text
+      value: Normandy
+    name:
+      type: text
+      value: Paris and Normandy Highlights
+    start:
+      type: text
+      value: Paris
+    duration:
+      type: text
+      value: 8 days
+    tourCode:
+      type: text
+      value: FR-PANO
+    tourType:
+      type: multi-select
+      value:
+        - Small group
+    itinerary:
+      type: $block
+      value:
+        - _id: b95f01f8-efb2-456a-9528-f07ee7c27751
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 1
+            title:
+              type: text
+              value: Paris
+            description:
+              type: text
+              value: >-
+                Begin your journey in Paris with a welcome orientation and
+                evening stroll through the city's iconic sights, including the
+                Eiffel Tower and the charming Montmartre district.
+        - _id: cae3cdf2-ec95-4892-acba-847fe9392831
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 2
+            title:
+              type: text
+              value: Giverny
+            description:
+              type: text
+              value: >-
+                Travel to Giverny to explore Monet’s famous gardens, the
+                inspiration behind many of his paintings. Enjoy a guided visit
+                of the artist’s home and surrounding landscapes, followed by
+                free time to stroll through the village.
+        - _id: 6c87305d-8d10-409a-ae82-b9943aa7af02
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 3-4
+            title:
+              type: text
+              value: Rouen & Honfleur
+            description:
+              type: text
+              value: >-
+                Arrive in Rouen, a historic city known for its Gothic
+                architecture and medieval charm. Discover the impressive Rouen
+                Cathedral and learn about the story of Joan of Arc. On Day 4,
+                visit Honfleur, a picturesque harbor town with half-timbered
+                houses, and enjoy a relaxing afternoon along the Seine River.
+        - _id: 32b08078-d163-4ba3-b51d-8dcebb9637ed
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 5
+            title:
+              type: text
+              value: Normandy Beaches
+            description:
+              type: text
+              value: >-
+                Explore the poignant D-Day landing beaches in Normandy,
+                including Omaha Beach and the American Cemetery. Learn about the
+                historical significance of these sites and pay tribute to the
+                soldiers who fought during WWII.
+        - _id: 2f6d479c-bfbc-4eaa-b1cc-eb64dffabc9d
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 6
+            title:
+              type: text
+              value: Mont-Saint-Michel
+            description:
+              type: text
+              value: >-
+                Journey to the iconic Mont-Saint-Michel, a stunning island abbey
+                surrounded by tidal waters. Wander through the narrow streets,
+                visit the abbey, and enjoy panoramic views of the surrounding
+                bay.
+        - _id: 0a46cfea-4043-4732-9a11-2fec10f440b3
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 7
+            title:
+              type: text
+              value: Bayeux
+            description:
+              type: text
+              value: >-
+                Spend the day in Bayeux, where you’ll view the famous Bayeux
+                Tapestry, a UNESCO-listed artwork that depicts the events
+                leading up to the Norman conquest of England. Explore the town’s
+                charming medieval streets and enjoy a farm-to-table dinner in
+                the evening.
+        - _id: 12defd8b-230e-4ea6-b4a6-2b54e436c324
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 8
+            title:
+              type: text
+              value: Paris
+            description:
+              type: text
+              value: >-
+                Return to Paris for a farewell lunch and some free time to
+                explore the city’s vibrant neighborhoods or pick up a few
+                souvenirs before concluding your journey.
+    description:
+      type: text
+      value: >-
+        Experience the beauty of northern France on this 8-day eco-friendly
+        journey from Paris through Normandy, with visits to charming villages,
+        historic sites, and stunning coastal landscapes. From Monet’s gardens in
+        Giverny to the historic beaches of Normandy and the picturesque
+        Mont-Saint-Michel, each stop reveals a unique facet of French culture
+        and natural beauty. Immerse yourself in the region’s art, history, and
+        conservation efforts while enjoying sustainable travel practices that
+        connect you with France’s landscapes in an authentic and meaningful way.
+    destination:
+      type: contentReference
+      value: ${#jptr:/ref-b8236b59-2259-41c9-ba98-45bffdb171bf-destination/entries/0}
+    travelStyle:
+      type: multi-select
+      value:
+        - Family
+    serviceLevel:
+      type: select
+      value: Premium
+    featuredImage:
+      type: asset
+      value:
+        - _id: 43327c27-a85c-4be5-9244-080632f9437a
+          type: image
+          fields:
+            id:
+              type: text
+              value: 5309f59b-f72c-4617-9a84-13463c386507
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/qzgh1a7mQW2FjUV_gkMx_w-paris-normandy-pascal-bernardon-v4xZGuP2ZSM-unsplash.jpg
+              type: text
+            file:
+              type: file
+              value: 063618f8-c5e4-4153-9ae6-3e1a86b51ecb
+            size:
+              value: 4674391
+              type: number
+            title:
+              type: text
+              value: paris-normandy-pascal-bernardon-v4xZGuP2ZSM-unsplash.jpg
+            width:
+              value: 6295
+              type: number
+            height:
+              value: 3080
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.43
+                'y': 0.31
+              type: focalPoint
+          _source: uniform-assets
+    physicalRating:
+      type: select
+      value: 2 - Light
+    relatedInterests:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-b8236b59-2259-41c9-ba98-45bffdb171bf-relatedInterests/entries}
+  _dataResources:
+    ref-b8236b59-2259-41c9-ba98-45bffdb171bf-destination:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: fb45a52f-a1a0-40cf-a21f-99054ac99ce4
+    ref-b8236b59-2259-41c9-ba98-45bffdb171bf-relatedInterests:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: d648bef1-f4d0-414f-a98d-8a322db29761

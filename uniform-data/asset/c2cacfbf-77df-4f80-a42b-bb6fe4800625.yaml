@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c2cacfbf-77df-4f80-a42b-bb6fe4800625
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Global-Page-Template.png
+    file:
+      type: file
+      value: 5d12f2d1-506c-47ff-bec5-39a4b999cdb6
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/R_cp-XDaSlqvGkMpOBhgwQ-Global-Page-Template.png
+      type: text
+    size:
+      value: 53485
+      type: number
+    width:
+      value: 1300
+      type: number
+    height:
+      value: 670
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:51.060343+00:00'
+modified: '2025-08-18T14:28:51.060343+00:00'

@@ -1,0 +1,17 @@
+id: destinationsSelected
+displayName: Destinations Selected
+ttl: 30
+path: /multiple
+custom:
+  proposedName: Multiple Destination
+  allowedContentTypes:
+    - destination
+method: GET
+purgeKey: a2d5e8df-126e-4f17-818c-686c441ddc2d
+archetype: multipleEntries
+variables:
+  entryIds:
+    type: text
+    default: ''
+dataSourceId: ecoquestCursor
+allowedOnComponents: []

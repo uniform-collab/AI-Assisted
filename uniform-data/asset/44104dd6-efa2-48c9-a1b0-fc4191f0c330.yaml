@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 44104dd6-efa2-48c9-a1b0-fc4191f0c330
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: building-skyscraper.svg
+    file:
+      type: file
+      value: 97fd9dc3-03e1-4f94-8965-742b5862d3c9
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/V63j4SjtS3-LHW84o79iUw-building-skyscraper.svg
+      type: text
+    size:
+      value: 503
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:43.079864+00:00'
+modified: '2025-08-18T14:28:43.079864+00:00'

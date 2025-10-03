@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: galleryImage
+name: Gallery Image
+icon: screen
+parameters:
+  - id: image
+    name: Image
+    type: asset
+    guidance: Gallery image
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: altText
+    name: Alt Text
+    type: text
+    guidance: Alternative text for accessibility
+    localizable: true
+  - id: caption
+    name: Caption
+    type: text
+    guidance: Optional image caption
+    localizable: true
+  - id: photographer
+    name: Photographer
+    type: text
+    guidance: Photographer credit
+    localizable: true
+description: Individual image in the photo gallery
+useTeamPermissions: true
+slots: []
+titleParameter: altText
+thumbnailParameter: image
+canBeComposition: false
+created: '2025-08-14T20:06:17.547741+00:00'
+updated: '2025-08-14T20:06:17.547741+00:00'

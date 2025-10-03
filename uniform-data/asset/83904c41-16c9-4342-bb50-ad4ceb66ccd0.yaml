@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 83904c41-16c9-4342-bb50-ad4ceb66ccd0
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: GR-MYAT-pexels-diego-f-parra-15241946.jpg
+    file:
+      type: file
+      value: 693e7224-0da8-4473-96ad-39b1892dff6e
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/E2Y89KyaRZeFGQBjboP1Nw-GR-MYAT-pexels-diego-f-parra-15241946.jpg
+      type: text
+    size:
+      value: 4018128
+      type: number
+    width:
+      value: 7360
+      type: number
+    height:
+      value: 4912
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:30.444564+00:00'
+modified: '2025-08-18T14:28:30.444564+00:00'

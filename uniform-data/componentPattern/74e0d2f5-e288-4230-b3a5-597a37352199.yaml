@@ -1,0 +1,15 @@
+composition:
+  _name: Small Spacer (8pt)
+  _id: 74e0d2f5-e288-4230-b3a5-597a37352199
+  type: spacer
+  parameters:
+    size:
+      type: select
+      value: '8'
+  _overridability:
+    parameters:
+      size: 'yes'
+    hideLockedParameters: true
+created: '2025-08-19T19:27:32.117309+00:00'
+modified: '2025-08-19T19:27:32.117309+00:00'
+pattern: true

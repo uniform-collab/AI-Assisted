@@ -1,0 +1,127 @@
+composition:
+  _name: Sample Card Pattern
+  _id: b02062a2-288e-4fb5-bacb-eb10481ad2d1
+  type: card
+  parameters:
+    size:
+      type: select
+      value: full
+    layout:
+      type: select
+      value: horizontal
+    shadow:
+      type: select
+      value: medium
+    eyebrow:
+      type: text
+      value: FEATURED
+    padding:
+      type: select
+      value: none
+    headline:
+      type: text
+      value: Discover Amazing Adventures
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Experience the world like never before with our curated
+                    selection of eco-friendly tours and sustainable travel
+                    options. Discover new places, connect with local
+                    communities, and make a positive impact on the planet—one
+                    journey at a time.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    headlineTag:
+      type: select
+      value: h3
+    borderRadius:
+      type: select
+      value: medium
+    textAlignment:
+      type: select
+      value: left
+    backgroundColor:
+      type: select
+      value: moss
+  slots:
+    cta:
+      - _id: 0a0f3ccb-e181-48f3-abe2-bcbd8282fb93
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: CTAs
+          specific:
+            type: array
+            value:
+              - button
+          groupType:
+            type: text
+            value: inherit
+        _overridability:
+          hideLockedParameters: true
+    pills:
+      - _id: d0e042ef-a744-47dc-8406-428f7ac8fce3
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Pills
+          specific:
+            type: array
+            value:
+              - pill
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+    content:
+      - _id: 7e06fb98-c4a5-437f-85d6-1f47a5c5eb16
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Content
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      size: 'yes'
+      layout: 'yes'
+      margin: 'yes'
+      shadow: 'yes'
+      cardUrl: 'yes'
+      eyebrow: 'yes'
+      padding: 'yes'
+      headline: 'yes'
+      description: 'yes'
+      headlineTag: 'yes'
+      borderRadius: 'yes'
+      textAlignment: 'yes'
+      backgroundColor: 'yes'
+      backgroundImage: 'yes'
+    hideLockedParameters: true
+created: '2025-08-20T14:08:27.750502+00:00'
+modified: '2025-08-26T15:42:49.595442+00:00'
+pattern: true

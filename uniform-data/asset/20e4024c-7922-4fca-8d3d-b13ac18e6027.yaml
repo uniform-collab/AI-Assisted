@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 20e4024c-7922-4fca-8d3d-b13ac18e6027
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: GR-SAMY-megan-bagshaw-unsplash.jpg
+    file:
+      type: file
+      value: ac089c6f-2b6b-4ba1-859c-13890a379c41
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/3s7HVpJVQ7S8SBvF0oPqCg-GR-SAMY-megan-bagshaw-unsplash.jpg
+      type: text
+    size:
+      value: 2184111
+      type: number
+    width:
+      value: 3456
+      type: number
+    height:
+      value: 5184
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:25.209875+00:00'
+modified: '2025-08-18T14:28:25.209875+00:00'

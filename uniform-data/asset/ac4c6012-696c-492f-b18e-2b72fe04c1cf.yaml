@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: ac4c6012-696c-492f-b18e-2b72fe04c1cf
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: GR-MYAT-janosch-diggelmannunsplash.jpg
+    file:
+      type: file
+      value: 42d388a8-57d5-4982-aff3-0ff2c247dff7
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/c7y8Z-V4SGqpCySpC4uwfQ-GR-MYAT-janosch-diggelmannunsplash.jpg
+      type: text
+    size:
+      value: 3988288
+      type: number
+    width:
+      value: 3648
+      type: number
+    height:
+      value: 5472
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:27.376668+00:00'
+modified: '2025-08-18T14:28:27.376668+00:00'

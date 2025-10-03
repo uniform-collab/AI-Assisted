@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 7a4dc7c6-aa6c-4231-b8ec-81ef6110cd3e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: AF-CTVF-pexels-photations-25650559.jpg
+    file:
+      type: file
+      value: c44a4918-2cfc-4047-bd6f-0d8b352ee95a
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/vEifIZOcSFOWWXH2MMhM8A-AF-CTVF-pexels-photations-25650559.jpg
+      type: text
+    size:
+      value: 934742
+      type: number
+    width:
+      value: 3888
+      type: number
+    height:
+      value: 2592
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:39.348408+00:00'
+modified: '2025-08-18T14:28:39.348408+00:00'

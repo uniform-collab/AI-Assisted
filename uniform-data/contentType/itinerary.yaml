@@ -1,0 +1,27 @@
+id: itinerary
+name: Itinerary
+created: '2025-08-18T19:22:25.848494+00:00'
+updated: '2025-08-18T19:22:25.848494+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: itineraryDays
+    name: Itinerary Days
+    type: $block
+    helpText: ''
+    typeConfig:
+      min: 1
+      required: true
+      allowedTypes: all
+description: >-
+  An ITINERARY is the schedule of planned events for a TOUR. It includes a
+  selection of ACTIVITIES organized into one or more ITINERARY DAYS.
+
+
+  An ITINERARY is a local object to a TOUR, and is not reused across TOURS, so
+  it is managed as a Block on the TOUR.
+icon: list
+type: block
+permissions: []
+previewConfigurations: []

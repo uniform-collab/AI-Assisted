@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: partners
+name: Partners
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main title for the partners section
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Supporting subtitle or description
+    localizable: true
+  - id: contextHeadline
+    name: Context Headline
+    type: text
+    guidance: Optional context headline (appears above title in orange)
+    localizable: true
+description: Partners section showcasing company partnerships and logos
+useTeamPermissions: true
+slots:
+  - id: partnerItems
+    name: Partner Items
+    allowedComponents:
+      - partnerItem
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+  - id: ctas
+    name: CTAs
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2025-08-14T20:05:18.600196+00:00'
+updated: '2025-08-15T19:38:26.566234+00:00'

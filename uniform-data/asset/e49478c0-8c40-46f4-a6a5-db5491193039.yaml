@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: e49478c0-8c40-46f4-a6a5-db5491193039
+  _name: mykonos-premium_photo-1661935781384-b27f5faa9197.jpeg
+  fields:
+    title:
+      type: text
+      value: mykonos-premium_photo-1661935781384-b27f5faa9197.jpeg
+    file:
+      type: file
+      value: 19f35538-a43c-4495-881c-5c72705534d4
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/4WPo3yBdQQ6gKjEwF5wOxg-mykonos-premium_photo-1661935781384-b27f5faa9197.jpeg
+      type: text
+    size:
+      value: 2290429
+      type: number
+    width:
+      value: 2940
+      type: number
+    height:
+      value: 1960
+      type: number
+    focalPoint:
+      value:
+        x: 0.32
+        'y': 0.47
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:15.378495+00:00'
+modified: '2025-08-18T14:28:15.378495+00:00'

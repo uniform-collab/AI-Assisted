@@ -1,0 +1,238 @@
+composition:
+  _name: EcoQuest Homepage
+  _id: e3c51bc1-38e4-4a71-b632-f3a35d05db48
+  type: page
+  slots:
+    footer:
+      - _id: b4c94acd-3139-439e-94cf-616d46e2d7c9
+        type: footer
+        _pattern: 45074c59-cda0-4ca5-979f-917d69e6f224
+    header:
+      - _id: 9869c6bf-fa59-4985-a28f-9d81206b071c
+        type: header
+        _pattern: 81ff5114-1240-444e-bdcc-a3afa2c09597
+    content:
+      - _id: 9a1dde54-1d7d-46ce-9ee9-f46ef3860228
+        type: hero
+        _pattern: c8a16d10-c0c6-4103-b9b4-633b25b31fe4
+      - _id: 4303d6c4-dad1-4068-9f28-8853992d762e
+        type: destinationShowcase
+        _pattern: 7c0f7ecd-80a5-4606-ba72-e33eab0c883f
+      - _id: 461f00ad-4ffb-4538-9f59-74fbee2aa0e9
+        type: partners
+        _pattern: 5d4282d8-8c6a-42be-a1b1-2a7c924e50f6
+      - _id: d6b6589e-e1a5-409e-91c9-8cd8fcb57350
+        type: popularTours
+        slots:
+          tourCards:
+            - _id: be42c54d-cbd0-4029-af93-1f5df44dd722
+              type: tourCard
+              parameters:
+                price:
+                  type: text
+                  value: $1,299
+                rating:
+                  type: number
+                  value: 4
+                duration:
+                  type: text
+                  value: 7 days
+                location:
+                  type: text
+                  value: Costa Rica
+                tourTitle:
+                  type: text
+                  value: Costa Rica Rainforest Adventure
+                tourDescription:
+                  type: text
+                  value: >-
+                    Discover untouched rainforests and contribute to vital local
+                    conservation initiatives on this immersive eco-tour.
+            - _id: 2207a040-ffc8-461b-9fb0-b8245aeecbf0
+              type: tourCard
+              parameters:
+                price:
+                  type: text
+                  value: $1,899
+                rating:
+                  type: number
+                  value: 4
+                duration:
+                  type: text
+                  value: 5 days
+                location:
+                  type: text
+                  value: Iceland
+                tourTitle:
+                  type: text
+                  value: Iceland Northern Lights Expedition
+                tourDescription:
+                  type: text
+                  value: >-
+                    Experience the magic of the northern lights and discover the
+                    wonders of renewable energy on this unique tour.
+            - _id: 3ef59aaa-b226-4010-8b1c-639bf7362ee7
+              type: tourCard
+              parameters:
+                price:
+                  type: text
+                  value: $2,499
+                rating:
+                  type: number
+                  value: 4
+                duration:
+                  type: text
+                  value: 10 days
+                location:
+                  type: text
+                  value: Patagonia
+                tourTitle:
+                  type: text
+                  value: Patagonia Wildlife Safari
+                tourDescription:
+                  type: text
+                  value: >-
+                    Experience the wonders of untouched nature and encounter
+                    rare wildlife in one of the planet's last true wilderness
+                    regions.
+        parameters:
+          title:
+            type: text
+            value: Popular Eco Journeys
+          subtitle:
+            type: text
+            value: Top-rated adventures for a greener tomorrow.
+  _overrides:
+    4303d6c4-dad1-4068-9f28-8853992d762e:
+      parameters:
+        title:
+          type: text
+          value: Explore Our Featured Destinations
+        subtitle:
+          type: text
+          value: Handpicked journeys for conscious travelers.
+      dataResources:
+        Destinations Content:
+          type: destinationsSelected
+          variables:
+            entryIds: >-
+              8808056a-d00c-472e-8d4c-664b26e744b1,f2d6a03b-213f-4173-acb9-4d044d0468b9,78505b8e-557b-4f82-992f-2813ce52cc08
+    461f00ad-4ffb-4538-9f59-74fbee2aa0e9:
+      parameters:
+        title:
+          type: text
+          value: Our Trusted Partners
+        subtitle:
+          type: text
+          value: Working together for a sustainable future.
+        contextHeadline:
+          type: text
+          value: Proudly collaborating with global leaders in conservation.
+    9a1dde54-1d7d-46ce-9ee9-f46ef3860228:
+      parameters:
+        margin:
+          type: select
+          value: none
+        eyebrow:
+          type: text
+          value: null
+        padding:
+          type: select
+          value: none
+        headline:
+          type: text
+          value: See the World, Leave Only Footprints
+        description:
+          type: text
+          value: >-
+            EcoQuest offers unforgettable global travel experiences that
+            celebrate adventure, cultural discovery, and environmental
+            stewardship.
+        headlineTag:
+          type: select
+          value: h3
+        backgroundColor:
+          type: select
+          value: null
+        backgroundImage:
+          type: asset
+          value:
+            - _id: e8a8f01e-8cc6-49b7-9710-e2d0dffe3256
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: 1c6dfb2b-87fc-4d1c-befb-b96fe4082d18
+                url:
+                  value: >-
+                    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/SIAr-Q41QdigZ0na_uEhyA-Hikers.png
+                  type: text
+                file:
+                  type: file
+                  value: bcf6748e-4ccc-4fcb-8837-04849c4c398d
+                size:
+                  value: 791067
+                  type: number
+                title:
+                  type: text
+                  value: Hikers.png
+                width:
+                  value: 1440
+                  type: number
+                height:
+                  value: 580
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+                focalPoint:
+                  value:
+                    x: 0.46
+                    'y': 0.65
+                  type: focalPoint
+              _source: uniform-assets
+    b4c94acd-3139-439e-94cf-616d46e2d7c9:
+      parameters:
+        companyName:
+          type: text
+          value: EcoQuest Adventures
+        description:
+          type: text
+          value: >-
+            Your journey to a greener planet starts here. Explore sustainable
+            travel and make a positive impact with every adventure.
+        copyrightText:
+          type: text
+          value: © 2024 EcoQuest Adventures. Travel Responsibly. All rights reserved.
+        newsletterTitle:
+          type: text
+          value: Join Our Eco-Community
+        subscribeButtonText:
+          type: text
+          value: Join Now
+    461f00ad-4ffb-4538-9f59-74fbee2aa0e9|81385153-a0b1-4f84-af72-ec1ac09e5c10:
+      slots:
+        $slotSectionItems:
+          - _id: 6b2f1952-af7e-439e-a121-3e423ca31f64
+            type: footerLink
+            parameters:
+              linkText:
+                type: text
+                value: test
+    9a1dde54-1d7d-46ce-9ee9-f46ef3860228|529f34cc-b28e-4c99-9833-b505c64872d7:
+      slots:
+        $slotSectionItems:
+          - _id: adb00cec-8693-4679-805f-56693d08f7d1
+            type: search
+            parameters:
+              buttonText:
+                type: text
+                value: Search
+              searchPlaceholder:
+                type: text
+                value: Explore destinations
+  _overridability:
+    hideLockedParameters: true
+created: '2025-08-14T20:10:58.559744+00:00'
+modified: '2025-08-25T12:44:06.549151+00:00'
+pattern: false

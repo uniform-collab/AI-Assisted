@@ -1,0 +1,74 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: pill
+name: Pill
+icon: screen
+parameters:
+  - id: text
+    name: Text
+    type: text
+    guidance: Text content for the pill
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    guidance: Optional link to make the pill clickable
+  - id: style
+    name: Style
+    type: select
+    guidance: Visual style of the pill
+    typeConfig:
+      options:
+        - text: Primary (Orange)
+          value: primary
+        - text: Secondary (Gray)
+          value: secondary
+        - text: Outline
+          value: outline
+        - text: Light
+          value: light
+        - text: Dark
+          value: dark
+        - text: Transparent
+          value: transparent
+  - id: size
+    name: Size
+    type: select
+    guidance: Size of the pill
+    typeConfig:
+      options:
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+  - id: position
+    name: Position
+    type: select
+    guidance: Position when used as an overlay
+    typeConfig:
+      options:
+        - text: Top Left
+          value: topLeft
+        - text: Top Right
+          value: topRight
+        - text: Top Center
+          value: topCenter
+        - text: Bottom Left
+          value: bottomLeft
+        - text: Bottom Right
+          value: bottomRight
+        - text: Bottom Center
+          value: bottomCenter
+        - text: Center
+          value: center
+        - text: Inline
+          value: inline
+description: Small pill/badge component that can overlay on images or be used inline
+useTeamPermissions: true
+slots: []
+titleParameter: text
+canBeComposition: false
+created: '2025-08-20T14:19:48.441315+00:00'
+updated: '2025-08-20T14:19:48.441315+00:00'

@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: blogSection
+name: Blog Section
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main title for the blog section
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Supporting subtitle or description
+    localizable: true
+description: Section showcasing blog articles and travel stories
+useTeamPermissions: true
+slots:
+  - id: blogArticles
+    name: Blog Articles
+    maxComponents: 3
+    allowedComponents:
+      - blogArticle
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-08-14T20:05:44.544429+00:00'
+updated: '2025-08-14T20:05:44.544429+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 32dc67b1-8747-424e-8f29-2b77c1633746
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: building-stadium.svg
+    file:
+      type: file
+      value: a02e276f-68b9-4eee-ac9d-30a13e83d343
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/gWqpm13aRMK2Renr26nUwg-building-stadium.svg
+      type: text
+    size:
+      value: 509
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:47.750865+00:00'
+modified: '2025-08-18T14:28:47.750865+00:00'

@@ -1,0 +1,116 @@
+composition:
+  _name: Card - Featured Tour
+  _id: f5002442-d906-4a2c-8aa6-aeda6acf82a9
+  type: card
+  parameters:
+    size:
+      type: select
+      value: full
+    layout:
+      type: select
+      value: horizontal
+    shadow:
+      type: select
+      value: small
+    eyebrow:
+      type: text
+      value: Featured Tour
+    padding:
+      type: select
+      value: xlarge
+    headline:
+      type: text
+      value: ${#jptr:/Tour Content/entry/fields/name/value}
+    headlineTag:
+      type: select
+      value: h3
+    borderRadius:
+      type: select
+      value: small
+    backgroundImage:
+      type: asset
+      value:
+        - _id: e0a0c2d7-b664-4303-949d-6801007567c6
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                ${#jptr:/Tour
+                Content/entry/fields/featuredImage/value/0/fields/url/value}
+          _source: custom-url
+  slots:
+    cta:
+      - _id: 728f1cdb-fb4f-49ab-b949-e999ec6ccafc
+        type: button
+        parameters:
+          size:
+            type: select
+            value: medium
+          text:
+            type: text
+            value: Book Now
+        _overridability:
+          parameters:
+            link: 'yes'
+            text: 'yes'
+          hideLockedParameters: true
+    pills:
+      - _id: ec7a975d-b0d9-4dc5-af18-944cc15fabfb
+        type: pill
+        _pattern: b046485d-5abe-4904-975b-ff6e306cc4ef
+    content:
+      - _id: 747979ad-de63-44d1-b653-5de7cc66ce31
+        type: text
+        parameters:
+          text:
+            type: text
+            value: >-
+              ${#jptr:/Tour Content/entry/fields/start/value} - ${#jptr:/Tour
+              Content/entry/fields/end/value} | ${#jptr:/Tour
+              Content/entry/fields/duration/value}
+        _overridability:
+          hideLockedParameters: true
+      - _id: 2ab1f6d8-a67d-4563-af56-bd578016f714
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Content
+          specific:
+            type: array
+            value:
+              - text
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Tour Content:
+      type: tour
+      variables:
+        entryId: 2f8a5b1c-9d3e-4f7a-8c6b-5e2a1f9d8c7b
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      size: 'no'
+      layout: 'no'
+      margin: 'yes'
+      shadow: 'no'
+      cardUrl: 'yes'
+      eyebrow: 'no'
+      padding: 'yes'
+      headline: 'no'
+      description: 'yes'
+      headlineTag: 'no'
+      borderRadius: 'no'
+      textAlignment: 'no'
+      backgroundColor: 'no'
+      backgroundImage: 'no'
+    hideLockedParameters: true
+created: '2025-08-20T17:21:39.484801+00:00'
+modified: '2025-08-21T15:20:32.237619+00:00'
+pattern: true

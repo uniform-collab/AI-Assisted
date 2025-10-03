@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d92368e5-fc48-4eb7-a99b-b5895979e576
+  _name: star-shite.png
+  fields:
+    title:
+      type: text
+      value: star-white.png
+    file:
+      type: file
+      value: 1070ce1f-b3b0-4d70-a120-76632fe8f768
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/S3DwvhShTf28JVjHAgwo7Q-star-shite.png
+      type: text
+    size:
+      value: 862
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:41.33337+00:00'
+modified: '2025-08-18T14:28:41.33337+00:00'

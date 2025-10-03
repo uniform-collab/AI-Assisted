@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d9313931-79f1-4755-8e2a-2ccfce0e8d09
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: pennant-2.svg
+    file:
+      type: file
+      value: aec2fb58-b9f5-4d4b-95ac-99e2c0364e6d
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/o8aQa5CcR8uWYyxdNX1RUg-pennant-2.svg
+      type: text
+    size:
+      value: 459
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:45.989124+00:00'
+modified: '2025-08-18T14:28:45.989124+00:00'

@@ -1,0 +1,26 @@
+composition:
+  _name: Enrichment Demo - Default
+  _id: e07b7c63-844d-4407-9be8-f5c61ecbd9ab
+  type: enrichmentDemo
+  parameters:
+    title:
+      type: text
+      value: Your Personalization Profile
+    description:
+      type: text
+      value: >-
+        Discover how the demo works: as you explore our eco-friendly travel
+        content, the platform tracks your interests and preferences in real
+        time. Each click and interaction helps us personalize your experience,
+        offering you more relevant tips, challenges, and planet-positive ideas.
+        This demo shows how your engagement shapes a more tailored, sustainable
+        journey with us—empowering you to make greener choices every step of the
+        way.
+  _overridability:
+    parameters:
+      title: 'yes'
+      description: 'yes'
+    hideLockedParameters: true
+created: '2025-09-29T15:35:13.524149+00:00'
+modified: '2025-09-29T15:35:13.524149+00:00'
+pattern: true

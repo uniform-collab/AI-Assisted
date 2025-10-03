@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: enrichmentDemo
+name: Enrichment Demo
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Title for the enrichment demo section
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Description explaining how the demo works
+    localizable: true
+description: Demo component to test Uniform Context and enrichments functionality
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-09-23T19:00:02.214123+00:00'
+updated: '2025-09-23T19:00:02.214123+00:00'

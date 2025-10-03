@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 396c2683-fa77-4ece-a93a-fd1de491df24
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: AF-CTVF-pexels-keeper-20260526.jpg
+    file:
+      type: file
+      value: ea4cb7e9-8331-466d-b49b-194cf8e0517e
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/6OZ8m1GISNKpZ8EBY0wAkg-AF-CTVF-pexels-keeper-20260526.jpg
+      type: text
+    size:
+      value: 814287
+      type: number
+    width:
+      value: 2982
+      type: number
+    height:
+      value: 3110
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:37.477564+00:00'
+modified: '2025-08-18T14:28:37.477564+00:00'

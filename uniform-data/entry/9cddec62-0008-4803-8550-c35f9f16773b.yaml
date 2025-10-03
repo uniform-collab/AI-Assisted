@@ -1,0 +1,223 @@
+created: '2025-08-19T13:09:39.501788+00:00'
+modified: '2025-09-23T13:24:39.927926+00:00'
+pattern: false
+entry:
+  _id: 9cddec62-0008-4803-8550-c35f9f16773b
+  _name: South Africa
+  _slug: south-africa
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/kRki93W_SZaCix_MVKW8wQ-south-africa-lina-loos-04-C1NZk1hE-unsplash.jpg
+  type: destination
+  fields:
+    name:
+      type: text
+      value: South Africa
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    South Africa is a premier ecotourism destination, offering
+                    an incredible blend of biodiversity, conservation efforts,
+                    and cultural richness. From the iconic wildlife safaris of
+                    Kruger National Park to the breathtaking coastal scenery of
+                    the Garden Route, visitors can experience nature’s wonders
+                    while supporting sustainable tourism. Explore pristine
+                    landscapes, encounter endangered species, and engage with
+                    local communities that are dedicated to preserving the
+                    environment. With its national parks, marine reserves, and
+                    commitment to conservation, South Africa invites
+                    eco-conscious travelers to connect with nature in meaningful
+                    and responsible ways.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+          direction: ltr
+    enrichments:
+      type: $enr
+      value:
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: wildlife-conservation
+          str: 10
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: adventure-seekers
+          str: 9
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: photography-nature
+          str: 9
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: cultural-heritage
+          str: 8
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: hiking-trekking
+          str: 8
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: eco-conscious-travelers
+          str: 9
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: research-driven
+          str: 8
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: early-planner
+          str: 7
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: seasonal-traveler
+          str: 6
+    featuredImage:
+      type: asset
+      value:
+        - _id: feabf800-64b2-4ba3-b9bd-bada9a8e932a
+          type: image
+          fields:
+            id:
+              type: text
+              value: c47b19d5-d912-4e38-a660-d14a7337fccb
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/kRki93W_SZaCix_MVKW8wQ-south-africa-lina-loos-04-C1NZk1hE-unsplash.jpg
+              type: text
+            file:
+              type: file
+              value: 4a7b226e-adcd-4299-8c3a-169989921d56
+            size:
+              value: 5082553
+              type: number
+            title:
+              type: text
+              value: south-africa-lina-loos-04-C1NZk1hE-unsplash.jpg
+            width:
+              value: 5611
+              type: number
+            height:
+              value: 3741
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.35
+                'y': 0.51
+              type: focalPoint
+          _source: uniform-assets
+    featuredTours:
+      type: contentReference
+      value: ${#jptr:/ref-9cddec62-0008-4803-8550-c35f9f16773b-featuredTours/entries}
+    quickOverview:
+      type: text
+      value: >-
+        South Africa is a leading destination, renowned for its breathtaking
+        biodiversity, conservation efforts, and cultural richness.
+    travelerPhotos:
+      type: asset
+      locales:
+        en:
+          - _id: 3c503538-24f7-41e5-8d89-452c0adf8fa6
+            type: image
+            fields:
+              id:
+                type: text
+                value: 5c4710c0-a45a-4921-b18f-dbe043ddce38
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/8hBfyKriSsuYDJCrnSLwXQ-AF-CTVF-pexels-joolsmagools-27785865.jpg
+                type: text
+              file:
+                type: file
+                value: 04fbf87f-5542-454e-8632-a0b6c4e960dd
+              size:
+                value: 1737233
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-pexels-joolsmagools-27785865.jpg
+              width:
+                value: 3522
+                type: number
+              height:
+                value: 2845
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: ca04df79-4653-40b2-a4cb-15867a086db6
+            type: image
+            fields:
+              id:
+                type: text
+                value: 5b013d8d-8d55-468a-a4c1-9c6eab993591
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/iU7OhMQOSVWRKlTngMobbA-AF-CTVF-pexels-travel-with-lenses-734723610-26058054.jpg
+                type: text
+              file:
+                type: file
+                value: 555698da-87bf-4ada-82a8-3d1678673b2f
+              size:
+                value: 5105044
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-pexels-travel-with-lenses-734723610-26058054.jpg
+              width:
+                value: 5688
+                type: number
+              height:
+                value: 3792
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 197a8114-e4a6-4811-ae31-0ecd5692058c
+            type: image
+            fields:
+              id:
+                type: text
+                value: 84cdc352-f247-40e1-9c33-a6038f135e92
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/dsScXUCXSSuTCO5bSsUGdg-AF-CTVF-pexels-edward-mcallen-1385284-31437605.jpg
+                type: text
+              file:
+                type: file
+                value: 44136113-2544-4fe4-a932-1e6eb9ea99cd
+              size:
+                value: 932054
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-pexels-edward-mcallen-1385284-31437605.jpg
+              width:
+                value: 2570
+                type: number
+              height:
+                value: 3427
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+  _dataResources:
+    ref-9cddec62-0008-4803-8550-c35f9f16773b-featuredTours:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 2b58ac44-d28e-4a8e-8cea-e8097fa90204

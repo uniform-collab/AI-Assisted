@@ -1,0 +1,214 @@
+composition:
+  _name: Destination Detail
+  _id: 842e8cdd-a2a7-472a-9e70-4e57088a48ba
+  _slug: ':destination'
+  type: page
+  parameters:
+    $enr:
+      type: $enr
+      value: ${#jptr:/Destination by Slug Content/entry/fields/enrichments/value}
+  slots:
+    footer:
+      - _id: 85700cbd-7c20-42e5-9c6b-e7fd90f30c82
+        type: footer
+        _pattern: 45074c59-cda0-4ca5-979f-917d69e6f224
+    header:
+      - _id: c289fc4f-ab2e-4449-9a98-e18d65da1a48
+        type: header
+        _pattern: 81ff5114-1240-444e-bdcc-a3afa2c09597
+    content:
+      - _id: 3c955663-2173-4c9f-a052-05b1c2e29671
+        type: hero
+        _pattern: c8a16d10-c0c6-4103-b9b4-633b25b31fe4
+      - _id: 08536719-02fe-4d4d-b2f1-68561934febd
+        type: grid
+        slots:
+          gridItems:
+            - _id: f64cba59-f4ed-4184-ac8f-9c21aef8b76e
+              type: gridItem
+              slots:
+                content:
+                  - _id: eeb1b244-00cc-44ac-9061-f1249105f1fc
+                    type: richText
+                    parameters:
+                      content:
+                        type: richText
+                        value: >-
+                          ${#jptr:/Destination by Slug
+                          Content/entry/fields/description/value}
+                  - _id: eef9ad53-af64-4e12-aa7f-950dc6b78d8d
+                    type: richText
+              parameters:
+                columnSpan:
+                  type: number
+                  value: '3'
+                columnStart:
+                  type: number
+                  value: '1'
+            - _id: 4f1c484c-7c3d-43ab-b19e-c5a10c21fc2d
+              type: gridItem
+              slots:
+                content:
+                  - _id: 1d471a9c-6c20-4811-99b2-8900a74a132e
+                    type: card
+                    slots:
+                      content:
+                        - _id: 4092d159-82ad-4386-8c55-2cc76e06e317
+                          type: $loop
+                          slots:
+                            body:
+                              - _id: e562838a-a7a6-4721-a351-6964fbc6d246
+                                type: horizontalCard
+                                parameters:
+                                  title:
+                                    type: text
+                                    value: >-
+                                      ${#jptr:/Destinations Content entries Loop
+                                      Item/entry/_name}
+                                  margin:
+                                    type: select
+                                    value: none
+                                  padding:
+                                    type: select
+                                    value: none
+                                  cardLink:
+                                    type: link
+                                    value:
+                                      path: >-
+                                        /destinations/${#jptr:/Destinations
+                                        Content entries Loop Item/entry/_slug}
+                                      type: projectMapNode
+                                      nodeId: ebbe9ef9-de65-45d2-99b4-ea30186afff5
+                                      projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1
+                                      dynamicInputValues:
+                                        destination: >-
+                                          ${#jptr:/Destinations Content entries
+                                          Loop Item/entry/_slug}
+                                  backgroundImage:
+                                    type: asset
+                                    value:
+                                      - _id: 21c7f24f-7524-46e8-9d81-e5583addc2ed
+                                        type: image
+                                        fields:
+                                          url:
+                                            type: text
+                                            value: >-
+                                              ${#jptr:/Destinations Content entries
+                                              Loop Item/entry/_thumbnail}
+                                        _source: custom-url
+                                  contentAlignment:
+                                    type: select
+                                    value: center
+                              - _id: 7fa0d81d-ef68-4633-827a-06dc8d2ff130
+                                type: spacer
+                                _pattern: 74e0d2f5-e288-4230-b3a5-597a37352199
+                          _dataResources:
+                            Destinations Content entries Loop Item:
+                              type: sys-reserved-loop
+                              variables:
+                                connectedData: '#jptr:/Destinations Content/entries:fa=c'
+                    parameters:
+                      margin:
+                        type: select
+                        value: none
+                      padding:
+                        type: select
+                        value: small
+                      headline:
+                        type: text
+                        value: Other destinations
+                      backgroundColor:
+                        type: select
+                        value: lightGray
+              parameters:
+                columnSpan:
+                  type: number
+                  value: '2'
+                columnStart:
+                  type: number
+                  value: '4'
+        parameters:
+          gap:
+            type: select
+            value: large
+          name:
+            type: text
+            value: Main Content
+          columns:
+            type: select
+            value: '5'
+          padding:
+            type: select
+            value: medium
+  _dataResources:
+    Destinations Content:
+      type: destinations
+      variables:
+        limit: '3'
+        search: ''
+        filters: '{"type[eq]":"destination","slug[neq]":"${destination}"}'
+        orderBy: updated_at_DESC
+        uiFilters: >-
+          [{"field":"type","operator":"eq","value":"destination"},{"field":"slug","operator":"neq","value":"${destination}"}]
+        contentTypes: destination
+    Destination by Slug Content:
+      type: destinationBySlug
+      variables:
+        slug: ${destination}
+  _overrides:
+    3c955663-2173-4c9f-a052-05b1c2e29671:
+      parameters:
+        layout:
+          type: select
+          value: fullBackground
+        margin:
+          type: select
+          value: small
+        padding:
+          type: select
+          value: none
+        headline:
+          type: text
+          value: ${#jptr:/Destination by Slug Content/entry/_name}
+        description:
+          type: text
+          value: >-
+            ${#jptr:/Destination by Slug
+            Content/entry/fields/quickOverview/value}
+        headlineTag:
+          type: select
+          value: h3
+        backgroundColor:
+          type: select
+          value: null
+        backgroundImage:
+          type: asset
+          value:
+            - _id: 3f13d2ee-2e74-45d2-a881-a803ef214815
+              type: image
+              fields:
+                url:
+                  type: text
+                  value: ${#jptr:/Destination by Slug Content/entry/_thumbnail}
+              _source: custom-url
+        contentAlignment:
+          type: select
+          value: left
+    3c955663-2173-4c9f-a052-05b1c2e29671|626bb91c-a797-4c75-b1e2-0938a842be3e:
+      slots:
+        $slotSectionItems:
+          - _id: 120efa63-dfa2-46fa-80be-50558a6d6186
+            type: pill
+            parameters:
+              text:
+                type: text
+                value: Destination
+              style:
+                type: select
+                value: secondary (inverse)
+              position:
+                type: select
+                value: topLeft
+created: '2025-08-26T15:36:54.325435+00:00'
+modified: '2025-09-29T15:45:34.467988+00:00'
+pattern: false

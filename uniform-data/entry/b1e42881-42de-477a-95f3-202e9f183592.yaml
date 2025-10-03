@@ -1,0 +1,48 @@
+created: '2025-08-19T13:09:37.478221+00:00'
+modified: '2025-08-19T13:09:37.478221+00:00'
+pattern: false
+entry:
+  _id: b1e42881-42de-477a-95f3-202e9f183592
+  _name: Outdoor Adventure
+  _slug: outdoor-adventure
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/aObfLYtLQ7qtKs18R7PqTA-trekking.svg
+  type: interest
+  fields:
+    icon:
+      type: asset
+      locales:
+        en:
+          - _id: 93acaaf5-51e4-4426-8158-f35a95bbba56
+            type: image
+            fields:
+              id:
+                type: text
+                value: 1ce6635d-6c1b-49f5-b4eb-30986148ba0f
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/aObfLYtLQ7qtKs18R7PqTA-trekking.svg
+                type: text
+              file:
+                type: file
+                value: 0351aa32-39b1-4dd1-9fe8-f34ef823fff5
+              size:
+                value: 577
+                type: number
+              title:
+                type: text
+                value: trekking.svg
+              width:
+                value: 24
+                type: number
+              height:
+                value: 24
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+    name:
+      type: text
+      value: Outdoor Adventure
+

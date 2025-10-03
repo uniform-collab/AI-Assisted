@@ -1,0 +1,1236 @@
+created: '2025-08-19T13:09:35.471416+00:00'
+modified: '2025-09-29T15:08:47.033277+00:00'
+pattern: false
+entry:
+  _id: f5efb568-de6e-43c6-8cb5-72f1c8a0d07f
+  _name: 'My travel tech: The best camera, phone, and accessories for...'
+  _slug: my-travel-tech
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/CCYkIAagTYCo9jZP3Lyo9g-Travel-Tech-768x512.jpg
+  type: blogPost
+  fields:
+    body:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: asset
+              __asset:
+                _id: e30c73ee-45c2-4ae1-a4bb-7687d80aebfd
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: d4dc4b65-229f-42f8-b66e-6837544a366b
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/CCYkIAagTYCo9jZP3Lyo9g-Travel-Tech-768x512.jpg
+                    type: text
+                  file:
+                    type: file
+                    value: 505c52c5-486f-4474-950d-920c0967a816
+                  size:
+                    value: 59005
+                    type: number
+                  title:
+                    type: text
+                    value: >-
+                      Smart gadgets can make travel smoother, lighter, and more
+                      connected. Photo by Canva
+                  width:
+                    value: 768
+                    type: number
+                  height:
+                    value: 512
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+              version: 1
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "As someone makes their living producing travel content, I’m very interested and invested in my travel photography.\_ And it would appear that many of my followers, even if they don’t work in the travel industry, feel the same way!\_ At least once a day I get one of the following questions the tech I use for my travel photography:"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Which camera do you use for travel/ What’s the best travel
+                    camera?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 2
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Which phone do you use to take your pictures?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Which apps do you use to edit your travel photos?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    I want to get serious about travel photography. What other
+                    equipment do you suggest?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    https://www.instagram.com/p/Bbhby26nyv-/?taken-by=oneikatraveller
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "So in this post, I’m finally going to share my complete travel camera and accessory set up.\_ While I’m no pro, I’ve figured out what works for me and am happy with the results.\_ Let’s hop right in!"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    (Please note that this post includes affiliate links, though
+                    none of the products are sponsored in any way. I bought all
+                    of them with my own hard-earned cash, so you can trust these
+                    reviews include my unbiased opinions!)
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 2
+            - tag: h4
+              type: heading
+              format: start
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The best camera for travel:\_ the Sony Alpha mirrorless camera series"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "In my opinion, the\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Sony Alpha mirrorless cameras
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: "\_are HANDS DOWN the best travel cameras on the market right now!"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "However, before I made the leap to mirrorless, I took the majority of my travel photos with a DSLR, and many of the travel photos in my earlier posts were taken on it. Thus, my first semi-professional camera was a\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B01CO2JPYS/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01CO2JPYS&linkId=9088684b5d8f28d50e0ec86710234978
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Canon Rebel T3i
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ", which is an entry level DSLR.\_ I purchased it back in 2012, and used three Canon lenses with it:"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "the\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B000V5K3FG/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B000V5K3FG&linkId=c48c18a1e730528e635dfba59d3b4838
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 18-55mm lens
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ', which came with the camera;'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "the\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B0002Y5WXE/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B0002Y5WXE&linkId=1360866d14ec5a6b79ab46d9445af1b1
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 10-22mm lens
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_which is a wide angle lens;"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "and the\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B00X8MRBCW/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00X8MRBCW&linkId=8af0850645b2f4435d425b2870c43bc8
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 50mm prime lens
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_which is great for portraits and/or low light conditions."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    https://www.instagram.com/p/BSrUhEXB9XS/?taken-by=oneikatraveller
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    https://www.instagram.com/p/BS_ZiSZBt2n/?taken-by=oneikatraveller
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    However, while I was super happy with the image quality when
+                    it came to photos, the video quality was only average– the
+                    lack of autofocus was a real disadvantage for me.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    So, after doing loads of research and test shoots, I finally
+                    settled on two cameras that I use when I travel.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The first is what I consider one of the best travel cameras out right now:\_ the\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B01NAWMJL9/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01NAWMJL9&linkCode=as2&tag=oneikathetr0c-20&linkId=2fbd897c1fa335141863d8bfd89b3387
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Sony A7Rii
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ".\_ This is a full-frame, professional grade camera and I love what it can do. With a whopping 42 megapixels, the quality of the images I can produce with this piece of equipment is incredible!\_ The images are crisp, clear, and colorful, even when shooting in auto!"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    https://www.instagram.com/p/BmZF13-nbBR/?hl=en&taken-by=oneikatraveller
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The second camera I use is the\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B007GK50X4/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B007GK50X4&linkId=51e25e61146f52e8312eaa237b9d5056
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Sony Alpha a6300
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ".\_ I purchased it two years ago and have been extremely happy with it, though its size and sensor mean that it’s not a powerful as my more expensive, full-frame camera.\_ With that said, the video capabilities on this camera are extraordinary– the autofocus is so fast and accurate!"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    https://www.instagram.com/p/BMxUauXBUXW/?taken-by=oneikatraveller
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The ability to send the pictures from my Sony cameras to my phone wirelessly has also been a game-changer.\_ Using the Sony’s wifi connection and\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Play Memories app
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ', I am able to upload pictures to my phone within seconds.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    I love these camersa and truly think they are the best
+                    mirrorless cameras for travel.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: start
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The best lenses for the Sony A7Rii and the Sony Alpha a6300:
+                    what I’ve got
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "As the cameras in the Sony Alpha series are interchangeable lens cameras, I spent a lot of time researching the best lenses for the\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B01NAWMJL9/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01NAWMJL9&linkCode=as2&tag=oneikathetr0c-20&linkId=2fbd897c1fa335141863d8bfd89b3387
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Sony A7Rii
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_and the\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B007GK50X4/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B007GK50X4&linkId=51e25e61146f52e8312eaa237b9d5056
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Sony Alpha a6300
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ".\_ As a traveller who packs light, I didn’t want to bog myself down with many, or heavy, lenses– weight is one of the reasons I downsized to a mirrorless camera system in the first place (mirrorless systems are generally lighter and more compact than DSLR systems)."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    https://www.instagram.com/p/BTulbUPhz8T/?taken-by=oneikatraveller
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "However, I didn’t want to compromise image quality or my ability to zoom in or out on the subjects of my photos.\_ Basically, I wanted one great walk-around lens I would be able to use in all situations on my travels."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "After A LOT of research, I ended up settling on two lenses: the\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B01BESQYJW/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01BESQYJW&linkCode=as2&tag=oneikathetr0c-20&linkId=b7762ed3f216054c76d7fe46cb005e5a
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Sony G Master 24-70 f 2.8 lens
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_(for the A7Rii) and the\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B00ENZRPG0/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00ENZRPG0&linkId=93d077866fa9cf58cc7087b2117abba2
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Sony Zeiss 16-70mm f 4 lens
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_(for the a6300).\_ And omg y’all, I LOVE the images these lens produce!\_ The images are razor sharp!"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: start
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Other lenses for the Sony Alpha a6300 I own
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "While I was very happy with my Zeiss lens, I also wanted a couple of lenses for my travel camera that would perform extremely well in low light.\_ I thus ended up getting two additional lenses for the Sony Alpha a6300:"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B00B20OYUO/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00B20OYUO&linkId=bd07b45727e24ab55bbb56e81708f605
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Sony 20mm f 2.8
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_. This is a prime lens (which means it doesn’t zoom) and produces stellar images in low light situations. It also gives a pretty decent level of bokeh (blurry background effect)."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    https://www.instagram.com/p/BbugUjQnzFn/?taken-by=oneikatraveller
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B0096W1P5W/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B0096W1P5W&linkId=52b981a94d45d240a94d0a5a39ec619b
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Sony 35mm f 1.8
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: "\_"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    . This is also a prime lens but since it has a wider
+                    aperture (f 1.8) it performs even better in the dark than my
+                    20mm 2.8 lens! The bokeh on this one if you stop down to f
+                    1.8 is insane!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    https://www.instagram.com/p/BOe4uBshY7J/?taken-by=oneikatraveller
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: start
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'The best tripods for travel cameras: what I own'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Because I often travel alone, using a tripod to capture
+                    photos and videos of myself is a must! I thus own two travel
+                    tripods:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "My\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B002FGTWOC/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B002FGTWOC&linkId=c10170f1921cab2372dd784e97a19004
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Joby GorillaPod
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_is a short, flexible portable tripod whose wrappable legs can be used to secure it to basically any surface."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "My\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B000EFIJTA/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B000EFIJTA&linkId=54c4423e0e08cbd5e489b907eb393151
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Sony VCT-R100
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_compact tripod is a “traditional” tripod, but optimized for travel.\_ It’s lightweight, but has a maximum height of about 40 inches, so it’s pretty versatile."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "I also own a third tripod,\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: "a\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B005KP473Q/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B005KP473Q&linkId=65d82f1193627889a73f07a1d389eb7a
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 60-inch tripod from AmazonBasics
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_that I use to film my videos (along with this\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/B005FHZ2SI/ref=as_li_tl?ie=UTF8&tag=oneikathetr0c-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B005FHZ2SI&linkId=41dd6acb38bef99c3d1d2ac16c4e50a1
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: lighting kit
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ") when I’m at home.\_ \_However, while I think it’s great, it’s simply not practical for travelling."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h4
+              type: heading
+              format: start
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: The best hand-held gimbal stabilizer for travel cameras
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Speaking of video, I purchased a\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: handheld gimbal stabilizer
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: "\_earlier on this year.\_ Gimbals reduce camera vibration and shake so that the resulting footage is very professional looking and smooth; it my opinion it can take a travel video from a 7 to a 10!"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+          direction: ltr
+    title:
+      type: text
+      value: >-
+        My travel tech: The best camera, phone, and accessories for travel |
+        Travel Photography
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-f5efb568-de6e-43c6-8cb5-72f1c8a0d07f-author/entries/0}
+    category:
+      type: multi-select
+      value:
+        - Planning and preparation
+    enrichments:
+      type: $enr
+      value:
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: photography-nature
+          str: 10
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: adventure-seekers
+          str: 7
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: solo-eco-adventurers
+          str: 8
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: research-driven
+          str: 10
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: comparison-shopper
+          str: 9
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: early-planner
+          str: 8
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: newsletter-subscriber
+          str: 8
+    publishDate:
+      type: date
+      value: '2025-07-01'
+    featuredImage:
+      type: asset
+      value:
+        - _id: 594c2571-362e-4859-b7e7-9b2418801403
+          type: image
+          fields:
+            id:
+              type: text
+              value: d4dc4b65-229f-42f8-b66e-6837544a366b
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/CCYkIAagTYCo9jZP3Lyo9g-Travel-Tech-768x512.jpg
+              type: text
+            file:
+              type: file
+              value: 505c52c5-486f-4474-950d-920c0967a816
+            size:
+              value: 59005
+              type: number
+            title:
+              type: text
+              value: >-
+                Smart gadgets can make travel smoother, lighter, and more
+                connected. Photo by Canva
+            width:
+              value: 768
+              type: number
+            height:
+              value: 512
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    summaryAbstract:
+      type: text
+      value: >-
+        A guide to all the tech I use for travel photography, plus what I
+        consider the best camera for travel.
+  _dataResources:
+    ref-f5efb568-de6e-43c6-8cb5-72f1c8a0d07f-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: caf97722-ebb8-457b-a6c7-0c56967e6802

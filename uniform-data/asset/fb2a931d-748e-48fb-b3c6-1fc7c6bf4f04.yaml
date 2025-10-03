@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: fb2a931d-748e-48fb-b3c6-1fc7c6bf4f04
+  _name: europe-pedro-lastra-5g8dJvtYRYA-unsplash.jpg
+  fields:
+    title:
+      type: text
+      value: europe-pedro-lastra-5g8dJvtYRYA-unsplash.jpg
+    file:
+      type: file
+      value: 8b440b52-f345-444f-a27b-017893d27fed
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/JsK3Wv3jS3-U9UyXnCdC1g-europe-pedro-lastra-5g8dJvtYRYA-unsplash.jpg
+      type: text
+    size:
+      value: 1944592
+      type: number
+    width:
+      value: 3426
+      type: number
+    height:
+      value: 2200
+      type: number
+    focalPoint:
+      value:
+        x: 0.51
+        'y': 0.5
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:18.7354+00:00'
+modified: '2025-08-18T14:28:18.7354+00:00'

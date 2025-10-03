@@ -1,0 +1,106 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: tourCard
+name: Tour Card
+icon: screen
+parameters:
+  - id: tourTitle
+    name: Tour Title
+    type: text
+    guidance: Name of the tour
+    localizable: true
+  - id: tourImage
+    name: Tour Image
+    type: asset
+    guidance: Main tour image
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: duration
+    name: Duration
+    type: text
+    guidance: Tour duration (e.g., 7 days)
+    localizable: true
+  - id: price
+    name: Price
+    type: text
+    guidance: Tour price (e.g., $1,299)
+  - id: location
+    name: Location
+    type: text
+    guidance: Tour location
+    localizable: true
+  - id: route
+    name: Route
+    type: text
+    guidance: Tour route information (e.g., Start DESTINATION → End DESTINATION)
+    localizable: true
+  - id: tourUrl
+    name: Tour URL
+    type: link
+    guidance: Link to full tour details
+  - id: pillText
+    name: Pill Text
+    type: text
+    guidance: Text content for the category pill/badge
+    localizable: true
+  - id: pillStyle
+    name: Pill Style
+    type: select
+    guidance: Visual style of the category pill/badge
+    typeConfig:
+      options:
+        - text: Primary
+          value: primary
+        - text: Secondary
+          value: secondary
+        - text: Light
+          value: light
+        - text: Primary (outline)
+          value: primary (outline)
+        - text: Secondary (outline)
+          value: secondary (outline)
+        - text: Light (outline)
+          value: light (outline)
+        - text: Primary (inverse)
+          value: primary (inverse)
+        - text: Secondary (inverse)
+          value: secondary (inverse)
+        - text: Light (inverse)
+          value: light (inverse)
+  - id: category
+    name: Category
+    type: select
+    guidance: Tour category for enrichment tracking
+    typeConfig:
+      options:
+        - text: Adventure Sports
+          value: adventure-sports
+        - text: Wildlife Conservation
+          value: wildlife-conservation
+        - text: Cultural Heritage
+          value: cultural-heritage
+        - text: Hiking & Trekking
+          value: hiking-trekking
+        - text: Marine Activities
+          value: marine-activities
+        - text: Photography & Nature
+          value: photography-nature
+        - text: Wellness & Mindfulness
+          value: wellness-mindfulness
+        - text: Local Community
+          value: local-community
+        - text: Sustainable Food
+          value: sustainable-food
+        - text: Bird Watching
+          value: bird-watching
+description: >-
+  Individual tour card with image, title, location, route, duration, pricing,
+  and customizable category pill
+useTeamPermissions: true
+slots: []
+titleParameter: tourTitle
+thumbnailParameter: tourImage
+canBeComposition: false
+created: '2025-08-14T20:05:39.383184+00:00'
+updated: '2025-09-23T18:58:46.020539+00:00'

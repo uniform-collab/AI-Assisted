@@ -1,0 +1,722 @@
+created: '2025-08-19T13:09:29.192752+00:00'
+modified: '2025-09-23T13:25:34.41677+00:00'
+pattern: false
+entry:
+  _id: 7d8377d5-f6e6-4f68-9e0a-b10c6545b571
+  _name: 'Discovering Cape Town: An Adventure at the Tip of Africa'
+  _slug: discovering-cape-town-an-adventure-at-the-tip-of-africa
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/Fk-6mL2_Qk267rjZ-kPKbQ-photo-1576485290814-1c72aa4bbb8e.jpg
+  type: blogPost
+  fields:
+    body:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: '3 Days in Cape Town: Adventure, Wildlife, and Culture'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Cape Town is a city where nature, adventure, and vibrant
+                    culture come together. Here’s how you can make the most of
+                    three unforgettable days—while making planet-positive
+                    choices along the way.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Day 1: Table Mountain Magic'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Start your journey with a visit to the iconic Table
+                    Mountain. Take the cable car up (it’s energy-efficient and
+                    offers stunning views!), or challenge yourself with a hike
+                    if you’re feeling adventurous. At the top, you’ll find
+                    breathtaking panoramas of the city, ocean, and sky. Remember
+                    to stick to marked trails to help preserve this unique
+                    ecosystem. Don’t forget your reusable water bottle and
+                    camera!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Eco Tip:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The Table Mountain Aerial Cableway is committed to
+                    sustainability—look for their green initiatives during your
+                    visit.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Day 2: Penguins and Cape Point'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Head south along the coast to Boulders Beach, home to a
+                    thriving colony of African penguins. Watch these charming
+                    birds waddle and swim, but keep a respectful distance to
+                    protect their habitat. Next, continue to Cape Point, where
+                    you can stand at the edge of the continent and feel the
+                    power of the ocean. Take a walk along the trails and soak in
+                    the natural beauty.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Eco Tip:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Support local conservation efforts by choosing eco-friendly
+                    tours and avoiding single-use plastics during your beach
+                    visit.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Day 3: Culture and Cuisine'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Back in the city, explore the colorful Bo-Kaap neighborhood.
+                    Learn about its rich history and sample delicious Cape Malay
+                    food—many local restaurants use fresh, sustainable
+                    ingredients. Later, wander the V&A Waterfront, where you’ll
+                    find local art, live music, and fresh seafood. Choose
+                    restaurants that prioritize sustainable seafood and support
+                    local artisans.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Eco Tip:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Bring your own tote bag for shopping and say no to
+                    unnecessary packaging.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: '---'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Why You’ll Want to Return
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Cape Town’s blend of natural wonders, adventure, and culture
+                    is truly special. Whether you’re hiking, relaxing on the
+                    beach, or exploring the city’s food scene, every small,
+                    sustainable choice you make helps protect this beautiful
+                    place for future visitors. Join the EcoQuest community to
+                    share your experiences and discover more ways to travel
+                    responsibly. Together, we can make every adventure
+                    planet-positive!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+          direction: ltr
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: '3 Days in Cape Town: Adventure, Wildlife, and Culture'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Cape Town is a city where nature, adventure, and vibrant
+                      culture come together. Here’s how you can make the most of
+                      three unforgettable days—while making planet-positive
+                      choices along the way.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Day 1: Table Mountain Magic'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Start your journey with a visit to the iconic Table
+                      Mountain. Take the cable car up (it’s energy-efficient and
+                      offers stunning views!), or challenge yourself with a hike
+                      if you’re feeling adventurous. At the top, you’ll find
+                      breathtaking panoramas of the city, ocean, and sky.
+                      Remember to stick to marked trails to help preserve this
+                      unique ecosystem. Don’t forget your reusable water bottle
+                      and camera!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Eco Tip:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Table Mountain Aerial Cableway is committed to
+                      sustainability—look for their green initiatives during
+                      your visit.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Day 2: Penguins and Cape Point'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Head south along the coast to Boulders Beach, home to a
+                      thriving colony of African penguins. Watch these charming
+                      birds waddle and swim, but keep a respectful distance to
+                      protect their habitat. Next, continue to Cape Point, where
+                      you can stand at the edge of the continent and feel the
+                      power of the ocean. Take a walk along the trails and soak
+                      in the natural beauty.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Eco Tip:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Support local conservation efforts by choosing
+                      eco-friendly tours and avoiding single-use plastics during
+                      your beach visit.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Day 3: Culture and Cuisine'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Back in the city, explore the colorful Bo-Kaap
+                      neighborhood. Learn about its rich history and sample
+                      delicious Cape Malay food—many local restaurants use
+                      fresh, sustainable ingredients. Later, wander the V&A
+                      Waterfront, where you’ll find local art, live music, and
+                      fresh seafood. Choose restaurants that prioritize
+                      sustainable seafood and support local artisans.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Eco Tip:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Bring your own tote bag for shopping and say no to
+                      unnecessary packaging.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: '---'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Why You’ll Want to Return
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Cape Town’s blend of natural wonders, adventure, and
+                      culture is truly special. Whether you’re hiking, relaxing
+                      on the beach, or exploring the city’s food scene, every
+                      small, sustainable choice you make helps protect this
+                      beautiful place for future visitors. Join the EcoQuest
+                      community to share your experiences and discover more ways
+                      to travel responsibly. Together, we can make every
+                      adventure planet-positive!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    title:
+      type: text
+      value: 'Discovering Cape Town: An Adventure at the Tip of Africa'
+      locales:
+        en: 'Discovering Cape Town: An Adventure at the Tip of Africa'
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-7d8377d5-f6e6-4f68-9e0a-b10c6545b571-author/entries/0}
+    enrichments:
+      type: $enr
+      value:
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: adventure-seekers
+          str: 8
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: solo-eco-adventurers
+          str: 8
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: cultural-heritage
+          str: 8
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: photography-nature
+          str: 9
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: wildlife-conservation
+          str: 7
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: hiking-trekking
+          str: 7
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: research-driven
+          str: 8
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: early-planner
+          str: 6
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: newsletter-subscriber
+          str: 7
+    featuredImage:
+      type: asset
+      value:
+        - _id: f6c33812-b21e-4578-ba57-c5b9b631916a
+          type: image
+          fields:
+            id:
+              type: text
+              value: 02993dc9-93e6-436c-9c4c-3831af12d32c
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/Fk-6mL2_Qk267rjZ-kPKbQ-photo-1576485290814-1c72aa4bbb8e.jpg
+              type: text
+            file:
+              type: file
+              value: c3df8e0a-b24f-4b65-99e5-750e93f28c19
+            size:
+              value: 1460230
+              type: number
+            title:
+              type: text
+              value: capetown.jpg
+            width:
+              value: 3000
+              type: number
+            height:
+              value: 2000
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.25
+                'y': 0.56
+              type: focalPoint
+          _source: uniform-assets
+    summaryAbstract:
+      type: text
+      value: >-
+        Join me on an unforgettable journey to Cape Town, where natural wonders
+        and vibrant culture come together. Start your adventure with a
+        breathtaking cable car ride up Table Mountain, taking in sweeping views
+        of the city and ocean. Next, visit Boulders Beach to meet the charming
+        colony of African penguins—watch them waddle along the sand and swim in
+        the clear waters. As you explore Cape Town, immerse yourself in its
+        lively neighborhoods, sample delicious local cuisine, and connect with
+        the welcoming community. Every moment in this city is a chance to learn,
+        share, and celebrate the beauty of our planet together.
+      locales:
+        en: >-
+          Join me on an unforgettable journey to Cape Town, where natural
+          wonders and vibrant culture come together. Start your adventure with a
+          breathtaking cable car ride up Table Mountain, taking in sweeping
+          views of the city and ocean. Next, visit Boulders Beach to meet the
+          charming colony of African penguins—watch them waddle along the sand
+          and swim in the clear waters. As you explore Cape Town, immerse
+          yourself in its lively neighborhoods, sample delicious local cuisine,
+          and connect with the welcoming community. Every moment in this city is
+          a chance to learn, share, and celebrate the beauty of our planet
+          together.
+    relatedInterests:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-7d8377d5-f6e6-4f68-9e0a-b10c6545b571-relatedInterests/entries}
+  _dataResources:
+    ref-7d8377d5-f6e6-4f68-9e0a-b10c6545b571-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 2af83519-fedc-4883-93c3-bb5e571008c0
+    ref-7d8377d5-f6e6-4f68-9e0a-b10c6545b571-relatedInterests:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          b1e42881-42de-477a-95f3-202e9f183592,f7e3f608-cf8e-4865-9db7-53a47676c713

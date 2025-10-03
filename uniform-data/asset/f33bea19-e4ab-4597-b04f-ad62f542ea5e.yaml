@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f33bea19-e4ab-4597-b04f-ad62f542ea5e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: user-profile-dust.png
+    file:
+      type: file
+      value: 963de877-5686-46a1-9038-fc9553248ffb
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/PFK8TLpuTPylPCotMDOouw-user-profile-dust.png
+      type: text
+    size:
+      value: 1428
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:42.397138+00:00'
+modified: '2025-08-18T14:28:42.397138+00:00'

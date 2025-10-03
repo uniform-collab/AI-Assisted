@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: search
+name: Search
+icon: screen
+parameters:
+  - id: searchPlaceholder
+    name: Search Placeholder
+    type: text
+    guidance: Placeholder text for the search input field
+    localizable: true
+  - id: buttonText
+    name: Button Text
+    type: text
+    guidance: Text displayed on the search button
+    localizable: true
+  - id: size
+    name: Size
+    type: select
+    guidance: Width constraint for the search component
+    typeConfig:
+      options:
+        - text: Default
+          value: default
+        - text: Full Width
+          value: full
+description: Search component with input field and action button
+useTeamPermissions: true
+slots: []
+titleParameter: searchPlaceholder
+canBeComposition: false
+created: '2025-08-18T18:20:19.626493+00:00'
+updated: '2025-08-18T18:20:19.626493+00:00'

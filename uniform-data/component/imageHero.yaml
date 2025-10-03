@@ -1,0 +1,64 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: imageHero
+name: Image Hero
+icon: photograph
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Title text displayed as overlay on the image
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    guidance: Where the image hero should navigate to when clicked
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: 'Background image for the hero (recommended: 373x92px for optimal ratio)'
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: padding
+    name: Padding
+    type: select
+    guidance: Internal padding around the image hero content
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Extra Large
+          value: xlarge
+      required: false
+  - id: margin
+    name: Margin
+    type: select
+    guidance: External spacing around the image hero component
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Extra Large
+          value: xlarge
+description: >-
+  A clickable hero component with background image and title overlay that maintains a horizontal 373x92 aspect ratio
+useTeamPermissions: true
+slots: []
+titleParameter: title
+thumbnailParameter: backgroundImage
+canBeComposition: false
+created: '2025-09-15T12:00:00.000000+00:00'
+updated: '2025-09-15T12:00:00.000000+00:00'

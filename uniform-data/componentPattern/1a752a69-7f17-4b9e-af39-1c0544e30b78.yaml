@@ -1,0 +1,59 @@
+composition:
+  _name: Section with Box Decorations
+  _id: 1a752a69-7f17-4b9e-af39-1c0544e30b78
+  type: section
+  parameters:
+    headline:
+      type: text
+      value: Discover Amazing Adventures
+    description:
+      type: text
+      value: >-
+        Experience nature like never before with our eco-friendly tours and
+        sustainable travel options.
+    backgroundColor:
+      type: select
+      value: moss
+  slots:
+    cta:
+      - _id: f149570e-c55e-464c-a82a-0ee3cceec8da
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: CTA
+          specific:
+            type: array
+            value:
+              - $p:6a4f8e45-d650-48df-8972-6248cecebbbc
+              - $p:f8e2d1c4-9b5a-4e7f-8c3d-2a1b9e6f4d8c
+              - $p:6462e922-8787-4326-88ce-025528a5e9ca
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+    content:
+      - _id: 36b7b902-823c-4d3e-91fe-efae51e4726c
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Content
+          groupType:
+            type: text
+            value: inherit
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      box: 'yes'
+      padding: 'yes'
+      headline: 'yes'
+      description: 'yes'
+      headlineTag: 'yes'
+      backgroundColor: 'yes'
+    hideLockedParameters: true
+created: '2025-08-19T19:56:04.841222+00:00'
+modified: '2025-09-22T18:48:11.909879+00:00'
+pattern: true

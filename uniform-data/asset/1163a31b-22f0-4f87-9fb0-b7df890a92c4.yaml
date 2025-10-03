@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: 1163a31b-22f0-4f87-9fb0-b7df890a92c4
+  _name: spain-tania-fernandez-zVdf2Hmrcxw-unsplash.jpg
+  fields:
+    title:
+      type: text
+      value: spain-tania-fernandez-zVdf2Hmrcxw-unsplash.jpg
+    file:
+      type: file
+      value: a308020f-3611-45f6-9831-a07b518a16b6
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/jJ3uhuRFQ5em5H2ES9gtdQ-spain-tania-fernandez-zVdf2Hmrcxw-unsplash.jpg
+      type: text
+    size:
+      value: 1406475
+      type: number
+    width:
+      value: 2887
+      type: number
+    height:
+      value: 2658
+      type: number
+    focalPoint:
+      value:
+        x: 0.64
+        'y': 0.51
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:16.569779+00:00'
+modified: '2025-08-18T14:28:16.569779+00:00'

@@ -1,0 +1,18 @@
+{
+  "project": {
+    "pz": {
+      "enr": {
+        "ce3586be-d714-42e6-a201-dfdbd0270ed5": {
+          "cap": 10
+        },
+        "2a729d76-0a0d-4b64-b6a5-3f66711c9caf": {
+          "cap": 100
+        },
+        "4af66be8-8e5e-4c91-b09b-68edeeebba86": {
+          "cap": 15
+        }
+      }
+    },
+    "test": {}
+  }
+}

@@ -1,0 +1,438 @@
+created: '2025-08-19T13:09:38.443728+00:00'
+modified: '2025-09-23T13:23:03.265517+00:00'
+pattern: false
+entry:
+  _id: 00bc22fe-64f1-4276-b66b-50655d31c620
+  _name: Sailing Greece
+  _slug: sailing-greece-mykonos-to-athens
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/4WPo3yBdQQ6gKjEwF5wOxg-mykonos-premium_photo-1661935781384-b27f5faa9197.jpeg
+  type: tour
+  fields:
+    end:
+      type: text
+      value: Athens
+    name:
+      type: text
+      value: Sailing Greece
+    start:
+      type: text
+      value: Mykonos
+    duration:
+      type: text
+      value: 8 days
+    tourCode:
+      type: text
+      value: GR-MYAT
+    tourType:
+      type: multi-select
+      value:
+        - Independent travel
+    itinerary:
+      type: $block
+      value:
+        - _id: 381ba82b-0eb4-4ffd-ac33-78648bda9c20
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 1
+            title:
+              type: text
+              value: Mykonos
+            description:
+              type: text
+              value: >-
+                Begin your journey in Mykonos, famous for its whitewashed
+                buildings, vibrant nightlife, and golden beaches. Spend the day
+                exploring the island or relax by the sea before setting sail in
+                the evening.
+        - _id: 288cfba6-f5c4-4a13-b5a4-86f41fb399ff
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 2-3
+            title:
+              type: text
+              value: Paros & Antiparos
+            description:
+              type: text
+              value: >-
+                Anchor in Paros and its smaller neighbor, Antiparos. Wander
+                through the charming villages, visit ancient churches, and swim
+                in secluded coves. Enjoy a leisurely hike or rent a bike to
+                explore the island's scenic paths.
+        - _id: 42bca3fa-d685-4726-b3c6-4c7fc5c8dfbd
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 4
+            title:
+              type: text
+              value: Naxos
+            description:
+              type: text
+              value: >-
+                Arrive in Naxos, the largest of the Cyclades. Visit the Temple
+                of Apollo, stroll through the narrow streets of Naxos Town, and
+                relax on the island’s famous beaches. Optionally, hike to Mount
+                Zas, the highest peak in the Cyclades, for stunning views.
+        - _id: 952c3ce4-0a26-4a69-b186-bfeaa2643039
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 5
+            title:
+              type: text
+              value: Ios
+            description:
+              type: text
+              value: >-
+                Sail to Ios, known for its vibrant culture and beautiful
+                beaches. Explore the ancient ruins of Skarkos or hike to the
+                hilltop village of Chora for panoramic views. Spend the
+                afternoon relaxing by the azure waters.
+        - _id: 987b54d1-c91b-489c-8609-40c92a0f4467
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 6-7
+            title:
+              type: text
+              value: Santorini
+            description:
+              type: text
+              value: >-
+                Spend two days exploring the iconic island of Santorini, famous
+                for its caldera views, whitewashed villages, and sunset vistas.
+                Visit the archaeological site of Akrotiri, hike along the
+                caldera’s edge, and enjoy local wine in one of the island’s
+                renowned vineyards.
+        - _id: bde19be3-d297-45d8-83d9-a9ea9fff816b
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 8
+            title:
+              type: text
+              value: Athens
+            description:
+              type: text
+              value: >-
+                Disembark in Athens, where you’ll visit some of the world’s most
+                famous ancient landmarks, including the Acropolis and Parthenon.
+                Conclude your journey with a farewell dinner in the historic
+                Plaka district.
+    description:
+      type: text
+      value: >-
+        Sail through the stunning Greek islands on this 8-day eco-adventure from
+        Mykonos to Athens, discovering pristine beaches, ancient ruins, and
+        charming coastal villages. This journey blends relaxation with
+        exploration, offering you the chance to swim in crystal-clear waters,
+        hike scenic trails, and immerse yourself in the rich history of Greece.
+        From the vibrant nightlife of Mykonos to the timeless beauty of Athens,
+        each stop unveils the unique culture and natural beauty of the
+        Mediterranean.
+    destination:
+      type: contentReference
+      value: ${#jptr:/ref-00bc22fe-64f1-4276-b66b-50655d31c620-destination/entries/0}
+    enrichments:
+      type: $enr
+      value:
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: adventure-seekers
+          str: 9
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: cultural-explorers
+          str: 9
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: marine-activities
+          str: 10
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: cultural-heritage
+          str: 9
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: photography-nature
+          str: 7
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: eco-conscious-travelers
+          str: 8
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: premium-buyer
+          str: 7
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: early-planner
+          str: 8
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: research-driven
+          str: 7
+    travelStyle:
+      type: multi-select
+      value:
+        - Marine
+    serviceLevel:
+      type: select
+      value: Standard
+    featuredImage:
+      type: asset
+      value:
+        - _id: 512ee9a6-c293-4e0b-911a-f9f1ec670419
+          type: image
+          fields:
+            id:
+              type: text
+              value: e49478c0-8c40-46f4-a6a5-db5491193039
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/4WPo3yBdQQ6gKjEwF5wOxg-mykonos-premium_photo-1661935781384-b27f5faa9197.jpeg
+              type: text
+            file:
+              type: file
+              value: 19f35538-a43c-4495-881c-5c72705534d4
+            size:
+              value: 2290429
+              type: number
+            title:
+              type: text
+              value: mykonos-premium_photo-1661935781384-b27f5faa9197.jpeg
+            width:
+              value: 2940
+              type: number
+            height:
+              value: 1960
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.32
+                'y': 0.47
+              type: focalPoint
+          _source: uniform-assets
+    physicalRating:
+      type: select
+      value: 3 - Average
+    travelerPhotos:
+      type: asset
+      locales:
+        en:
+          - _id: 30a4890c-36e7-4510-8720-144964d283ad
+            type: image
+            fields:
+              id:
+                type: text
+                value: 3a4206df-38d7-43f8-a280-e2e96ba93d95
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/v9z4gXV5SxONMhdEjs7xDg-GR-MYAT-jane-stroebel-unsplash.jpg
+                type: text
+              file:
+                type: file
+                value: dc80711f-e881-41ad-9347-d9fa13ff66fa
+              size:
+                value: 941852
+                type: number
+              title:
+                type: text
+                value: GR-MYAT-jane-stroebel-unsplash.jpg
+              width:
+                value: 3008
+                type: number
+              height:
+                value: 2000
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 31bc86ae-6a18-40c7-b52f-5722d469f01c
+            type: image
+            fields:
+              id:
+                type: text
+                value: 425e535f-1de1-4013-b30c-809ddc594e51
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/J6KuzsrBRYmJtEMkDlUQKg-GR-MYAT-marios-kefalasunsplash.jpg
+                type: text
+              file:
+                type: file
+                value: 67731693-82e0-4dde-8479-270ab1b0b932
+              size:
+                value: 1952057
+                type: number
+              title:
+                type: text
+                value: GR-MYAT-marios-kefalasunsplash.jpg
+              width:
+                value: 4032
+                type: number
+              height:
+                value: 3024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 1ae79c1f-ee50-4f6d-ae9e-bf7c5c9e7fdd
+            type: image
+            fields:
+              id:
+                type: text
+                value: 6f923986-fede-44d7-92fe-e07c65f8b9f5
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/7EFtwaumTIaFh7y7maW0aw-GR-MYAT-pexels-diego-f-parra.jpg
+                type: text
+              file:
+                type: file
+                value: 0360c2f5-9554-43dc-a59f-02a474b8200a
+              size:
+                value: 3101537
+                type: number
+              title:
+                type: text
+                value: GR-MYAT-pexels-diego-f-parra.jpg
+              width:
+                value: 7360
+                type: number
+              height:
+                value: 4912
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: ea1c08ec-c858-418f-bfca-38192bb5b545
+            type: image
+            fields:
+              id:
+                type: text
+                value: 743c6b09-0fc7-4bcb-a34e-2b6e4cf600ae
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/vWOOxnOwTNeLSsCDJghQAQ-GR-MYAT-keszthelyi-timiunsplash.jpg
+                type: text
+              file:
+                type: file
+                value: c542b048-757c-4ede-9ec2-22368670ebc1
+              size:
+                value: 871602
+                type: number
+              title:
+                type: text
+                value: GR-MYAT-keszthelyi-timiunsplash.jpg
+              width:
+                value: 2000
+                type: number
+              height:
+                value: 3000
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 7b401b63-cafb-43f8-a31a-63040c4a382c
+            type: image
+            fields:
+              id:
+                type: text
+                value: 83904c41-16c9-4342-bb50-ad4ceb66ccd0
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/E2Y89KyaRZeFGQBjboP1Nw-GR-MYAT-pexels-diego-f-parra-15241946.jpg
+                type: text
+              file:
+                type: file
+                value: 693e7224-0da8-4473-96ad-39b1892dff6e
+              size:
+                value: 4018128
+                type: number
+              title:
+                type: text
+                value: GR-MYAT-pexels-diego-f-parra-15241946.jpg
+              width:
+                value: 7360
+                type: number
+              height:
+                value: 4912
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 521e985b-f26a-4370-93b5-336dfdce6467
+            type: image
+            fields:
+              id:
+                type: text
+                value: ac4c6012-696c-492f-b18e-2b72fe04c1cf
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/c7y8Z-V4SGqpCySpC4uwfQ-GR-MYAT-janosch-diggelmannunsplash.jpg
+                type: text
+              file:
+                type: file
+                value: 42d388a8-57d5-4982-aff3-0ff2c247dff7
+              size:
+                value: 3988288
+                type: number
+              title:
+                type: text
+                value: GR-MYAT-janosch-diggelmannunsplash.jpg
+              width:
+                value: 3648
+                type: number
+              height:
+                value: 5472
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 7e9de62a-d762-42b0-93d1-8d354c9367c0
+            type: image
+            fields:
+              id:
+                type: text
+                value: f127aa57-a701-4509-851c-48d8a0e1f4f8
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/bAaPTgrPRuKAYoXAaSKhkA-GR-MYAT-pexels-glenn-langhorst.jpg
+                type: text
+              file:
+                type: file
+                value: 38335947-d305-400d-9525-bdc90ee74b3f
+              size:
+                value: 607626
+                type: number
+              title:
+                type: text
+                value: GR-MYAT-pexels-glenn-langhorst.jpg
+              width:
+                value: 1680
+                type: number
+              height:
+                value: 3648
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+  _dataResources:
+    ref-00bc22fe-64f1-4276-b66b-50655d31c620-destination:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 78505b8e-557b-4f82-992f-2813ce52cc08
+    ref-00bc22fe-64f1-4276-b66b-50655d31c620-relatedInterests:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          b1e42881-42de-477a-95f3-202e9f183592,3aa80eae-584f-4bcf-9ca4-b2a605c58cdd,f7e3f608-cf8e-4865-9db7-53a47676c713

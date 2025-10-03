@@ -1,0 +1,25 @@
+composition:
+  _name: Basic Section Example
+  _id: 3da46c50-0bf5-4c12-8a88-678a4024b34b
+  type: section
+  parameters:
+    padding:
+      type: select
+      value: medium
+    headline:
+      type: text
+      value: Welcome to EcoQuest
+    description:
+      type: text
+      value: >-
+        Discover sustainable adventures that protect our planet while creating
+        unforgettable memories.
+  _overridability:
+    parameters:
+      padding: 'yes'
+      headline: 'yes'
+      description: 'yes'
+    hideLockedParameters: true
+created: '2025-08-19T19:43:19.666597+00:00'
+modified: '2025-08-19T19:43:19.666597+00:00'
+pattern: true

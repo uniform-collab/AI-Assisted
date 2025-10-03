@@ -1,0 +1,86 @@
+composition:
+  _name: Travel Destinations Tabs
+  _id: 5b8922fa-38be-42e9-962d-de85caa6aebc
+  type: tabs
+  parameters:
+    title:
+      type: text
+      value: Explore Our Destinations
+    padding:
+      type: select
+      value: large
+    variant:
+      type: select
+      value: default
+    subtitle:
+      type: text
+      value: >-
+        Explore sustainable destinations and join a community making travel
+        greener, one adventure at a time.
+    alignment:
+      type: select
+      value: center
+  slots:
+    tabPanels:
+      - _id: 9113e6bc-fa84-449b-abc3-ff8dbe231b73
+        type: tabPanel
+        slots:
+          content:
+            - _id: 394e5613-626d-45b3-9c08-b7fe5317863e
+              type: destinationShowcase
+        parameters:
+          tabIndex:
+            type: number
+            value: 0
+          tabLabel:
+            type: text
+            value: Europe
+        _overridability:
+          parameters:
+            tabIndex: 'yes'
+            tabLabel: 'yes'
+      - _id: f7bb2e28-3d7e-4762-be05-4a1144eb7e42
+        type: tabPanel
+        slots:
+          content:
+            - _id: b1aaeb44-f9bd-403f-bffe-2292fe734aab
+              type: tourGallery
+        parameters:
+          tabIndex:
+            type: number
+            value: 1
+          tabLabel:
+            type: text
+            value: Asia
+        _overridability:
+          parameters:
+            tabIndex: 'yes'
+            tabLabel: 'yes'
+      - _id: 39c67ead-e996-40a7-a18e-5f1b3eb8668f
+        type: tabPanel
+        slots:
+          content:
+            - _id: 7e5352f5-ad7d-4840-91bc-b88b50933415
+              type: popularTours
+        parameters:
+          tabIndex:
+            type: number
+            value: 2
+          tabLabel:
+            type: text
+            value: Americas
+        _overridability:
+          parameters:
+            tabIndex: 'yes'
+            tabLabel: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+      padding: 'yes'
+      variant: 'yes'
+      subtitle: 'yes'
+      alignment: 'yes'
+    hideLockedParameters: true
+created: '2025-08-19T20:56:46.837559+00:00'
+modified: '2025-08-19T21:03:21.496414+00:00'
+pattern: true

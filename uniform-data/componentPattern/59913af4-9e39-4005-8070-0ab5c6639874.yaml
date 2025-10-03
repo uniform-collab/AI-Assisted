@@ -1,0 +1,15 @@
+composition:
+  _name: Large Spacer (20pt)
+  _id: 59913af4-9e39-4005-8070-0ab5c6639874
+  type: spacer
+  parameters:
+    size:
+      type: select
+      value: '20'
+  _overridability:
+    parameters:
+      size: 'yes'
+    hideLockedParameters: true
+created: '2025-08-19T19:27:40.038778+00:00'
+modified: '2025-08-19T19:27:40.038778+00:00'
+pattern: true

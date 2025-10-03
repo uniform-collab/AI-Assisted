@@ -1,0 +1,17 @@
+id: tourBySlug
+displayName: Tour by Slug
+ttl: 30
+path: /single-by-slug
+custom:
+  proposedName: Tour
+  allowedContentTypes:
+    - tour
+method: GET
+purgeKey: 17c35544-b14a-47eb-bbbb-bce25d2420d8
+archetype: singleEntryBySlug
+variables:
+  slug:
+    type: text
+    default: ''
+dataSourceId: ecoquestCursor
+allowedOnComponents: []

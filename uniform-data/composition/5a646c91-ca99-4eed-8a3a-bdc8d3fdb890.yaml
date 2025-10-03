@@ -1,0 +1,318 @@
+composition:
+  _name: Tours
+  _id: 5a646c91-ca99-4eed-8a3a-bdc8d3fdb890
+  _slug: tours
+  type: page
+  parameters:
+    $enr:
+      type: $enr
+      value:
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: early-planner
+          str: 5
+  slots:
+    footer:
+      - _id: 730c7079-cabd-447d-ba6c-0e63a8e0c7f6
+        type: footer
+        _pattern: 45074c59-cda0-4ca5-979f-917d69e6f224
+    header:
+      - _id: 3fd5c0a5-5d26-4f18-a3df-3a0f3f651f99
+        type: header
+        _pattern: 81ff5114-1240-444e-bdcc-a3afa2c09597
+    content:
+      - _id: 7007b6bf-26f0-4337-bd85-584b9b05fce3
+        type: hero
+        _pattern: c8a16d10-c0c6-4103-b9b4-633b25b31fe4
+      - _id: b58b7611-42bb-439b-bfbc-7ed9bce296a1
+        type: spacer
+        _pattern: 74e0d2f5-e288-4230-b3a5-597a37352199
+      - _id: 503ffb3f-6d11-48ce-bacd-360ba3bf374e
+        type: card
+        _pattern: f5002442-d906-4a2c-8aa6-aeda6acf82a9
+      - _id: 79e968e4-c251-41c1-a8b6-daa914ff7543
+        type: section
+        _pattern: 1a752a69-7f17-4b9e-af39-1c0544e30b78
+      - _id: aa175650-1a83-4b79-9800-07e3b4200c75
+        type: tabs
+        _pattern: b0d58b4c-9a5e-4c3b-8604-2a84e824c569
+  _dataResources:
+    Query Tour Content:
+      type: queryTour
+      variables:
+        search: ''
+        filters: '{"type[eq]":"tour"}'
+        contentTypes: tour
+  _overrides:
+    3fd5c0a5-5d26-4f18-a3df-3a0f3f651f99:
+      parameters:
+        companyName:
+          type: text
+          value: EcoQuest
+    503ffb3f-6d11-48ce-bacd-360ba3bf374e:
+      dataResources:
+        Tour Content:
+          type: tour
+          variables:
+            entryId: 90a7a23c-a25c-49a3-bb37-adb1f14e2492
+    7007b6bf-26f0-4337-bd85-584b9b05fce3:
+      parameters:
+        layout:
+          type: select
+          value: imageRight
+        margin:
+          type: select
+          value: small
+        padding:
+          type: select
+          value: none
+        headline:
+          type: text
+          value: Tours
+        description:
+          type: text
+          value: >-
+            Immersive tours and adventures across the globe curated by EcoQuest
+            travel experts
+        headlineTag:
+          type: select
+          value: h2
+        backgroundColor:
+          type: select
+          value: lightGray
+        backgroundImage:
+          type: asset
+          value:
+            - _id: b391ee89-f44e-47a2-b197-919d734c6996
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: caf2abd8-c20f-41e4-8dea-3fc6536fe739
+                url:
+                  value: >-
+                    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/mLhOcOABTlyUf-V7bhgjfQ-90ab9da18a1b218ab7364906fe1d0f060ecdd2de-(1).png
+                  type: text
+                file:
+                  type: file
+                  value: 23fa1bbb-b33b-419f-ba11-eeb86a07159f
+                size:
+                  value: 17026363
+                  type: number
+                title:
+                  type: text
+                  value: 90ab9da18a1b218ab7364906fe1d0f060ecdd2de-(1).png
+                width:
+                  value: 2734
+                  type: number
+                height:
+                  value: 4096
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+                focalPoint:
+                  value:
+                    x: 0.21
+                    'y': 0.4
+                  type: focalPoint
+              _source: uniform-assets
+    79e968e4-c251-41c1-a8b6-daa914ff7543:
+      parameters:
+        headline:
+          type: text
+          value: Discover the World with our Tours
+        headlineTag:
+          type: select
+          value: h3
+        backgroundColor:
+          type: select
+          value: pine
+    aa175650-1a83-4b79-9800-07e3b4200c75:
+      parameters:
+        title:
+          type: text
+          value: null
+        padding:
+          type: select
+          value: none
+        variant:
+          type: select
+          value: underline
+        subtitle:
+          type: text
+          value: null
+    f11f5199-fc5d-426b-8f6b-9885e8e07e2d:
+      parameters:
+        style:
+          type: select
+          value: primary
+        position:
+          type: select
+          value: topLeft
+    503ffb3f-6d11-48ce-bacd-360ba3bf374e|728f1cdb-fb4f-49ab-b949-e999ec6ccafc:
+      parameters:
+        link:
+          type: link
+          value:
+            path: /tours/${#jptr:/Tour Content/entry/_slug}
+            type: projectMapNode
+            nodeId: 3926ea8c-5077-4209-99aa-c600fcda41f4
+            projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1
+            dynamicInputValues:
+              tour: ${#jptr:/Tour Content/entry/_slug}
+    79e968e4-c251-41c1-a8b6-daa914ff7543|f149570e-c55e-464c-a82a-0ee3cceec8da:
+      slots:
+        $slotSectionItems:
+          - _id: 1e204d33-2229-4b1c-868d-cf60fd896689
+            type: search
+            _pattern: 6a4f8e45-d650-48df-8972-6248cecebbbc
+            _overridability:
+              parameters:
+                buttonText: 'yes'
+                searchPlaceholder: 'yes'
+              hideLockedParameters: true
+    aa175650-1a83-4b79-9800-07e3b4200c75|677b16c1-cb72-4903-bfdc-b9258bfa0b85:
+      parameters:
+        tabLabel:
+          type: text
+          value: 🏔️ All Tours
+    aa175650-1a83-4b79-9800-07e3b4200c75|d6331b49-db49-4daf-aebe-ac3635f16b0d:
+      slots:
+        $slotSectionItems:
+          - _id: 717149d4-f2a1-413c-bc7f-6c3de4e8d0a4
+            type: grid
+            slots:
+              gridItems:
+                - _id: 0b4d36c7-935a-4919-866a-3f0dc576c495
+                  type: $loop
+                  slots:
+                    body:
+                      - _id: e68c79fa-d657-4537-92dc-3efe5fa5f7d9
+                        type: card
+                        slots:
+                          pills:
+                            - _id: f11f5199-fc5d-426b-8f6b-9885e8e07e2d
+                              type: pill
+                              _pattern: b046485d-5abe-4904-975b-ff6e306cc4ef
+                              _overridability:
+                                parameters:
+                                  size: 'yes'
+                                  text: 'yes'
+                                  style: 'yes'
+                                  position: 'no'
+                                hideLockedParameters: true
+                          content:
+                            - _id: 46a46184-c2e7-43c3-bde0-ffe0f368641f
+                              type: text
+                              parameters:
+                                size:
+                                  type: select
+                                  value: xsmall
+                                text:
+                                  type: text
+                                  value: >-
+                                    ${#jptr:/Query Tour Content entries Loop
+                                    Item/entry/fields/duration/value}
+                                color:
+                                  type: select
+                                  value: muted
+                                weight:
+                                  type: select
+                                  value: light
+                                alignment:
+                                  type: select
+                                  value: left
+                            - _id: f3706bd6-e69e-427e-bf59-215de99109da
+                              type: text
+                              parameters:
+                                size:
+                                  type: select
+                                  value: xsmall
+                                text:
+                                  type: text
+                                  value: >-
+                                    Start ${#jptr:/Query Tour Content entries
+                                    Loop Item/entry/fields/start/value} — End
+                                    ${#jptr:/Query Tour Content entries Loop
+                                    Item/entry/fields/end/value} 
+                                color:
+                                  type: select
+                                  value: muted
+                                weight:
+                                  type: select
+                                  value: light
+                                alignment:
+                                  type: select
+                                  value: left
+                        parameters:
+                          margin:
+                            type: select
+                            value: none
+                          cardUrl:
+                            type: link
+                            value:
+                              path: >-
+                                /tours/${#jptr:/Query Tour Content entries Loop
+                                Item/entry/_slug}
+                              type: projectMapNode
+                              nodeId: 3926ea8c-5077-4209-99aa-c600fcda41f4
+                              projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1
+                              dynamicInputValues:
+                                tour: >-
+                                  ${#jptr:/Query Tour Content entries Loop
+                                  Item/entry/_slug}
+                          padding:
+                            type: select
+                            value: small
+                          headline:
+                            type: text
+                            value: >-
+                              ${#jptr:/Query Tour Content entries Loop
+                              Item/entry/fields/name/value}
+                          headlineTag:
+                            type: select
+                            value: h4
+                          textAlignment:
+                            type: select
+                            value: left
+                          backgroundImage:
+                            type: asset
+                            value:
+                              - _id: 0f0dd656-4ac4-4d7b-9c5e-90e62f9b86ce
+                                type: image
+                                fields:
+                                  url:
+                                    type: text
+                                    value: >-
+                                      ${#jptr:/Query Tour Content entries Loop
+                                      Item/entry/fields/featuredImage/value/0/fields/url/value}
+                                _source: custom-url
+                  _dataResources:
+                    Query Tour Content entries Loop Item:
+                      type: sys-reserved-loop
+                      variables:
+                        connectedData: '#jptr:/Query Tour Content/entries:fa=c'
+            parameters:
+              name:
+                type: text
+                value: All Tours
+              columns:
+                type: select
+                value: '4'
+              padding:
+                type: select
+                value: none
+    b3ecfede-c536-46e3-82eb-b139afd2abdd|f149570e-c55e-464c-a82a-0ee3cceec8da:
+      slots:
+        $slotSectionItems:
+          - _id: 86dca07a-bd8f-4dad-af60-6246b6e649aa
+            type: search
+            _pattern: 6a4f8e45-d650-48df-8972-6248cecebbbc
+            _overridability:
+              parameters:
+                buttonText: 'yes'
+                searchPlaceholder: 'yes'
+              hideLockedParameters: true
+created: '2025-08-15T19:43:12.644008+00:00'
+modified: '2025-09-29T15:43:58.389693+00:00'
+pattern: false

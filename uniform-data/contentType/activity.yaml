@@ -1,0 +1,71 @@
+id: activity
+name: Activity
+created: '2025-08-18T19:22:24.632637+00:00'
+updated: '2025-09-29T14:13:11.77856+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+    localizable: true
+  - id: type
+    name: Type
+    type: multi-select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Excursion
+          value: Excursion
+        - text: Dining
+          value: Dining
+        - text: Craft & Creativity
+          value: Craft & Creativity
+        - text: Social
+          value: Social
+        - text: Volunteer
+          value: Volunteer
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+    localizable: true
+  - id: additionalCost
+    name: Additional cost
+    type: number
+    helpText: ''
+    typeConfig: null
+  - id: isOptional
+    name: Is optional
+    type: checkbox
+    helpText: ''
+    typeConfig: null
+  - id: partners
+    name: Partners
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - partner
+  - id: enrichments
+    name: Enrichments
+    type: $enr
+    guidance: >-
+      Tag this activity with relevant enrichments to help personalize content
+      for visitors with similar interests
+    localizable: false
+entryName: name
+description: >-
+  An ACTIVITY is something (excursion, meal, etc.) that happens on an ITINERARY
+  DAY and makes up part of an ITINERARY on a TOUR. 
+icon: play-list-check
+type: contentType
+permissions: []
+previewConfigurations: []

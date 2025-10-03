@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: fa525866-a247-4045-ad64-5ce2c2a612c7
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: GR-SAMY-jametlene-reskp-unsplash.jpg
+    file:
+      type: file
+      value: 6e3ff20e-7878-4ce2-b238-5c2d2e4eebce
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/7UUGbEFRQuCeQtLGrrzqog-GR-SAMY-jametlene-reskp-unsplash.jpg
+      type: text
+    size:
+      value: 1973733
+      type: number
+    width:
+      value: 2268
+      type: number
+    height:
+      value: 4032
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:21.646722+00:00'
+modified: '2025-08-18T14:28:21.646722+00:00'

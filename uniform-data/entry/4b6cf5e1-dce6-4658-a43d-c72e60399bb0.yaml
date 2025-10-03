@@ -1,0 +1,275 @@
+created: '2025-08-19T13:09:34.170997+00:00'
+modified: '2025-09-29T15:08:37.279376+00:00'
+pattern: false
+entry:
+  _id: 4b6cf5e1-dce6-4658-a43d-c72e60399bb0
+  _name: 'Live and work abroad in Greece: Greece Digital Nomad Visa'
+  _slug: live-and-work-abroad-in-greece
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/bMd8_Nb5SOyG8KPEvjyODA-DSC01633-1440x960.jpg
+  type: blogPost
+  fields:
+    body:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: asset
+              __asset:
+                _id: da3b552b-18f6-4092-9caa-37e481f6fc71
+                type: image
+                fields:
+                  id:
+                    type: text
+                    value: 2cd0dd04-0796-4550-a52e-1d100bdedbdf
+                  url:
+                    value: >-
+                      https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/bMd8_Nb5SOyG8KPEvjyODA-DSC01633-1440x960.jpg
+                    type: text
+                  file:
+                    type: file
+                    value: aad375af-4147-433f-a77d-6c046cddafad
+                  size:
+                    value: 240006
+                    type: number
+                  title:
+                    type: text
+                    value: ''
+                  width:
+                    value: 1440
+                    type: number
+                  height:
+                    value: 960
+                    type: number
+                  mediaType:
+                    value: image/jpeg
+                    type: text
+                _source: uniform-assets
+              version: 1
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Interested in living in a different country and making money while doing it?\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: How about living and working in Greece?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - type: linebreak
+                  version: 1
+                - type: linebreak
+                  version: 1
+                - mode: normal
+                  text: >-
+                    Greece now has a digital nomad visa that will allow you to
+                    live and work remotely in the country for up to 2 years. You
+                    can even bring spouses and dependents with you.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Eligibility requirements include proof of remote work, income, and a clean background check. Check out\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://visaguide.world/digital-nomad-visa/greece/
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: this link for specific program requirements
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_and check out this link for a\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.mfa.gr/missionsabroad/images/visas/national/application_for_a_visa_for_a_long_stay_in_greece.pdf
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: downloadable visa application form
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: .
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Not only is Greece beautiful/historic/filled with culture,
+                    the cost of living might be lower than where you’re from. A
+                    one-bedroom apartment in Athens is only about $500-600 USD
+                    monthly. Moreover, Greece is one of the more affordable
+                    countries in Europe (excluding the touristy islands, of
+                    course).
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Have you ever worked remotely or thought about it? Which
+                    country would you move to if given the chance?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+          direction: ltr
+    title:
+      type: text
+      value: 'Live and work abroad in Greece: Greece Digital Nomad Visa'
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-4b6cf5e1-dce6-4658-a43d-c72e60399bb0-author/entries/0}
+    category:
+      type: multi-select
+      value:
+        - Travel 101
+    enrichments:
+      type: $enr
+      value:
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: budget-conscious-travelers
+          str: 90
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: solo-eco-adventurers
+          str: 95
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: local-community
+          str: 80
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: cultural-heritage
+          str: 70
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: research-driven
+          str: 95
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: early-planner
+          str: 85
+    publishDate:
+      type: date
+      value: '2025-07-31'
+    featuredImage:
+      type: asset
+      value:
+        - _id: 1264d704-9eab-4bdd-bb5b-66ca0e406467
+          type: image
+          fields:
+            id:
+              type: text
+              value: 2cd0dd04-0796-4550-a52e-1d100bdedbdf
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/bMd8_Nb5SOyG8KPEvjyODA-DSC01633-1440x960.jpg
+              type: text
+            file:
+              type: file
+              value: aad375af-4147-433f-a77d-6c046cddafad
+            size:
+              value: 240006
+              type: number
+            title:
+              type: text
+              value: ''
+            width:
+              value: 1440
+              type: number
+            height:
+              value: 960
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    summaryAbstract:
+      type: text
+      value: >-
+        Interested in living in a different country and making money while doing
+        it? How about living and working in Greece
+    relatedInterests:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-4b6cf5e1-dce6-4658-a43d-c72e60399bb0-relatedInterests/entries}
+  _dataResources:
+    ref-4b6cf5e1-dce6-4658-a43d-c72e60399bb0-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 89b4d8c8-c4ba-445b-9c9c-0d1cdd7c8f07
+    ref-4b6cf5e1-dce6-4658-a43d-c72e60399bb0-relatedInterests:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: d648bef1-f4d0-414f-a98d-8a322db29761

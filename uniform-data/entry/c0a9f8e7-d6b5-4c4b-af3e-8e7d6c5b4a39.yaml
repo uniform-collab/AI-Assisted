@@ -1,0 +1,22 @@
+created: '2025-08-18T19:34:13.619581+00:00'
+modified: '2025-08-18T19:34:13.619581+00:00'
+pattern: false
+entry:
+  _id: c0a9f8e7-d6b5-4c4b-af3e-8e7d6c5b4a39
+  _name: Sports
+  _slug: sports
+  type: interest
+  fields:
+    name:
+      type: text
+      value: Sports
+    description:
+      type: text
+      value: >-
+        Enjoy the excitement of sports, whether you're joining in the action or
+        cheering from the sidelines. From local games to major tournaments,
+        connect with others who share your passion for athletic events and
+        active living. Discover new ways to stay engaged, support your
+        community, and celebrate the spirit of friendly competition.
+  _overridability:
+    hideLockedParameters: true

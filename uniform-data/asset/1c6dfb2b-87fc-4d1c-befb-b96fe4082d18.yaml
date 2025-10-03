@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: 1c6dfb2b-87fc-4d1c-befb-b96fe4082d18
+  _name: Hikers.png
+  fields:
+    title:
+      type: text
+      value: Hikers.png
+    file:
+      type: file
+      value: bcf6748e-4ccc-4fcb-8837-04849c4c398d
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/SIAr-Q41QdigZ0na_uEhyA-Hikers.png
+      type: text
+    size:
+      value: 791067
+      type: number
+    width:
+      value: 1440
+      type: number
+    height:
+      value: 580
+      type: number
+    focalPoint:
+      value:
+        x: 0.46
+        'y': 0.65
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:09.716102+00:00'
+modified: '2025-08-18T14:28:09.716102+00:00'

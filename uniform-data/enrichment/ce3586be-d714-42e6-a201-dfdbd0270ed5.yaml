@@ -1,0 +1,24 @@
+id: ce3586be-d714-42e6-a201-dfdbd0270ed5
+name: Audience-segment
+cap: 10
+values:
+  - id: adventure-seekers
+    value: adventure-seekers
+  - id: budget-conscious-travelers
+    value: budget-conscious-travelers
+  - id: corporate-retreat-planners
+    value: corporate-retreat-planners
+  - id: cultural-explorers
+    value: cultural-explorers
+  - id: eco-conscious-travelers
+    value: eco-conscious-travelers
+  - id: educational-groups
+    value: educational-groups
+  - id: family-eco-travelers
+    value: family-eco-travelers
+  - id: luxury-eco-travelers
+    value: luxury-eco-travelers
+  - id: solo-eco-adventurers
+    value: solo-eco-adventurers
+  - id: wellness-seekers
+    value: wellness-seekers

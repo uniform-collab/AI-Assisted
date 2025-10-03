@@ -1,0 +1,109 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: richText
+name: Rich Text
+icon: format-text
+parameters:
+  - id: content
+    name: Content
+    type: richText
+    guidance: Rich text content with formatting options
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: size
+    name: Size
+    type: select
+    guidance: Text size for the rich text content
+    typeConfig:
+      options:
+        - text: Small (14px)
+          value: small
+        - text: Default (16px)
+          value: default
+        - text: Large (18px)
+          value: large
+        - text: Extra Large (20px)
+          value: xlarge
+  - id: color
+    name: Color
+    type: select
+    guidance: Text color theme for the rich text content
+    typeConfig:
+      options:
+        - text: Default (Dark Gray)
+          value: default
+        - text: Muted (Medium Gray)
+          value: muted
+        - text: Light (Light Gray)
+          value: light
+        - text: White
+          value: white
+        - text: Primary (Orange)
+          value: primary
+  - id: alignment
+    name: Alignment
+    type: select
+    guidance: Text alignment for the rich text content
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Center
+          value: center
+        - text: Right
+          value: right
+        - text: Justify
+          value: justify
+  - id: maxWidth
+    name: Max Width
+    type: select
+    guidance: Maximum width constraint for the rich text content
+    typeConfig:
+      options:
+        - text: Full Width
+          value: full
+        - text: Narrow (640px)
+          value: narrow
+        - text: Medium (768px)
+          value: medium
+        - text: Wide (1024px)
+          value: wide
+categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
+description: >-
+  Rich text component with formatting options for displaying formatted content
+  with styling
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2025-08-26T15:52:39.115013+00:00'
+updated: '2025-08-26T15:53:16.22674+00:00'

@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: pagination
+name: Pagination
+icon: navigation
+parameters:
+  - id: currentPage
+    name: Current Page
+    type: number
+    guidance: The currently active page number
+    typeConfig:
+      min: 1
+  - id: totalPages
+    name: Total Pages
+    type: number
+    guidance: The total number of pages
+    typeConfig:
+      min: 1
+  - id: showPrevNext
+    name: Show Previous/Next
+    type: checkbox
+    guidance: Show previous and next navigation buttons
+    typeConfig:
+      default: true
+  - id: showFirstLast
+    name: Show First/Last
+    type: checkbox
+    guidance: Show first and last page buttons
+    typeConfig:
+      default: false
+  - id: maxVisiblePages
+    name: Max Visible Pages
+    type: number
+    guidance: Maximum number of page buttons to show at once
+    typeConfig:
+      min: 3
+      max: 10
+      default: 5
+description: Pagination component for navigating through multiple pages of content
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2025-01-27T00:00:00.000000+00:00'
+updated: '2025-01-27T00:00:00.000000+00:00'

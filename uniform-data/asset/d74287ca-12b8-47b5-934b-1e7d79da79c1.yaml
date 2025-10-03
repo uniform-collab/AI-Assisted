@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d74287ca-12b8-47b5-934b-1e7d79da79c1
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: home.png
+    file:
+      type: file
+      value: d46c9653-26e5-4e36-85b1-d8904df1ba9c
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/wZ9MciLVR5KDKOb8D8qp7g-home.png
+      type: text
+    size:
+      value: 630860
+      type: number
+    width:
+      value: 1307
+      type: number
+    height:
+      value: 903
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:50.340851+00:00'
+modified: '2025-08-18T14:28:50.340851+00:00'

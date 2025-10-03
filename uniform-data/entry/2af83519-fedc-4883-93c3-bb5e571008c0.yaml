@@ -1,0 +1,76 @@
+created: '2025-08-19T13:09:28.060876+00:00'
+modified: '2025-08-19T13:09:28.060876+00:00'
+pattern: false
+entry:
+  _id: 2af83519-fedc-4883-93c3-bb5e571008c0
+  _name: Brew Dinsky
+  _slug: brew-dinsky
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/3m8RQeiMSeOnU3J4dJKsZQ-AI-generated-image-for-Thumbnail
+  type: author
+  fields:
+    bio:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      A popular travel vlogger with a focus on cultural
+                      experiences and unique destinations
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+            direction: ltr
+    name:
+      type: text
+      value: Brew Dinsky
+    thumbnail:
+      type: asset
+      locales:
+        en:
+          - _id: ee42155f-c4e9-4fd1-9666-40ad46aae3d1
+            type: image
+            fields:
+              id:
+                type: text
+                value: fd8a61c3-85af-4664-9e39-85876b171eab
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/3m8RQeiMSeOnU3J4dJKsZQ-AI-generated-image-for-Thumbnail
+                type: text
+              file:
+                type: file
+                value: 50a15b21-dcc9-4501-9f16-8fe270cd3d0d
+              size:
+                value: 1921572
+                type: number
+              title:
+                type: text
+                value: AI-generated-image-for-Thumbnail
+              width:
+                value: 1024
+                type: number
+              height:
+                value: 1024
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 3a4206df-38d7-43f8-a280-e2e96ba93d95
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: GR-MYAT-jane-stroebel-unsplash.jpg
+    file:
+      type: file
+      value: dc80711f-e881-41ad-9347-d9fa13ff66fa
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/v9z4gXV5SxONMhdEjs7xDg-GR-MYAT-jane-stroebel-unsplash.jpg
+      type: text
+    size:
+      value: 941852
+      type: number
+    width:
+      value: 3008
+      type: number
+    height:
+      value: 2000
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:28.136908+00:00'
+modified: '2025-08-18T14:28:28.136908+00:00'

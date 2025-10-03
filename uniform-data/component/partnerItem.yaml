@@ -1,0 +1,45 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: partnerItem
+name: Partner Item
+icon: screen
+parameters:
+  - id: partnerName
+    name: Partner Name
+    type: text
+    guidance: Name of the partner company
+    localizable: true
+  - id: partnerLogo
+    name: Partner Logo
+    type: asset
+    guidance: Partner company logo
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: partnerUrl
+    name: Partner URL
+    type: link
+    guidance: Link to partner website
+  - id: partnerDescription
+    name: Partner Description
+    type: text
+    guidance: Description text about the partner
+    localizable: true
+  - id: destinationText
+    name: Destination Text
+    type: text
+    guidance: Location or destination text (e.g., 'DESTINATION')
+    localizable: true
+description: Individual partner logo and information
+useTeamPermissions: true
+slots:
+  - id: ctas
+    name: CTAs
+    allowedComponents: []
+    inheritAllowedComponents: true
+    patternsInAllowedComponents: false
+titleParameter: partnerName
+thumbnailParameter: partnerLogo
+canBeComposition: false
+created: '2025-08-14T20:05:24.744211+00:00'
+updated: '2025-08-15T19:09:46.304712+00:00'

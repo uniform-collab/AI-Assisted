@@ -1,0 +1,476 @@
+created: '2025-08-19T13:09:26.002289+00:00'
+modified: '2025-09-23T13:28:28.326735+00:00'
+pattern: false
+entry:
+  _id: 79d33c15-4a84-4d71-b286-ef342d4109f8
+  _name: 10 Amazing Places to Visit in Greece (That Aren’t
+  _slug: 10-amazing-places-to-visit-in-greece-that-arent
+  _thumbnail: >-
+    https://www.theblondeabroad.com/wp-content/uploads/2021/08/victor-janin-H92ORzqWgp0-unsplash.jpg
+  type: blogPost
+  fields:
+    body:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    When most people dream of Greece, Santorini’s blue domes and
+                    whitewashed cliffs come to mind. But Greece is packed with
+                    hidden gems beyond the famous island. Here are ten
+                    incredible destinations to add to your Greek adventure—no
+                    crowds required.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 1. Meteora
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Towering rock pillars topped with centuries-old monasteries,
+                    Meteora is a UNESCO World Heritage site that feels
+                    otherworldly. Hike the trails, explore the monasteries, and
+                    soak in the panoramic views.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 2. Milos
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Known for its lunar landscapes and colorful fishing
+                    villages, Milos is a paradise for beach lovers. Don’t miss
+                    Sarakiniko Beach, with its smooth white rocks and turquoise
+                    waters.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 3. Naxos
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The largest Cycladic island, Naxos offers lush valleys,
+                    ancient ruins, and long sandy beaches. It’s perfect for
+                    foodies, hikers, and anyone seeking a laid-back vibe.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 4. Paros
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Paros blends traditional charm with a lively atmosphere.
+                    Wander through the whitewashed streets of Naoussa, windsurf
+                    at Golden Beach, or hop on a boat to nearby Antiparos.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 5. Zakynthos
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Famous for Shipwreck Beach (Navagio), Zakynthos also boasts
+                    sea caves, lush hills, and loggerhead turtles. Explore by
+                    boat or relax in a quiet village.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 6. Monemvasia
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    A medieval fortress town carved into a rock, Monemvasia is
+                    like stepping back in time. Stroll the cobbled streets,
+                    discover Byzantine churches, and enjoy sea views from the
+                    castle walls.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 7. Thessaloniki
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Greece’s second city is a cultural hotspot. Enjoy vibrant
+                    nightlife, sample local delicacies, and explore Roman,
+                    Byzantine, and Ottoman landmarks.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 8. Crete
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Crete is Greece’s largest island, offering everything from
+                    ancient Minoan ruins to dramatic gorges and pristine
+                    beaches. Don’t miss the Palace of Knossos or the Samaria
+                    Gorge.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 9. Hydra
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Just a short ferry from Athens, Hydra is car-free and full
+                    of charm. Wander the harbor, hike the hills, and enjoy a
+                    slower pace of life.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 10. Corfu
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    With Venetian architecture, lush landscapes, and
+                    crystal-clear waters, Corfu is a blend of cultures and
+                    natural beauty. Explore the old town, relax on the beaches,
+                    or hike the Corfu Trail.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Ready to explore Greece beyond the ordinary?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - type: linebreak
+                  version: 1
+                - mode: normal
+                  text: >-
+                    Skip the crowds and discover these unforgettable
+                    destinations for a truly authentic Greek experience.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: null
+              textStyle: ''
+              textFormat: 0
+          direction: null
+    title:
+      type: text
+      value: 10 Amazing Places to Visit in Greece (That Aren’t Santorini)
+    author:
+      type: contentReference
+      value: ${#jptr:/ref-79d33c15-4a84-4d71-b286-ef342d4109f8-author/entries/0}
+    category:
+      type: multi-select
+      value:
+        - Travel 101
+    enrichments:
+      type: $enr
+      value:
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: cultural-explorers
+          str: 9
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: solo-eco-adventurers
+          str: 8
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: cultural-heritage
+          str: 9
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: photography-nature
+          str: 8
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: archaeology-history
+          str: 8
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: local-community
+          str: 7
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: research-driven
+          str: 9
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: early-planner
+          str: 7
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: newsletter-subscriber
+          str: 6
+    publishDate:
+      type: date
+      value: '2025-08-08'
+    featuredImage:
+      type: asset
+      value:
+        - _id: 5b42a5ac-0fd5-44b1-8e7b-6aed90f3f200
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.theblondeabroad.com/wp-content/uploads/2021/08/victor-janin-H92ORzqWgp0-unsplash.jpg
+          _source: custom-url
+    summaryAbstract:
+      type: text
+      value: >-
+        Skip the crowds and discover Greece’s hidden gems! Here are 10
+        incredible destinations beyond Santorini, from Meteora’s monasteries to
+        the beaches of Milos and the medieval charm of Monemvasia.
+    relatedBlogPosts:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-79d33c15-4a84-4d71-b286-ef342d4109f8-relatedBlogPosts/entries}
+    relatedInterests:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-79d33c15-4a84-4d71-b286-ef342d4109f8-relatedInterests/entries}
+  _dataResources:
+    ref-79d33c15-4a84-4d71-b286-ef342d4109f8-author:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: c4a0f238-70a7-4975-880d-350999a0dffc
+    ref-79d33c15-4a84-4d71-b286-ef342d4109f8-relatedBlogPosts:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 4b6cf5e1-dce6-4658-a43d-c72e60399bb0
+    ref-79d33c15-4a84-4d71-b286-ef342d4109f8-relatedInterests:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          d648bef1-f4d0-414f-a98d-8a322db29761,f7e3f608-cf8e-4865-9db7-53a47676c713

@@ -1,0 +1,98 @@
+composition:
+  _name: Card - Tour
+  _id: 142fdf08-48b0-47b7-ab12-4ead81f51cf6
+  type: card
+  parameters:
+    $enr:
+      type: $enr
+      value:
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: hiking-trekking
+          str: 80
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: wildlife-conservation
+          str: 70
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: local-community
+          str: 60
+    size:
+      type: select
+      value: small
+    layout:
+      type: select
+      value: vertical
+    margin:
+      type: select
+      value: medium
+    shadow:
+      type: select
+      value: small
+    padding:
+      type: select
+      value: medium
+    headlineTag:
+      type: select
+      value: h3
+    borderRadius:
+      type: select
+      value: small
+  slots:
+    cta:
+      - _id: 7ea318e3-b199-47ef-8b4d-c54cd81efa59
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: CTA
+          specific:
+            type: array
+            value:
+              - $p:f8e2d1c4-9b5a-4e7f-8c3d-2a1b9e6f4d8c
+              - $p:6462e922-8787-4326-88ce-025528a5e9ca
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+    pills:
+      - _id: ec7a975d-b0d9-4dc5-af18-944cc15fabfb
+        type: pill
+        _pattern: b046485d-5abe-4904-975b-ff6e306cc4ef
+    content:
+      - _id: 2ab1f6d8-a67d-4563-af56-bd578016f714
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Content
+          specific:
+            type: array
+            value:
+              - text
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      $enr: 'yes'
+      $viz: 'yes'
+      size: 'yes'
+      layout: 'yes'
+      margin: 'yes'
+      shadow: 'yes'
+      cardUrl: 'yes'
+      eyebrow: 'yes'
+      padding: 'yes'
+      headline: 'yes'
+      description: 'yes'
+      headlineTag: 'yes'
+      borderRadius: 'yes'
+      textAlignment: 'yes'
+      backgroundColor: 'yes'
+      backgroundImage: 'yes'
+    hideLockedParameters: true
+created: '2025-08-20T14:46:38.758221+00:00'
+modified: '2025-09-29T15:24:44.248933+00:00'
+pattern: true

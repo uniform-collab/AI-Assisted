@@ -1,0 +1,54 @@
+id: author
+name: Author
+created: '2025-08-18T19:22:24.887774+00:00'
+updated: '2025-08-18T19:22:24.887774+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    typeConfig:
+      required: true
+    localizable: true
+  - id: thumbnail
+    name: Thumbnail
+    type: asset
+    typeConfig:
+      required: false
+      allowedTypes:
+        - image
+    localizable: true
+  - id: bio
+    name: Bio
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - asset
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+            - video
+    localizable: true
+entryName: name
+thumbnailField: thumbnail
+description: Blog author
+icon: user
+type: contentType
+permissions: []
+previewConfigurations: []

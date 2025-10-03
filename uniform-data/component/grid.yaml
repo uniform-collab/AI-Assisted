@@ -1,0 +1,94 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: grid
+name: Grid
+icon: screen
+parameters:
+  - id: name
+    name: Name
+    type: text
+    helpText: Display name only used in Canvas
+    typeConfig: null
+    localizable: true
+  - id: columns
+    name: Columns
+    type: select
+    guidance: Number of columns for the grid layout
+    typeConfig:
+      options:
+        - text: 1 Column
+          value: '1'
+        - text: 2 Columns
+          value: '2'
+        - text: 3 Columns
+          value: '3'
+        - text: 4 Columns
+          value: '4'
+        - text: 5 Columns
+          value: '5'
+        - text: 6 Columns
+          value: '6'
+        - text: 12 Columns (Complex Layout)
+          value: '12'
+      required: true
+  - id: title
+    name: Title
+    type: text
+    guidance: Optional title for the grid section
+    typeConfig:
+      required: false
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Optional subtitle or description for the grid section
+    typeConfig:
+      required: false
+    localizable: true
+  - id: gap
+    name: Gap
+    type: select
+    guidance: Spacing between grid items
+    typeConfig:
+      options:
+        - text: Small (1rem)
+          value: small
+        - text: Medium (1.5rem)
+          value: medium
+        - text: Large (2rem)
+          value: large
+        - text: Extra Large (3rem)
+          value: xlarge
+      required: false
+  - id: padding
+    name: Padding
+    type: select
+    guidance: Vertical padding around the grid section
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small (2rem)
+          value: small
+        - text: Medium (3rem)
+          value: medium
+        - text: Large (4rem)
+          value: large
+        - text: Extra Large (6rem)
+          value: xlarge
+      required: false
+description: >-
+  A responsive grid layout component with configurable columns for organizing
+  content
+useTeamPermissions: true
+slots:
+  - id: gridItems
+    name: Grid Items
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: name
+canBeComposition: false
+created: '2025-08-18T14:52:57.987584+00:00'
+updated: '2025-08-20T19:21:47.722857+00:00'

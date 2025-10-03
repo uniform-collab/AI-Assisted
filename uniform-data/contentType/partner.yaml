@@ -1,0 +1,109 @@
+id: partner
+name: Partner
+created: '2025-08-18T19:22:26.176644+00:00'
+updated: '2025-08-18T19:22:26.176644+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+    localizable: true
+  - id: logo
+    name: Logo
+    type: asset
+    helpText: ''
+    typeConfig:
+      required: true
+    localizable: true
+  - id: featuredImage
+    name: Featured image
+    type: asset
+    helpText: ''
+    typeConfig: {}
+    localizable: true
+  - id: type
+    name: Type
+    type: multi-select
+    helpText: ''
+    typeConfig:
+      min: 1
+      options:
+        - text: Vendor
+          value: Vendor
+        - text: NGO
+          value: NGO
+        - text: Non-profit
+          value: Non-profit
+        - text: Other
+          value: Other
+  - id: shortDescription
+    name: Short description
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+    localizable: true
+  - id: fullDescription
+    name: Full description
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+  - id: websiteUrl
+    name: Website URL
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
+        projectMapNode: false
+    localizable: true
+  - id: contactEmailAddress
+    name: Contact email address
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        url: false
+        projectMapNode: false
+entryName: name
+thumbnailField: logo
+description: >-
+  A PARTNER is a vendor or organization affiliated with a TOUR or one or more of
+  its ACTIVITIES. A PARTNER can either be a sponsor or a service provider.
+icon: path-outline
+type: contentType
+permissions: []
+previewConfigurations: []

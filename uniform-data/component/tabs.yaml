@@ -1,0 +1,75 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: tabs
+name: Tabs
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Optional section title displayed above the tabs
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Optional subtitle or description text
+    localizable: true
+  - id: variant
+    name: Variant
+    type: select
+    guidance: Visual style variant for the tabs
+    typeConfig:
+      options:
+        - text: Default
+          value: default
+        - text: Pills
+          value: pills
+        - text: Underline
+          value: underline
+      required: false
+  - id: alignment
+    name: Alignment
+    type: select
+    guidance: Horizontal alignment of tab navigation
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Center
+          value: center
+        - text: Right
+          value: right
+      required: false
+  - id: padding
+    name: Padding
+    type: select
+    guidance: Vertical padding around the tabs component
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Extra Large
+          value: xlarge
+      required: false
+description: Interactive tabs component with tab navigation and content panels
+useTeamPermissions: true
+slots:
+  - id: tabPanels
+    name: Tab Panels
+    minComponents: 1
+    allowedComponents:
+      - tabPanel
+      - $loop
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-08-19T20:53:42.061723+00:00'
+updated: '2025-08-19T21:08:46.745464+00:00'

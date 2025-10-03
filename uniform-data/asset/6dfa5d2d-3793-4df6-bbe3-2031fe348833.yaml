@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6dfa5d2d-3793-4df6-bbe3-2031fe348833
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Path.png
+    file:
+      type: file
+      value: 7c30fc98-0097-40b6-a702-fca704963553
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/g84PGp4gTQSszkKKZ62uqg-Path.png
+      type: text
+    size:
+      value: 378
+      type: number
+    width:
+      value: 16
+      type: number
+    height:
+      value: 16
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:07.917678+00:00'
+modified: '2025-08-18T14:28:07.917678+00:00'

@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: footerLink
+name: Footer Link
+icon: screen
+parameters:
+  - id: linkText
+    name: Link Text
+    type: text
+    guidance: Text for the link
+    localizable: true
+  - id: linkUrl
+    name: Link URL
+    type: link
+    guidance: URL for the link
+description: Individual footer link
+useTeamPermissions: true
+slots: []
+titleParameter: linkText
+canBeComposition: false
+created: '2025-08-14T20:06:52.689379+00:00'
+updated: '2025-08-14T20:06:52.689379+00:00'

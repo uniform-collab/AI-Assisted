@@ -1,0 +1,100 @@
+composition:
+  _name: Partners Section
+  _id: 5d4282d8-8c6a-42be-a1b1-2a7c924e50f6
+  type: partners
+  parameters:
+    title:
+      type: text
+      value: Partners that we work with
+    subtitle:
+      type: text
+      value: >-
+        There are many variations of passages of Lorem Ipsum available, but the
+        majority have suffered alteration in some form.
+  slots:
+    ctas:
+      - _id: 81385153-a0b1-4f84-af72-ec1ac09e5c10
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: CTA
+          specific:
+            type: array
+            value:
+              - footerLink
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+    partnerItems:
+      - _id: 182852aa-3f6c-4dd7-bfe3-3066b4071939
+        type: partnerItem
+        parameters:
+          partnerName:
+            type: text
+            value: National Geographic
+          destinationText:
+            type: text
+            value: DESTINATION
+          partnerDescription:
+            type: text
+            value: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum sed lorem in erat ultricies laoreet et pellentesque
+              magna. Praesentium mauris a consectetur lectus vestibulum.
+        _overridability:
+          parameters:
+            partnerName: 'yes'
+            destinationText: 'yes'
+            partnerDescription: 'yes'
+      - _id: 8ab85d5b-2d1c-411e-9371-fd8da35c883e
+        type: partnerItem
+        parameters:
+          partnerName:
+            type: text
+            value: WWF
+          destinationText:
+            type: text
+            value: DESTINATION
+          partnerDescription:
+            type: text
+            value: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum sed lorem in erat ultricies laoreet et pellentesque
+              magna. Praesentium mauris a consectetur lectus vestibulum.
+        _overridability:
+          parameters:
+            partnerName: 'yes'
+            destinationText: 'yes'
+            partnerDescription: 'yes'
+      - _id: feed4dce-03a6-4412-ad02-ab0e225c6ac3
+        type: partnerItem
+        parameters:
+          partnerName:
+            type: text
+            value: UNESCO
+          destinationText:
+            type: text
+            value: DESTINATION
+          partnerDescription:
+            type: text
+            value: >-
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum sed lorem in erat ultricies laoreet et pellentesque
+              magna. Praesentium mauris a consectetur lectus vestibulum.
+        _overridability:
+          parameters:
+            partnerName: 'yes'
+            destinationText: 'yes'
+            partnerDescription: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+      subtitle: 'yes'
+      contextHeadline: 'yes'
+    hideLockedParameters: true
+created: '2025-08-14T20:07:49.079481+00:00'
+modified: '2025-08-15T19:41:58.328539+00:00'
+pattern: true

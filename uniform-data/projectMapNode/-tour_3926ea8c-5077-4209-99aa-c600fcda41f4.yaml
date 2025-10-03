@@ -1,0 +1,11 @@
+id: 3926ea8c-5077-4209-99aa-c600fcda41f4
+name: Tour Detail
+order: 500
+path: /tours/:tour
+type: composition
+pathSegment: ':tour'
+data:
+  previewValue: epic-australia
+  queryStrings: []
+compositionId: 843aa089-5280-4580-b290-c05c751b1afe
+projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1

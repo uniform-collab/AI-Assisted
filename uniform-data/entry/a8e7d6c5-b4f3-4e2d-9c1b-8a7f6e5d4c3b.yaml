@@ -1,0 +1,23 @@
+created: '2025-08-18T19:34:01.031616+00:00'
+modified: '2025-08-18T19:34:01.031616+00:00'
+pattern: false
+entry:
+  _id: a8e7d6c5-b4f3-4e2d-9c1b-8a7f6e5d4c3b
+  _name: History
+  _slug: history
+  type: interest
+  fields:
+    name:
+      type: text
+      value: History
+    description:
+      type: text
+      value: >-
+        Discover the stories of our world by exploring historical sites,
+        landmarks, and museums. Learn about the past, connect with different
+        cultures, and gain new perspectives as you journey through time. Whether
+        you're curious about ancient civilizations or recent history, these
+        experiences help us understand our shared heritage and inspire a deeper
+        appreciation for the world we live in.
+  _overridability:
+    hideLockedParameters: true

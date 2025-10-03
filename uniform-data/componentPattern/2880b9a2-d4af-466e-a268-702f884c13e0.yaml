@@ -1,0 +1,27 @@
+composition:
+  _name: Article Pill Pattern
+  _id: 2880b9a2-d4af-466e-a268-702f884c13e0
+  type: pill
+  parameters:
+    size:
+      type: select
+      value: small
+    text:
+      type: text
+      value: Article
+    style:
+      type: select
+      value: transparent
+    position:
+      type: select
+      value: topLeft
+  _overridability:
+    parameters:
+      size: 'yes'
+      text: 'yes'
+      style: 'yes'
+      position: 'yes'
+    hideLockedParameters: true
+created: '2025-08-20T14:20:27.888119+00:00'
+modified: '2025-08-20T14:20:27.888119+00:00'
+pattern: true

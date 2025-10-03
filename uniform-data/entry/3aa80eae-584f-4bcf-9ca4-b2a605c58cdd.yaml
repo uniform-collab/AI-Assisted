@@ -1,0 +1,59 @@
+created: '2025-08-19T13:09:28.717553+00:00'
+modified: '2025-08-19T13:15:53.621731+00:00'
+pattern: false
+entry:
+  _id: 3aa80eae-584f-4bcf-9ca4-b2a605c58cdd
+  _name: Cultural & Historical
+  _slug: cultural-and-historical
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/6Z2nuvyqT5KjBcvUMhHekw-building-castle.svg
+  type: interest
+  fields:
+    icon:
+      type: asset
+      locales:
+        en:
+          - _id: 87973edb-833b-4f7e-8d9c-2e4259c109d4
+            type: image
+            fields:
+              id:
+                type: text
+                value: 6ed0e9b5-8ff9-4b13-96af-7867f6938364
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/6Z2nuvyqT5KjBcvUMhHekw-building-castle.svg
+                type: text
+              file:
+                type: file
+                value: a21922d3-4e75-4a5f-83fb-fd5385dfef67
+              size:
+                value: 480
+                type: number
+              title:
+                type: text
+                value: building-castle.svg
+              width:
+                value: 24
+                type: number
+              height:
+                value: 24
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+    name:
+      type: text
+      value: Cultural & Historical
+    description:
+      type: text
+      locales:
+        en: >-
+          Discover the heart of a community by immersing yourself in local
+          traditions, customs, and everyday life. Learn from residents, join in
+          cultural celebrations, and experience authentic moments that connect
+          you to the places you visit. By engaging with local ways of life, you
+          help preserve unique cultures and foster meaningful connections—making
+          your travels more enriching for you and positive for the communities
+          you meet.
+

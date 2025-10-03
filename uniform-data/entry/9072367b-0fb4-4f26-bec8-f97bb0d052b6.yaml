@@ -1,0 +1,419 @@
+created: '2025-08-19T13:09:38.934019+00:00'
+modified: '2025-09-23T13:22:42.23851+00:00'
+pattern: false
+entry:
+  _id: 9072367b-0fb4-4f26-bec8-f97bb0d052b6
+  _name: Sailing Greece
+  _slug: sailing-greece-santorini-to-mykonos
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/3r66PR8ZS16yBsGH53USAQ-santorini-premium_photo-1714679969518-a05e1b8451d8.png
+  type: tour
+  fields:
+    end:
+      type: text
+      value: Mykonos
+    name:
+      type: text
+      value: Sailing Greece
+    start:
+      type: text
+      value: Santorini
+    duration:
+      type: text
+      value: 8 days
+    tourCode:
+      type: text
+      value: GR-SAMY
+    tourType:
+      type: multi-select
+      value:
+        - Small group
+    itinerary:
+      type: $block
+      value:
+        - _id: dff2e8e2-ca9f-4a4c-b1d3-6f11ffd437b2
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 1-2
+            title:
+              type: text
+              value: Santorini
+            description:
+              type: text
+              value: >-
+                Begin your journey in Santorini, renowned for its dramatic
+                caldera views, whitewashed villages, and world-famous sunsets.
+                Visit the ancient city of Akrotiri, hike along the caldera from
+                Fira to Oia, and enjoy a wine-tasting tour. Spend the evening
+                admiring the sunset over the Aegean.
+        - _id: 0dafa0e2-4ef7-47fb-b34a-8b3d14a39697
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 3
+            title:
+              type: text
+              value: Ios
+            description:
+              type: text
+              value: >-
+                Sail to Ios, a lively island known for its pristine beaches and
+                vibrant atmosphere. Explore the ancient ruins of Skarkos or
+                wander through the charming village of Chora, perched on a
+                hillside with sweeping views of the sea.
+        - _id: ce0976a1-714a-4453-9589-d5ee17d01127
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 4
+            title:
+              type: text
+              value: Naxos
+            description:
+              type: text
+              value: >-
+                Arrive in Naxos, the largest and most fertile island in the
+                Cyclades. Visit the Temple of Apollo, relax on the beautiful
+                Agios Prokopios Beach, or hike through olive groves to explore
+                traditional villages like Apeiranthos.
+        - _id: 408393d1-0586-4e4c-930e-9bd6bdbbb761
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 5
+            title:
+              type: text
+              value: Koufonisia
+            description:
+              type: text
+              value: >-
+                Discover the hidden paradise of Koufonisia, a small island with
+                crystal-clear lagoons and unspoiled beaches. Spend the day
+                swimming, snorkeling, or simply relaxing by the turquoise waters
+                in this quiet and less-touristed destination.
+        - _id: e61ba671-d35c-4f26-944d-1e3410604a4d
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 6
+            title:
+              type: text
+              value: Paros & Antiparos
+            description:
+              type: text
+              value: >-
+                Anchor in Paros, known for its charming villages and lively port
+                town of Naoussa. Explore the ancient Byzantine church of Panagia
+                Ekatontapiliani or take a boat trip to the nearby island of
+                Antiparos for a more serene beach day.
+        - _id: 0edee3d1-a607-4ec1-b020-8d7c658b7645
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 7
+            title:
+              type: text
+              value: Delos & Rineia
+            description:
+              type: text
+              value: >-
+                Sail to the sacred island of Delos, the mythological birthplace
+                of Apollo and a UNESCO World Heritage site. Wander among the
+                ancient ruins and learn about the island’s rich history before
+                stopping at the nearby uninhabited island of Rineia for a
+                peaceful swim.
+        - _id: dcb93db2-8d91-4e0e-8bbc-e0e1f78ce44b
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 8
+            title:
+              type: text
+              value: Mykonos
+            description:
+              type: text
+              value: >-
+                Arrive in Mykonos, known for its lively nightlife, cosmopolitan
+                vibe, and picturesque Old Town. Spend the day strolling through
+                the winding streets of Mykonos Town, relaxing on one of the
+                island’s famous beaches, or visiting the iconic windmills before
+                concluding your journey.
+    description:
+      type: text
+      value: >-
+        Set sail on an 8-day journey from Santorini to Mykonos, exploring the
+        gems of the Greek Cyclades. This eco-friendly tour invites you to
+        experience the beauty of Greece’s iconic islands, from volcanic
+        landscapes and ancient ruins to crystal-clear waters and charming
+        seaside villages. Whether you’re hiking scenic cliffs, diving into the
+        Aegean Sea, or savoring local cuisine, each day offers a perfect mix of
+        adventure and relaxation as you immerse yourself in the natural and
+        cultural wonders of the Mediterranean.
+    destination:
+      type: contentReference
+      value: ${#jptr:/ref-9072367b-0fb4-4f26-bec8-f97bb0d052b6-destination/entries/0}
+    enrichments:
+      type: $enr
+      value:
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: adventure-seekers
+          str: 9
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: marine-activities
+          str: 10
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: cultural-heritage
+          str: 8
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: photography-nature
+          str: 7
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: eco-conscious-travelers
+          str: 8
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: premium-buyer
+          str: 7
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: early-planner
+          str: 8
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: research-driven
+          str: 6
+    travelStyle:
+      type: multi-select
+      value:
+        - Marine
+    serviceLevel:
+      type: select
+      value: Standard
+    featuredImage:
+      type: asset
+      value:
+        - _id: af018722-2312-4d8a-8d2d-e02dce7d5ebc
+          type: image
+          fields:
+            id:
+              type: text
+              value: 1d6550c0-c679-4baa-a0c7-1137f9637e53
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/3r66PR8ZS16yBsGH53USAQ-santorini-premium_photo-1714679969518-a05e1b8451d8.png
+              type: text
+            file:
+              type: file
+              value: 4351b9c1-8227-4438-8be9-faa8a0a54502
+            size:
+              value: 5678338
+              type: number
+            title:
+              type: text
+              value: santorini-premium_photo-1714679969518-a05e1b8451d8.png
+            width:
+              value: 2832
+              type: number
+            height:
+              value: 1234
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+            focalPoint:
+              value:
+                x: 0.33
+                'y': 0.68
+              type: focalPoint
+          _source: uniform-assets
+    physicalRating:
+      type: select
+      value: 3 - Average
+    travelerPhotos:
+      type: asset
+      locales:
+        en:
+          - _id: 058d5392-1c96-4f20-a0b3-788896942f39
+            type: image
+            fields:
+              id:
+                type: text
+                value: 20e4024c-7922-4fca-8d3d-b13ac18e6027
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/3s7HVpJVQ7S8SBvF0oPqCg-GR-SAMY-megan-bagshaw-unsplash.jpg
+                type: text
+              file:
+                type: file
+                value: ac089c6f-2b6b-4ba1-859c-13890a379c41
+              size:
+                value: 2184111
+                type: number
+              title:
+                type: text
+                value: GR-SAMY-megan-bagshaw-unsplash.jpg
+              width:
+                value: 3456
+                type: number
+              height:
+                value: 5184
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: fcb2b19c-5e58-4b29-9a85-d78ee92a8bde
+            type: image
+            fields:
+              id:
+                type: text
+                value: 27035ba6-0783-4b78-b00d-456dc14168bb
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/waCNLz-vQbGDAI_bC5pBYA-GR-SAMY-pexels-frank.jpg
+                type: text
+              file:
+                type: file
+                value: 2b6350ce-802d-4428-b637-509b36969edb
+              size:
+                value: 470970
+                type: number
+              title:
+                type: text
+                value: GR-SAMY-pexels-frank.jpg
+              width:
+                value: 3696
+                type: number
+              height:
+                value: 2448
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: bf59e859-94e5-40a3-807c-8d2a8620e807
+            type: image
+            fields:
+              id:
+                type: text
+                value: c0db9a6f-67a3-48e8-b53c-6f6c7c45a07d
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/IUpakDt3RoariDZSrdX-HQ-GR-SAMY-pexels-iglp11.jpg
+                type: text
+              file:
+                type: file
+                value: b75d0ba5-6196-4922-85c3-34ceb3613336
+              size:
+                value: 4069032
+                type: number
+              title:
+                type: text
+                value: GR-SAMY-pexels-iglp11.jpg
+              width:
+                value: 8067
+                type: number
+              height:
+                value: 5381
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 3787677b-447c-4311-aa91-f13a091b0207
+            type: image
+            fields:
+              id:
+                type: text
+                value: f32480bf-f45e-4155-a418-9702d3a05986
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/ZC2uhb-7RAuFizRF2ran1Q-GR-SAMY-pexels-olga-helmel.jpg
+                type: text
+              file:
+                type: file
+                value: 2a2d12e4-5501-4066-bb2b-fce1a479b613
+              size:
+                value: 1247072
+                type: number
+              title:
+                type: text
+                value: GR-SAMY-pexels-olga-helmel.jpg
+              width:
+                value: 4536
+                type: number
+              height:
+                value: 8064
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: cf56622e-8ccb-490b-b528-e003fc91acb0
+            type: image
+            fields:
+              id:
+                type: text
+                value: f6a85f9b-ca13-400c-bada-01a732df8895
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/tJNtEGRwQYKL_U8EISjMZg-GR-SAMY-pexels-pixabay.jpg
+                type: text
+              file:
+                type: file
+                value: 00b26dbc-7bc3-4d6f-b251-b3134d00eea9
+              size:
+                value: 3859275
+                type: number
+              title:
+                type: text
+                value: GR-SAMY-pexels-pixabay.jpg
+              width:
+                value: 7511
+                type: number
+              height:
+                value: 4726
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 34ebad5b-51be-46e7-97cc-34979bd442e7
+            type: image
+            fields:
+              id:
+                type: text
+                value: fa525866-a247-4045-ad64-5ce2c2a612c7
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/7UUGbEFRQuCeQtLGrrzqog-GR-SAMY-jametlene-reskp-unsplash.jpg
+                type: text
+              file:
+                type: file
+                value: 6e3ff20e-7878-4ce2-b238-5c2d2e4eebce
+              size:
+                value: 1973733
+                type: number
+              title:
+                type: text
+                value: GR-SAMY-jametlene-reskp-unsplash.jpg
+              width:
+                value: 2268
+                type: number
+              height:
+                value: 4032
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+  _dataResources:
+    ref-9072367b-0fb4-4f26-bec8-f97bb0d052b6-destination:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 78505b8e-557b-4f82-992f-2813ce52cc08

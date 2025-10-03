@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f127aa57-a701-4509-851c-48d8a0e1f4f8
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: GR-MYAT-pexels-glenn-langhorst.jpg
+    file:
+      type: file
+      value: 38335947-d305-400d-9525-bdc90ee74b3f
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/bAaPTgrPRuKAYoXAaSKhkA-GR-MYAT-pexels-glenn-langhorst.jpg
+      type: text
+    size:
+      value: 607626
+      type: number
+    width:
+      value: 1680
+      type: number
+    height:
+      value: 3648
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:27.60392+00:00'
+modified: '2025-08-18T14:28:27.60392+00:00'

@@ -1,0 +1,143 @@
+created: '2025-08-19T13:09:32.580343+00:00'
+modified: '2025-09-23T13:23:14.108276+00:00'
+pattern: false
+entry:
+  _id: 78505b8e-557b-4f82-992f-2813ce52cc08
+  _name: Greece
+  _slug: greece
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/15S622P7R9uxAaVav2IRWA-greece-angela-pham-_uqDYFkrmLM-unsplash.jpg
+  type: destination
+  fields:
+    name:
+      type: text
+      value: Greece
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Greece is an ideal destination for ecotourism, blending
+                    stunning natural landscapes with rich cultural history. From
+                    hiking through pristine mountain trails and exploring remote
+                    islands like Koufonisia, to snorkeling in crystal-clear
+                    waters and visiting UNESCO-protected archaeological sites,
+                    Greece offers eco-conscious travelers endless adventures.
+                    With its commitment to sustainable tourism and the
+                    preservation of its unique ecosystems, Greece invites you to
+                    experience its beauty in a responsible and meaningful way.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: linebreak
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+          direction: ltr
+    enrichments:
+      type: $enr
+      value:
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: cultural-heritage
+          str: 10
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: cultural-explorers
+          str: 9
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: archaeology-history
+          str: 9
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: marine-activities
+          str: 8
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: eco-conscious-travelers
+          str: 8
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: adventure-seekers
+          str: 7
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: research-driven
+          str: 8
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: early-planner
+          str: 7
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: seasonal-traveler
+          str: 6
+    featuredImage:
+      type: asset
+      value:
+        - _id: 666f21eb-fc9a-4488-93a0-eb4b55df7cc2
+          type: image
+          fields:
+            id:
+              type: text
+              value: 7eb19bf6-1040-4563-8bda-ff0b73f0e351
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/15S622P7R9uxAaVav2IRWA-greece-angela-pham-_uqDYFkrmLM-unsplash.jpg
+              type: text
+            file:
+              type: file
+              value: b178c5b7-0a4c-47a8-bbb2-ff3b84184a3c
+            size:
+              value: 615213
+              type: number
+            title:
+              type: text
+              value: greece-angela-pham-_uqDYFkrmLM-unsplash.jpg
+            width:
+              value: 4853
+              type: number
+            height:
+              value: 3235
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+          _source: uniform-assets
+    featuredTours:
+      type: contentReference
+      value: ${#jptr:/ref-78505b8e-557b-4f82-992f-2813ce52cc08-featuredTours/entries}
+    quickOverview:
+      type: text
+      value: >-
+        Greece is an ideal destination for ecotourism, blending stunning natural
+        landscapes with rich culture.
+    parentDestination:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-78505b8e-557b-4f82-992f-2813ce52cc08-parentDestination/entries/0}
+  _dataResources:
+    ref-78505b8e-557b-4f82-992f-2813ce52cc08-featuredTours:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          9072367b-0fb4-4f26-bec8-f97bb0d052b6,00bc22fe-64f1-4276-b66b-50655d31c620
+    ref-78505b8e-557b-4f82-992f-2813ce52cc08-parentDestination:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 0f94139b-fdd3-42e2-ad69-22891b13456d

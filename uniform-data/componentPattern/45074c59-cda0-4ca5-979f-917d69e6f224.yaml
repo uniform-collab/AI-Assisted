@@ -1,0 +1,153 @@
+composition:
+  _name: EcoQuest Footer
+  _id: 45074c59-cda0-4ca5-979f-917d69e6f224
+  type: footer
+  parameters:
+    companyName:
+      type: text
+      value: EcoQuest
+    description:
+      type: text
+      value: >-
+        “See the World, Leave Only Footprints,” EcoQuest offers unforgettable
+        global travel experiences that celebrate adventure, cultural discovery,
+        and environmental stewardship.
+    copyrightText:
+      type: text
+      value: © 2025 EcoQuest. All rights reserved.
+    newsletterTitle:
+      type: text
+      value: Stay Updated
+    subscribeButtonText:
+      type: text
+      value: Subscribe
+  slots:
+    footerLinks:
+      - _id: ab833b16-d0d7-488e-8a16-21e7934c3a3f
+        type: footerLinkGroup
+        slots:
+          links:
+            - _id: fbb23666-ca28-4e0d-8c00-e07ae6d0ac0c
+              type: footerLink
+              parameters:
+                linkUrl:
+                  type: link
+                  value:
+                    path: /tours
+                    type: projectMapNode
+                    nodeId: cdaa016f-3c29-4273-b798-b993bd5ae020
+                    projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1
+                linkText:
+                  type: text
+                  value: Tours
+              _overridability:
+                parameters:
+                  linkText: 'yes'
+            - _id: cd1982eb-6cc3-47bb-a2ab-37a0320fb6a1
+              type: footerLink
+              parameters:
+                linkUrl:
+                  type: link
+                  value:
+                    path: /destinations
+                    type: projectMapNode
+                    nodeId: e13b9642-4de1-4adf-afcf-fbc321123bad
+                    projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1
+                linkText:
+                  type: text
+                  value: Destinations
+              _overridability:
+                parameters:
+                  linkText: 'yes'
+            - _id: 816f765e-a8ee-49fa-a240-e5aab3242db5
+              type: footerLink
+              parameters:
+                linkUrl:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: b9512629-f061-4cc9-a484-2fcfbcae9867
+                    projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1
+                linkText:
+                  type: text
+                  value: Interests
+              _overridability:
+                hideLockedParameters: true
+            - _id: 14a700ce-3a33-470f-b4ec-57295c3a0225
+              type: footerLink
+              parameters:
+                linkUrl:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: b9512629-f061-4cc9-a484-2fcfbcae9867
+                    projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1
+                linkText:
+                  type: text
+                  value: Partners
+              _overridability:
+                hideLockedParameters: true
+            - _id: 33dbc9bb-7a32-4a8e-8d44-8b2cca53bf0f
+              type: footerLink
+              parameters:
+                linkUrl:
+                  type: link
+                  value:
+                    path: /
+                    type: projectMapNode
+                    nodeId: b9512629-f061-4cc9-a484-2fcfbcae9867
+                    projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1
+                linkText:
+                  type: text
+                  value: About Us
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          groupTitle:
+            type: text
+            value: Quick Links
+        _overridability:
+          parameters:
+            groupTitle: 'yes'
+      - _id: f806440e-420b-4c7e-a2ff-b46e147c4627
+        type: footerLinkGroup
+        slots:
+          links:
+            - _id: a54241b4-006c-43ab-a1fb-df7c854cfb41
+              type: footerLink
+              parameters:
+                linkText:
+                  type: text
+                  value: Help Center
+              _overridability:
+                parameters:
+                  linkText: 'yes'
+            - _id: 1b60fced-61a7-49af-ac01-ef3a95ff73dd
+              type: footerLink
+              parameters:
+                linkText:
+                  type: text
+                  value: Contact
+              _overridability:
+                parameters:
+                  linkText: 'yes'
+        parameters:
+          groupTitle:
+            type: text
+            value: Support
+        _overridability:
+          parameters:
+            groupTitle: 'yes'
+  _overridability:
+    parameters:
+      companyName: 'yes'
+      description: 'yes'
+      copyrightText: 'yes'
+      newsletterTitle: 'yes'
+      subscribeButtonText: 'yes'
+    hideLockedParameters: true
+created: '2025-08-14T20:08:20.414414+00:00'
+modified: '2025-09-29T18:57:16.472982+00:00'
+pattern: true

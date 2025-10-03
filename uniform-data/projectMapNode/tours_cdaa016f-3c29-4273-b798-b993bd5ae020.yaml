@@ -1,0 +1,9 @@
+id: cdaa016f-3c29-4273-b798-b993bd5ae020
+name: Tours
+order: 500
+path: /tours
+type: composition
+pathSegment: tours
+data: {}
+compositionId: 5a646c91-ca99-4eed-8a3a-bdc8d3fdb890
+projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1

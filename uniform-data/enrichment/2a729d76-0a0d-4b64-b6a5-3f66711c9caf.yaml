@@ -1,0 +1,34 @@
+id: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+name: Interest
+cap: 100
+values:
+  - id: adventure-sports
+    value: adventure-sports
+  - id: archaeology-history
+    value: archaeology-history
+  - id: bird-watching
+    value: bird-watching
+  - id: botanical-gardens
+    value: botanical-gardens
+  - id: climate-change
+    value: climate-change
+  - id: cultural-heritage
+    value: cultural-heritage
+  - id: hiking-trekking
+    value: hiking-trekking
+  - id: local-community
+    value: local-community
+  - id: marine-activities
+    value: marine-activities
+  - id: photography-nature
+    value: photography-nature
+  - id: sustainable-food
+    value: sustainable-food
+  - id: sustainable-transport
+    value: sustainable-transport
+  - id: volunteer-tourism
+    value: volunteer-tourism
+  - id: wellness-mindfulness
+    value: wellness-mindfulness
+  - id: wildlife-conservation
+    value: wildlife-conservation

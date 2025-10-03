@@ -1,0 +1,25 @@
+created: '2025-08-18T19:34:10.529176+00:00'
+modified: '2025-08-18T19:34:10.529176+00:00'
+pattern: false
+entry:
+  _id: b9f8e7d6-c5a4-4b3a-9e2f-7d6c5b4a3928
+  _name: Wellness & Spa
+  _slug: wellness-and-spa
+  type: interest
+  fields:
+    name:
+      type: text
+      value: Wellness & Spa
+    description:
+      type: text
+      value: >-
+        Discover the power of relaxation, health, and rejuvenation with our
+        focus on spa treatments and wellness retreats. Whether you're seeking a
+        peaceful escape, soothing therapies, or a holistic approach to
+        well-being, we invite you to explore eco-friendly spas and sustainable
+        wellness experiences. Join our community to learn about planet-positive
+        self-care, share your favorite wellness tips, and take small steps
+        toward a healthier, more balanced lifestyle—both for yourself and the
+        planet.
+  _overridability:
+    hideLockedParameters: true

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: spacer
+name: Spacer
+icon: minus
+parameters:
+  - id: size
+    name: Size
+    type: select
+    guidance: Vertical spacing size in points
+    typeConfig:
+      options:
+        - text: 8pt
+          value: "8"
+        - text: 12pt
+          value: "12"
+        - text: 16pt
+          value: "16"
+        - text: 20pt
+          value: "20"
+      required: false
+description: Vertical spacing component for layout control
+useTeamPermissions: true
+slots: []
+titleParameter: size
+canBeComposition: false

@@ -1,0 +1,17 @@
+id: tour
+displayName: Tour
+ttl: 30
+path: /single
+custom:
+  proposedName: Tour
+  allowedContentTypes:
+    - tour
+method: GET
+purgeKey: c99fd20b-df41-41cb-a2a7-01f464a366af
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ''
+dataSourceId: ecoquestCursor
+allowedOnComponents: []

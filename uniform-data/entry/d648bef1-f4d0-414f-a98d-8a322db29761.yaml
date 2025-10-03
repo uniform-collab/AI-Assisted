@@ -1,0 +1,48 @@
+created: '2025-08-19T13:09:34.965395+00:00'
+modified: '2025-08-19T13:09:34.965395+00:00'
+pattern: false
+entry:
+  _id: d648bef1-f4d0-414f-a98d-8a322db29761
+  _name: Luxury Travel
+  _slug: luxury-travel
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/V63j4SjtS3-LHW84o79iUw-building-skyscraper.svg
+  type: interest
+  fields:
+    icon:
+      type: asset
+      locales:
+        en:
+          - _id: cc39aefc-60e7-40da-881d-91eafa5a63bf
+            type: image
+            fields:
+              id:
+                type: text
+                value: 44104dd6-efa2-48c9-a1b0-fc4191f0c330
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/V63j4SjtS3-LHW84o79iUw-building-skyscraper.svg
+                type: text
+              file:
+                type: file
+                value: 97fd9dc3-03e1-4f94-8965-742b5862d3c9
+              size:
+                value: 503
+                type: number
+              title:
+                type: text
+                value: building-skyscraper.svg
+              width:
+                value: 24
+                type: number
+              height:
+                value: 24
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+    name:
+      type: text
+      value: Luxury Travel
+

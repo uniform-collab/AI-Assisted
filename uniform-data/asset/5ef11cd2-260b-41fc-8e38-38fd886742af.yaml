@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 5ef11cd2-260b-41fc-8e38-38fd886742af
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: star-dust.png
+    file:
+      type: file
+      value: 1e113ce0-59b9-4d37-8281-00da28a94888
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/bmSoi6wnQxKAPCwsHBTHXA-star-dust.png
+      type: text
+    size:
+      value: 1078
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:41.132895+00:00'
+modified: '2025-08-18T14:28:41.132895+00:00'

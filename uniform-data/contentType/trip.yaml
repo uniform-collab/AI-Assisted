@@ -1,0 +1,49 @@
+id: trip
+name: Trip
+created: '2025-08-18T19:22:26.734294+00:00'
+updated: '2025-08-18T19:22:26.734294+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: startDate
+    name: Start date
+    type: date
+    helpText: ''
+    typeConfig:
+      required: true
+    localizable: false
+  - id: endDate
+    name: End date
+    type: date
+    helpText: ''
+    typeConfig:
+      required: true
+    localizable: false
+  - id: currentPrice
+    name: Current price
+    type: number
+    helpText: ''
+    typeConfig:
+      decimal: false
+  - id: listPrice
+    name: List price
+    type: number
+    helpText: ''
+    typeConfig:
+      decimal: false
+      required: true
+  - id: spacesRemaining
+    name: Spaces remaining
+    type: number
+    helpText: ''
+    typeConfig: null
+entryName: startDate
+description: >-
+  A TRIP is an instance of a TOUR that has specific start and end dates, and may
+  have specific pricing, or an ITINERARY that contains slightly different
+  ACTIVITIES (to allow for seasonality, etc.)
+icon: airplane
+type: block
+permissions: []
+previewConfigurations: []

@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: tourGalleryItem
+name: Tour Gallery Item
+icon: screen
+parameters:
+  - id: tourImage
+    name: Tour Image
+    type: asset
+    guidance: Tour experience image
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: tourName
+    name: Tour Name
+    type: text
+    guidance: Name of the tour experience
+    localizable: true
+  - id: location
+    name: Location
+    type: text
+    guidance: Tour location
+    localizable: true
+  - id: activityType
+    name: Activity Type
+    type: text
+    guidance: Type of activity (e.g., Hiking, Wildlife)
+    localizable: true
+description: Individual tour experience item in the gallery
+useTeamPermissions: true
+slots: []
+titleParameter: tourName
+thumbnailParameter: tourImage
+canBeComposition: false
+created: '2025-08-14T20:06:30.012057+00:00'
+updated: '2025-08-14T20:06:30.012057+00:00'

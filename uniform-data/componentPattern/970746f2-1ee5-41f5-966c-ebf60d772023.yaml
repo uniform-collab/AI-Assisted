@@ -1,0 +1,75 @@
+composition:
+  _name: Feature Card - Tour
+  _id: 970746f2-1ee5-41f5-966c-ebf60d772023
+  type: hero
+  parameters:
+    layout:
+      type: select
+      value: imageLeft
+    eyebrow:
+      type: text
+      value: Featured Tour
+    padding:
+      type: select
+      value: none
+    headline:
+      type: text
+      value: ${#jptr:/Tour Content/entry/_name}
+    description:
+      type: text
+      value: >-
+        ${#jptr:/Tour Content/entry/fields/start/locales/en}-${#jptr:/Tour
+        Content/entry/fields/end/locales/en} | ${#jptr:/Tour
+        Content/entry/fields/duration/value}
+    backgroundImage:
+      type: asset
+      value:
+        - _id: f781e84e-0416-4a84-879d-4ae04ff4d10d
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/Tour Content/entry/_thumbnail}
+          _source: custom-url
+  slots:
+    cta:
+      - _id: 3a03b6c2-d4b7-4627-bd60-ca91e97ec2ff
+        type: button
+        _pattern: f8e2d1c4-9b5a-4e7f-8c3d-2a1b9e6f4d8c
+      - _id: 529f34cc-b28e-4c99-9833-b505c64872d7
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: CTA
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Tour Content:
+      type: tour
+      variables:
+        entryId: 90a7a23c-a25c-49a3-bb37-adb1f14e2492
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overrides:
+    3a03b6c2-d4b7-4627-bd60-ca91e97ec2ff:
+      parameters:
+        text:
+          type: text
+          value: Book Now
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      layout: 'no'
+      eyebrow: 'yes'
+      padding: 'yes'
+      headline: 'yes'
+      buttonText: 'yes'
+      description: 'yes'
+      backgroundColor: 'no'
+      backgroundImage: 'yes'
+      searchPlaceholder: 'yes'
+    hideLockedParameters: true
+created: '2025-08-19T19:46:53.259985+00:00'
+modified: '2025-08-19T19:50:59.13114+00:00'
+pattern: true

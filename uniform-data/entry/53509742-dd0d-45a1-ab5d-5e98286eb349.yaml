@@ -1,0 +1,49 @@
+created: '2025-08-19T13:09:32.023485+00:00'
+modified: '2025-08-19T13:09:32.023485+00:00'
+pattern: false
+entry:
+  _id: 53509742-dd0d-45a1-ab5d-5e98286eb349
+  _name: Golf
+  _slug: golf
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/o8aQa5CcR8uWYyxdNX1RUg-pennant-2.svg
+  type: interest
+  fields:
+    icon:
+      type: asset
+      locales:
+        en:
+          - _id: 6b430a43-ffc9-4fdf-a0f0-4bf1058d654a
+            type: image
+            fields:
+              id:
+                type: text
+                value: d9313931-79f1-4755-8e2a-2ccfce0e8d09
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/o8aQa5CcR8uWYyxdNX1RUg-pennant-2.svg
+                type: text
+              file:
+                type: file
+                value: aec2fb58-b9f5-4d4b-95ac-99e2c0364e6d
+              size:
+                value: 459
+                type: number
+              title:
+                type: text
+                value: pennant-2.svg
+              width:
+                value: 24
+                type: number
+              height:
+                value: 24
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+    name:
+      type: text
+      locales:
+        en: Golf
+

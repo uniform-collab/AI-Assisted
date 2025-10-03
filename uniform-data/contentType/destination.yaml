@@ -1,0 +1,121 @@
+id: destination
+name: Destination
+created: '2025-08-18T14:03:39.899747+00:00'
+updated: '2025-08-19T14:41:00.365015+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+    localizable: true
+  - id: parentDestination
+    name: Parent destination
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      allowedContentTypes:
+        - destination
+  - id: featuredImage
+    name: Featured image
+    type: asset
+    helpText: ''
+    typeConfig: {}
+    localizable: true
+  - id: quickOverview
+    name: Quick Overview
+    type: text
+    typeConfig:
+      multiline: true
+  - id: description
+    name: Description
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+  - id: featuredTours
+    name: Featured tours
+    type: contentReference
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - tour
+  - id: travelerPhotos
+    name: Traveler photos
+    type: asset
+    helpText: ''
+    typeConfig: {}
+    localizable: true
+  - id: visaEntryRequirements
+    name: Visa / Entry Requirements
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+entryName: name
+thumbnailField: featuredImage
+description: A DESTINATION is a geographic location in which a TOUR might occur.
+icon: pin
+type: contentType
+permissions: []
+previewConfigurations:
+  - type: project-map
+    id: 9332a060-735f-4f11-9da5-f112b3ed68e7
+    label: Destination Preview
+    dynamicInputs:
+      locale: ${locale}
+      destination: ${#jptr:/entry/_slug}

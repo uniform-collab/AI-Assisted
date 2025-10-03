@@ -1,0 +1,6 @@
+<svg width="100%" height="120" viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <!-- Decorative bottom border with organic curves -->
+  <path d="M0,0 C200,40 400,80 600,60 C800,40 1000,80 1200,40 L1200,120 L0,120 Z" fill="currentColor" opacity="0.1"/>
+  <path d="M0,20 C300,60 600,40 900,80 C1000,100 1100,60 1200,80 L1200,120 L0,120 Z" fill="currentColor" opacity="0.15"/>
+  <path d="M0,40 C400,80 800,60 1200,100 L1200,120 L0,120 Z" fill="currentColor" opacity="0.2"/>
+</svg>

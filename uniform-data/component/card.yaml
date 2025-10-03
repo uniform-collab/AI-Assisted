@@ -1,0 +1,265 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: card
+name: Card
+icon: card
+parameters:
+  - id: eyebrow
+    name: Eyebrow
+    type: text
+    guidance: Small text above the headline, like a category or tag
+    localizable: true
+  - id: headline
+    name: Headline
+    type: text
+    guidance: Main title for the card
+    typeConfig: null
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    guidance: Card description or summary content
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - table
+          - asset
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+    localizable: true
+  - id: cardUrl
+    name: Card URL
+    type: link
+    guidance: Optional link to make entire card clickable
+  - id: 7ddacec2-ae4b-467e-8a16-7680d6003f0c
+    name: Background
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - backgroundImage
+        - backgroundColor
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: Optional background image for the card
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: backgroundColor
+    name: Background Color
+    type: select
+    guidance: Background color theme for the card
+    typeConfig:
+      options:
+        - text: White
+          value: white
+        - text: Moss Green
+          value: moss
+        - text: Light Gray
+          value: lightGray
+        - text: Terracotta
+          value: terracotta
+        - text: Off White
+          value: offWhite
+        - text: Pine Green
+          value: pine
+        - text: Warm Gray
+          value: warmGray
+        - text: Transparent
+          value: transparent
+  - id: 9755ed16-5164-489b-88a7-bfb4c12ec124
+    name: Styling
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - margin
+        - layout
+        - size
+        - padding
+        - headlineTag
+        - textAlignment
+        - borderRadius
+        - shadow
+  - id: margin
+    name: Margin
+    type: select
+    guidance: Margin around the content container
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Extra Large
+          value: xlarge
+  - id: layout
+    name: Layout
+    type: select
+    guidance: How to arrange image and content
+    typeConfig:
+      options:
+        - text: Vertical (Image Top)
+          value: vertical
+        - text: Horizontal (Image Left)
+          value: horizontal
+        - text: Horizontal (Image Right)
+          value: horizontalRight
+        - text: Overlay (Text Over Image)
+          value: overlay
+  - id: size
+    name: Size
+    type: select
+    guidance: Card size preset
+    typeConfig:
+      options:
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Full Width
+          value: full
+  - id: padding
+    name: Padding
+    type: select
+    guidance: Internal spacing around content
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Extra Large
+          value: xlarge
+  - id: headlineTag
+    name: Headline Tag
+    type: select
+    guidance: HTML tag for the headline (affects SEO and accessibility)
+    typeConfig:
+      options:
+        - text: H1
+          value: h1
+        - text: H2
+          value: h2
+        - text: H3 (Default)
+          value: h3
+        - text: H4
+          value: h4
+        - text: H5
+          value: h5
+        - text: H6
+          value: h6
+  - id: textAlignment
+    name: Text Alignment
+    type: select
+    guidance: How to align text content
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Center
+          value: center
+        - text: Right
+          value: right
+  - id: borderRadius
+    name: Border Radius
+    type: select
+    guidance: Corner rounding style
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Extra Large
+          value: full
+  - id: shadow
+    name: Shadow
+    type: select
+    guidance: Drop shadow intensity
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Extra Large
+          value: xlarge
+categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
+description: >-
+  Flexible card component supporting various layouts, background options, and
+  content arrangements for different design patterns.
+useTeamPermissions: true
+slots:
+  - id: pills
+    name: Pills
+    maxComponents: 5
+    minComponents: 0
+    allowedComponents:
+      - pill
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: content
+    name: Content
+    maxComponents: 10
+    allowedComponents:
+      - card
+      - text
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: cta
+    name: CTA
+    maxComponents: 2
+    allowedComponents:
+      - button
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: headline
+thumbnailParameter: backgroundImage
+canBeComposition: false
+created: '2025-08-20T14:07:46.620732+00:00'
+updated: '2025-08-20T21:24:35.301692+00:00'

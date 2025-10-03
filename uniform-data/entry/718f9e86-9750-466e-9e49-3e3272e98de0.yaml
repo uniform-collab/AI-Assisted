@@ -1,0 +1,24 @@
+created: '2025-08-18T19:34:54.898589+00:00'
+modified: '2025-08-18T19:34:54.898589+00:00'
+pattern: false
+entry:
+  _id: 718f9e86-9750-466e-9e49-3e3272e98de0
+  _name: Road Trips
+  _slug: road-trips
+  type: interest
+  fields:
+    name:
+      type: text
+      value: Road Trips
+    description:
+      type: text
+      value: >-
+        Discover the freedom of exploring new places by car while making
+        planet-positive choices. Whether you're planning a scenic road trip or
+        visiting multiple destinations, we’ll help you travel sustainably. Learn
+        how to reduce your carbon footprint, choose eco-friendly routes, and
+        make every journey a step toward greener living. Join our community to
+        share tips, find inspiration, and make your next adventure both
+        memorable and mindful of the environment.
+  _overridability:
+    hideLockedParameters: true

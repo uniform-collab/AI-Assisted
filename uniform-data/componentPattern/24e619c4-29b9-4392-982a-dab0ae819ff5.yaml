@@ -1,0 +1,25 @@
+composition:
+  _name: Hero with Eyebrow Example
+  _id: 24e619c4-29b9-4392-982a-dab0ae819ff5
+  type: hero
+  parameters:
+    eyebrow:
+      type: text
+      value: DISCOVER THE WORLD
+    headline:
+      type: text
+      value: Sustainable Adventures Await
+    description:
+      type: text
+      value: >-
+        Join us on eco-friendly journeys that protect our planet while creating
+        unforgettable memories.
+  _overridability:
+    parameters:
+      eyebrow: 'yes'
+      headline: 'yes'
+      description: 'yes'
+    hideLockedParameters: true
+created: '2025-08-19T18:59:51.603651+00:00'
+modified: '2025-08-19T18:59:51.603651+00:00'
+pattern: true

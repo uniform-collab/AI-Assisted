@@ -1,0 +1,75 @@
+composition:
+  _name: test
+  _id: b2ad9c43-705f-4c32-a869-be4ebc6149b2
+  _slug: test
+  type: page
+  slots:
+    footer:
+      - _id: 51bcef21-1321-455a-9157-7d04252a857d
+        type: footer
+        _pattern: 45074c59-cda0-4ca5-979f-917d69e6f224
+    header:
+      - _id: 87a34928-a33c-4bf3-b560-01cdd0e5adee
+        type: header
+        _pattern: 81ff5114-1240-444e-bdcc-a3afa2c09597
+    content:
+      - _id: 17190493-a751-4c69-b4f2-d5864f61de7f
+        type: grid
+        slots:
+          gridItems:
+            - _id: 407b272c-40ad-4268-b97c-87f4ffc712fe
+              type: gridItem
+              slots:
+                content:
+                  - _id: 10d10201-0152-4663-8ef7-fd8036b852fa
+                    type: section
+                    slots:
+                      content:
+                        - _id: 297e2a44-25a9-47b1-9bdf-c8760797a7ea
+                          type: text
+                          parameters:
+                            size:
+                              type: select
+                              value: xlarge
+                            text:
+                              type: text
+                              value: Grid Item Content
+                            color:
+                              type: select
+                              value: primary
+                            alignment:
+                              type: select
+                              value: center
+                    parameters:
+                      layout:
+                        type: select
+                        value: fullBackground
+                      headline:
+                        type: text
+                        value: Section with Green in a Grid Item
+                      backgroundColor:
+                        type: select
+                        value: moss
+              parameters:
+                columnSpan:
+                  type: number
+                  value: '3'
+                columnStart:
+                  type: number
+                  value: '1'
+                backgroundColor:
+                  type: select
+                  value: moss
+        parameters:
+          name:
+            type: text
+            value: Test
+          title:
+            type: text
+            value: Grid
+          columns:
+            type: select
+            value: '4'
+created: '2025-08-18T19:53:49.919291+00:00'
+modified: '2025-08-21T13:18:59.131473+00:00'
+pattern: false

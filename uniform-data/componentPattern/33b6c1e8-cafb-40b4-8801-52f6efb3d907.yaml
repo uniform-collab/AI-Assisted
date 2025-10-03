@@ -1,0 +1,99 @@
+composition:
+  _name: Destinations
+  _id: 33b6c1e8-cafb-40b4-8801-52f6efb3d907
+  type: destinationShowcase
+  parameters:
+    title:
+      type: text
+      value: Explore Amazing Destinations
+    padding:
+      type: select
+      value: none
+    subtitle:
+      type: text
+      value: Discover sustainable travel experiences around the world
+  slots:
+    destinationItems:
+      - _id: 6e11208f-e084-42bc-baad-69f4acb3c490
+        type: grid
+        slots:
+          gridItems:
+            - _id: 32a99cf8-1278-4e88-8d37-2348946a3291
+              type: $loop
+              slots:
+                body:
+                  - _id: d3a420e4-2dcc-4e20-bc17-a1e001704a6c
+                    type: destinationItem
+                    parameters:
+                      description:
+                        type: text
+                        value: >-
+                          ${#jptr:/Destinations Content entries Loop
+                          Item/entry/fields/quickOverview/value}
+                      destinationName:
+                        type: text
+                        value: >-
+                          ${#jptr:/Destinations Content entries Loop
+                          Item/entry/fields/name/value}
+                      destinationImage:
+                        type: asset
+                        value:
+                          - _id: a595eb32-dc97-4f64-a863-bc3453c84960
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  ${#jptr:/Destinations Content entries Loop
+                                  Item/entry/_thumbnail}
+                            _source: custom-url
+                    _overridability:
+                      parameters:
+                        country: 'yes'
+                        description: 'yes'
+                        destinationName: 'yes'
+              _dataResources:
+                Destinations Content entries Loop Item:
+                  type: sys-reserved-loop
+                  variables:
+                    connectedData: '#jptr:/Destinations Content/entries:fa=c'
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: select
+            value: small
+          columns:
+            type: select
+            value: '3'
+          padding:
+            type: select
+            value: small
+        _overridability:
+          parameters:
+            gap: 'yes'
+            $viz: 'yes'
+            title: 'yes'
+            columns: 'yes'
+            padding: 'yes'
+            subtitle: 'yes'
+          hideLockedParameters: true
+  _dataResources:
+    Destinations Content:
+      type: destinations
+      variables:
+        search: ''
+        filters: '{"type[eq]":"destination"}'
+        contentTypes: destination
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      title: 'yes'
+      padding: 'yes'
+      subtitle: 'yes'
+    hideLockedParameters: true
+created: '2025-08-18T14:21:11.545138+00:00'
+modified: '2025-08-18T15:48:28.920893+00:00'
+pattern: true

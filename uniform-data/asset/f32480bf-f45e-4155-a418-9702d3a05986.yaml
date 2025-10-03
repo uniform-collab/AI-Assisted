@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f32480bf-f45e-4155-a418-9702d3a05986
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: GR-SAMY-pexels-olga-helmel.jpg
+    file:
+      type: file
+      value: 2a2d12e4-5501-4066-bb2b-fce1a479b613
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/ZC2uhb-7RAuFizRF2ran1Q-GR-SAMY-pexels-olga-helmel.jpg
+      type: text
+    size:
+      value: 1247072
+      type: number
+    width:
+      value: 4536
+      type: number
+    height:
+      value: 8064
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:22.720254+00:00'
+modified: '2025-08-18T14:28:22.720254+00:00'

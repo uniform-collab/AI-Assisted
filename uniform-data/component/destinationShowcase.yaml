@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: destinationShowcase
+name: Destination Showcase
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main title for the destination showcase
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Supporting subtitle or description
+    localizable: true
+  - id: padding
+    name: Padding
+    type: select
+    guidance: Vertical padding around the destination showcase section
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small (2rem)
+          value: small
+        - text: Medium (3rem)
+          value: medium
+        - text: Large (4rem)
+          value: large
+        - text: Extra Large (6rem)
+          value: xlarge
+      required: false
+description: Section showcasing travel destinations with featured images
+useTeamPermissions: true
+slots:
+  - id: destinationItems
+    name: Destination Items
+    maxComponents: 8
+    allowedComponents:
+      - destinationItem
+      - $loop
+      - grid
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-08-14T20:05:59.586641+00:00'
+updated: '2025-08-18T15:07:25.306596+00:00'

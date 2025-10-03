@@ -1,0 +1,32 @@
+asset:
+  type: image
+  _id: d4dc4b65-229f-42f8-b66e-6837544a366b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: >-
+        Smart gadgets can make travel smoother, lighter, and more connected.
+        Photo by Canva
+    file:
+      type: file
+      value: 505c52c5-486f-4474-950d-920c0967a816
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/CCYkIAagTYCo9jZP3Lyo9g-Travel-Tech-768x512.jpg
+      type: text
+    size:
+      value: 59005
+      type: number
+    width:
+      value: 768
+      type: number
+    height:
+      value: 512
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:49.41817+00:00'
+modified: '2025-08-18T14:28:49.41817+00:00'

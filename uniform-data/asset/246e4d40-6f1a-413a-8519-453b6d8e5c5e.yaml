@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 246e4d40-6f1a-413a-8519-453b6d8e5c5e
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: AF-CTVF-dmitry-lee-m8QyTjxOJd0-unsplash.jpg
+    file:
+      type: file
+      value: 05e5d162-4f53-418c-8a03-b1363ea4a6d4
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/zqbvP3xoSvayMYtFxOHBxw-AF-CTVF-dmitry-lee-m8QyTjxOJd0-unsplash.jpg
+      type: text
+    size:
+      value: 1758409
+      type: number
+    width:
+      value: 2542
+      type: number
+    height:
+      value: 3806
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:32.562554+00:00'
+modified: '2025-08-18T14:28:32.562554+00:00'

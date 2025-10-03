@@ -1,0 +1,608 @@
+created: '2025-08-19T13:09:39.973409+00:00'
+modified: '2025-08-19T13:09:39.973409+00:00'
+pattern: false
+entry:
+  _id: 2b58ac44-d28e-4a8e-8cea-e8097fa90204
+  _name: South Africa Adventure
+  _slug: cape-town-to-victoria-falls
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/IoXJXnlZT2C1hauIRd2KRw-cape-town-table-mountain-brent-ninaber-L6EP96_w1Fc-unsplash.jpg
+  type: tour
+  fields:
+    end:
+      type: text
+      value: Victoria Falls
+    name:
+      type: text
+      value: South Africa Adventure
+    start:
+      type: text
+      value: Cape Town
+    duration:
+      type: text
+      value: 14 days
+    tourCode:
+      type: text
+      value: AF-CTVF
+    tourType:
+      type: multi-select
+      value:
+        - Small group
+    itinerary:
+      type: $block
+      value:
+        - _id: 2d79c212-c0d8-433c-8a35-fc4047b40d15
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 1
+            title:
+              type: text
+              value: Cape Town, South Africa
+            description:
+              type: text
+              value: >-
+                Arrive in Cape Town and enjoy a welcome dinner. Begin your
+                journey with an exploration of the city’s cultural highlights,
+                including Table Mountain, the V&A Waterfront, and Bo-Kaap.
+        - _id: 11b4bcb0-bea9-484d-9a7d-bdb79ead9ff3
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 2
+            title:
+              type: text
+              value: Cape Town - Cape Peninsula
+            description:
+              type: text
+              value: >-
+                Take a scenic drive along the Cape Peninsula to visit Cape
+                Point, the Cape of Good Hope, and the charming town of Simon’s
+                Town, home to a colony of African penguins.
+        - _id: ce379165-5b1b-43a8-a6fd-f2c1fc5462be
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 3
+            title:
+              type: text
+              value: Cape Town - Winelands
+            description:
+              type: text
+              value: >-
+                Visit the beautiful Cape Winelands for a day of wine tasting in
+                Stellenbosch and Franschhoek, surrounded by stunning mountain
+                and vineyard scenery.
+        - _id: ee96bab0-05bb-48f3-9f2e-6547f803112f
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 4
+            title:
+              type: text
+              value: Cape Town to Namibia - Fish River Canyon
+            description:
+              type: text
+              value: >-
+                Fly to Namibia and head to Fish River Canyon, the world’s
+                second-largest canyon. Take in the dramatic views on a canyon
+                rim walk before a relaxing evening.
+        - _id: 96c2ac6a-99bc-4bce-9cbf-f57b53503768
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 5
+            title:
+              type: text
+              value: Namib Desert - Sossusvlei
+            description:
+              type: text
+              value: >-
+                Explore the towering red dunes of Sossusvlei and the stark
+                beauty of Deadvlei. Climb some of the world’s highest dunes for
+                panoramic desert vistas.
+        - _id: 4e8af419-6377-41a0-b282-aad0844e02b3
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 6
+            title:
+              type: text
+              value: Namib Desert - Swakopmund
+            description:
+              type: text
+              value: >-
+                Drive to Swakopmund, a coastal town with German colonial
+                architecture. Enjoy optional activities like quad biking,
+                sandboarding, or a dolphin cruise in Walvis Bay.
+        - _id: 2690c310-6a1b-4887-8272-f3fe72aaec80
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 7
+            title:
+              type: text
+              value: Damaraland - Twyfelfontein
+            description:
+              type: text
+              value: >-
+                Journey through Damaraland to Twyfelfontein, home to ancient
+                rock engravings. Visit the Petrified Forest and the Organ Pipes
+                rock formations.
+        - _id: ea40c595-ad60-4653-b0ad-f8f399ac29fe
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Days 8-9
+            title:
+              type: text
+              value: Etosha National Park
+            description:
+              type: text
+              value: >-
+                Arrive in Etosha for a wildlife safari. Spend the day tracking
+                elephants, lions, and rhinos in one of Africa’s premier wildlife
+                reserves. Spend the second day watching game drives, witnessing
+                the park’s diverse wildlife at waterholes, and experiencing the
+                vast salt pan.
+        - _id: a62a3b77-02fc-4dc8-91c9-8a7f02d49445
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 10-11
+            title:
+              type: text
+              value: Botswana - Okavango Delta
+            description:
+              type: text
+              value: >-
+                Cross into Botswana and fly to the Okavango Delta, a lush
+                waterway teeming with wildlife. Enjoy a boat cruise or mokoro
+                (canoe) safari through the tranquil delta channels. Explore the
+                delta with guided bush walks and boat safaris, encountering
+                hippos, crocodiles, and diverse birdlife.
+        - _id: d7bcdbbe-a824-4fc8-8a6e-91a83b7c7ebf
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 12-13
+            title:
+              type: text
+              value: Chobe National Park, Botswana
+            description:
+              type: text
+              value: >+
+                Travel to Chobe, famous for its large elephant herds. Take a
+                sunset boat cruise on the Chobe River for incredible wildlife
+                sightings, including elephants, buffalo, and crocodiles. On the
+                following day, enjoy a morning game drive in Chobe, followed by
+                an afternoon of relaxation at your lodge. Watch animals gather
+                at the river as the sun sets.
+
+
+        - _id: 31369f79-c4a7-4ace-a3b8-10259913c3a5
+          type: itineraryDay
+          fields:
+            name:
+              type: text
+              value: Day 14
+            title:
+              type: text
+              value: Victoria Falls, Zimbabwe
+            description:
+              type: text
+              value: >-
+                End your journey at Victoria Falls, one of the Seven Natural
+                Wonders of the World. Marvel at the thundering falls and take
+                part in optional activities like a helicopter ride or a walk
+                along the Knife-Edge Bridge. Conclude with a farewell dinner.
+    description:
+      type: text
+      value: >
+        Embark on an unforgettable 14-day adventure from Cape Town to Victoria
+        Falls, exploring the natural wonders and vibrant cultures of Southern
+        Africa. From the iconic Table Mountain and the dramatic landscapes of
+        Namibia’s desert dunes to the lush Okavango Delta and the majestic
+        Victoria Falls, this journey offers a unique blend of wildlife, history,
+        and breathtaking scenery. Discover Africa’s untamed beauty through
+        safaris, scenic hikes, and rich cultural experiences, culminating in a
+        visit to one of the world’s most awe-inspiring waterfalls.
+    destination:
+      type: contentReference
+      value: ${#jptr:/ref-2b58ac44-d28e-4a8e-8cea-e8097fa90204-destination/entries/0}
+    travelStyle:
+      type: multi-select
+      value:
+        - Active
+    serviceLevel:
+      type: select
+      value: Standard
+    featuredImage:
+      type: asset
+      value:
+        - _id: 4cfa30bd-d05c-4a54-8ddc-e01e0db168ba
+          type: image
+          fields:
+            id:
+              type: text
+              value: af17d4f3-2073-464d-9f41-8840a9449e67
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/IoXJXnlZT2C1hauIRd2KRw-cape-town-table-mountain-brent-ninaber-L6EP96_w1Fc-unsplash.jpg
+              type: text
+            file:
+              type: file
+              value: 99593401-7487-48e5-8732-8d313ee53900
+            size:
+              value: 2155265
+              type: number
+            title:
+              type: text
+              value: cape-town-table-mountain-brent-ninaber-L6EP96_w1Fc-unsplash.jpg
+            width:
+              value: 4800
+              type: number
+            height:
+              value: 2700
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.48
+                'y': 0.54
+              type: focalPoint
+          _source: uniform-assets
+    physicalRating:
+      type: select
+      value: 2 - Light
+    travelerPhotos:
+      type: asset
+      locales:
+        en:
+          - _id: 8807aa12-11b8-4eef-9b96-d3f096430090
+            type: image
+            fields:
+              id:
+                type: text
+                value: 05ad6729-4c34-4b48-b0e6-437911c1e306
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/WijznyhkQXuXyBeevL1-Gw-AF-CTVF-alex-teixeira-_oRoy5BzT5s-unsplash.jpg
+                type: text
+              file:
+                type: file
+                value: 400be61d-5b1d-4764-b0d2-fb2075b740db
+              size:
+                value: 3760846
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-alex-teixeira-_oRoy5BzT5s-unsplash.jpg
+              width:
+                value: 4032
+                type: number
+              height:
+                value: 3024
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: b187b7c0-0ce4-4bbf-89d7-63bdea457b93
+            type: image
+            fields:
+              id:
+                type: text
+                value: 246e4d40-6f1a-413a-8519-453b6d8e5c5e
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/zqbvP3xoSvayMYtFxOHBxw-AF-CTVF-dmitry-lee-m8QyTjxOJd0-unsplash.jpg
+                type: text
+              file:
+                type: file
+                value: 05e5d162-4f53-418c-8a03-b1363ea4a6d4
+              size:
+                value: 1758409
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-dmitry-lee-m8QyTjxOJd0-unsplash.jpg
+              width:
+                value: 2542
+                type: number
+              height:
+                value: 3806
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 0bb816dc-0d2a-4f0d-887f-ef134272a0d9
+            type: image
+            fields:
+              id:
+                type: text
+                value: 396c2683-fa77-4ece-a93a-fd1de491df24
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/6OZ8m1GISNKpZ8EBY0wAkg-AF-CTVF-pexels-keeper-20260526.jpg
+                type: text
+              file:
+                type: file
+                value: ea4cb7e9-8331-466d-b49b-194cf8e0517e
+              size:
+                value: 814287
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-pexels-keeper-20260526.jpg
+              width:
+                value: 2982
+                type: number
+              height:
+                value: 3110
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: c7fab243-f0fa-4f20-86b6-daf876bf3ba4
+            type: image
+            fields:
+              id:
+                type: text
+                value: 5b013d8d-8d55-468a-a4c1-9c6eab993591
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/iU7OhMQOSVWRKlTngMobbA-AF-CTVF-pexels-travel-with-lenses-734723610-26058054.jpg
+                type: text
+              file:
+                type: file
+                value: 555698da-87bf-4ada-82a8-3d1678673b2f
+              size:
+                value: 5105044
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-pexels-travel-with-lenses-734723610-26058054.jpg
+              width:
+                value: 5688
+                type: number
+              height:
+                value: 3792
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: dff674d6-fd32-465b-81db-d8928c0e846e
+            type: image
+            fields:
+              id:
+                type: text
+                value: 5c4710c0-a45a-4921-b18f-dbe043ddce38
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/8hBfyKriSsuYDJCrnSLwXQ-AF-CTVF-pexels-joolsmagools-27785865.jpg
+                type: text
+              file:
+                type: file
+                value: 04fbf87f-5542-454e-8632-a0b6c4e960dd
+              size:
+                value: 1737233
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-pexels-joolsmagools-27785865.jpg
+              width:
+                value: 3522
+                type: number
+              height:
+                value: 2845
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 6cbcd621-9dc1-42a2-aeda-9e5893f59a18
+            type: image
+            fields:
+              id:
+                type: text
+                value: 7a4dc7c6-aa6c-4231-b8ec-81ef6110cd3e
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/vEifIZOcSFOWWXH2MMhM8A-AF-CTVF-pexels-photations-25650559.jpg
+                type: text
+              file:
+                type: file
+                value: c44a4918-2cfc-4047-bd6f-0d8b352ee95a
+              size:
+                value: 934742
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-pexels-photations-25650559.jpg
+              width:
+                value: 3888
+                type: number
+              height:
+                value: 2592
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 08e509fa-d94c-44e7-ae98-af4471ecd871
+            type: image
+            fields:
+              id:
+                type: text
+                value: 84cdc352-f247-40e1-9c33-a6038f135e92
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/dsScXUCXSSuTCO5bSsUGdg-AF-CTVF-pexels-edward-mcallen-1385284-31437605.jpg
+                type: text
+              file:
+                type: file
+                value: 44136113-2544-4fe4-a932-1e6eb9ea99cd
+              size:
+                value: 932054
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-pexels-edward-mcallen-1385284-31437605.jpg
+              width:
+                value: 2570
+                type: number
+              height:
+                value: 3427
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 96602729-091f-4697-b159-20d600dfd20f
+            type: image
+            fields:
+              id:
+                type: text
+                value: a816a48b-8dec-4a2a-b435-9f5b0f079cfd
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/zxxkQ4DBRDedvw7TVM3goQ-AF-CTVF-pexels-frans-van-heerden-201846-3625010.jpg
+                type: text
+              file:
+                type: file
+                value: 2304f853-0103-4052-8102-49514e270f07
+              size:
+                value: 1951339
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-pexels-frans-van-heerden-201846-3625010.jpg
+              width:
+                value: 5568
+                type: number
+              height:
+                value: 3712
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 453143ed-f450-445a-ac5f-701e10433357
+            type: image
+            fields:
+              id:
+                type: text
+                value: c39988a1-e1a6-4b77-ac4c-b3bc976b648a
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/lvY8UbjTT9atc3oiReIR6A-AF-CTVF-pexels-taryn-elliott-4540494.jpg
+                type: text
+              file:
+                type: file
+                value: 347c34ff-843a-4980-a9dc-0dd1f0a092ef
+              size:
+                value: 1246683
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-pexels-taryn-elliott-4540494.jpg
+              width:
+                value: 4000
+                type: number
+              height:
+                value: 6000
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: 3e411818-5679-43c2-8f2d-9f6a8ddf5bf9
+            type: image
+            fields:
+              id:
+                type: text
+                value: c84eb0f3-eeb6-46c7-b468-a99d1a5c7864
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/Zev0FK9eRRm1_nzyXTQJ1A-AF-CTVF-pexels-athraa-voterson-1922239912-32402432.jpg
+                type: text
+              file:
+                type: file
+                value: 50e22bcb-49ef-4e64-bdfb-df0eac6f3651
+              size:
+                value: 2723730
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-pexels-athraa-voterson-1922239912-32402432.jpg
+              width:
+                value: 3072
+                type: number
+              height:
+                value: 4096
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+          - _id: f6ed1abc-f202-44b5-9284-ed1e5f0aadf2
+            type: image
+            fields:
+              id:
+                type: text
+                value: 2bec766b-0283-42fb-b71c-b533ac1c7a45
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/sz4kjzTIRe60kmtW_ICUSQ-AF-CTVF-yohannes-minas-MLagkKCpmlw-unsplash.jpg
+                type: text
+              file:
+                type: file
+                value: 429a49d4-4e63-4534-bdc6-1edf544f06da
+              size:
+                value: 3597714
+                type: number
+              title:
+                type: text
+                value: AF-CTVF-yohannes-minas-MLagkKCpmlw-unsplash.jpg
+              width:
+                value: 3024
+                type: number
+              height:
+                value: 4032
+                type: number
+              mediaType:
+                value: image/jpeg
+                type: text
+            _source: uniform-assets
+    relatedInterests:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-2b58ac44-d28e-4a8e-8cea-e8097fa90204-relatedInterests/entries}
+  _dataResources:
+    ref-2b58ac44-d28e-4a8e-8cea-e8097fa90204-destination:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 9cddec62-0008-4803-8550-c35f9f16773b
+    ref-2b58ac44-d28e-4a8e-8cea-e8097fa90204-relatedInterests:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          79acb3ef-4a6a-41cb-80f5-0185982aadc5,b1e42881-42de-477a-95f3-202e9f183592
+

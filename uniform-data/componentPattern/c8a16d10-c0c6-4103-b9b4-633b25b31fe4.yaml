@@ -1,0 +1,49 @@
+composition:
+  _name: EcoQuest Hero
+  _id: c8a16d10-c0c6-4103-b9b4-633b25b31fe4
+  type: hero
+  parameters:
+    layout:
+      type: select
+      value: fullBackground
+    padding:
+      type: select
+      value: medium
+    headline:
+      type: text
+      value: Discover the World Responsibly with EcoQuest
+    description:
+      type: text
+      value: >-
+        Join us for unforgettable adventures that protect and preserve our
+        planet's natural wonders while creating memories that last a lifetime.
+    backgroundColor:
+      type: select
+      value: moss
+  slots:
+    cta:
+      - _id: 529f34cc-b28e-4c99-9833-b505c64872d7
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: CTA
+        _overridability:
+          hideLockedParameters: true
+  _dataResources: {}
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      layout: 'yes'
+      eyebrow: 'yes'
+      padding: 'yes'
+      headline: 'yes'
+      buttonText: 'yes'
+      description: 'yes'
+      backgroundColor: 'yes'
+      backgroundImage: 'yes'
+      searchPlaceholder: 'yes'
+    hideLockedParameters: true
+created: '2025-08-14T20:07:22.538479+00:00'
+modified: '2025-08-19T19:47:19.546049+00:00'
+pattern: true

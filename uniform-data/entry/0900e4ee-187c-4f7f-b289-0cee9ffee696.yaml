@@ -1,0 +1,23 @@
+created: '2025-08-18T19:35:05.531464+00:00'
+modified: '2025-08-18T19:35:05.531464+00:00'
+pattern: false
+entry:
+  _id: 0900e4ee-187c-4f7f-b289-0cee9ffee696
+  _name: Art & Architecture
+  _slug: art-and-architecture
+  type: interest
+  fields:
+    name:
+      type: text
+      value: Art & Architecture
+    description:
+      type: text
+      value: >-
+        Discover the world of visual arts, from inspiring galleries to
+        breathtaking iconic buildings. Whether you’re drawn to classic
+        masterpieces or modern architecture, you’ll find endless opportunities
+        to explore creativity and culture. Join us as we celebrate art in all
+        its forms and learn how these spaces shape our communities and inspire
+        positive change.
+  _overridability:
+    hideLockedParameters: true

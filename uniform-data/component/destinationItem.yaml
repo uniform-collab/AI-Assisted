@@ -1,0 +1,48 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: destinationItem
+name: Destination Item
+icon: screen
+parameters:
+  - id: destinationName
+    name: Destination Name
+    type: text
+    guidance: Name of the destination
+    localizable: true
+  - id: destinationImage
+    name: Destination Image
+    type: asset
+    guidance: Featured destination image
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: description
+    name: Description
+    type: text
+    guidance: Brief description of the destination
+    localizable: true
+  - id: country
+    name: Country
+    type: text
+    guidance: Country where destination is located
+    localizable: true
+  - id: destinationUrl
+    name: Destination URL
+    type: link
+    guidance: Link to destination details
+description: Individual destination with image and details
+useTeamPermissions: true
+slots:
+  - id: cta
+    name: Call to Action
+    maxComponents: 1
+    allowedComponents:
+      - button
+      - link
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: destinationName
+thumbnailParameter: destinationImage
+canBeComposition: false
+created: '2025-08-14T20:06:06.09509+00:00'
+updated: '2025-08-18T14:35:49.94681+00:00'

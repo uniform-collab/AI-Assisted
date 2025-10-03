@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: e12cde22-0e77-40ff-a5f0-95d44255c952
+  _name: france-chris-karidis-nnzkZNYWHaU-unsplash.jpg
+  fields:
+    title:
+      type: text
+      value: france-chris-karidis-nnzkZNYWHaU-unsplash.jpg
+    file:
+      type: file
+      value: 3b875c34-ed0b-4c10-a639-40cbb0797605
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/wh2HSA9nRa6GG-y6Cphxdg-france-chris-karidis-nnzkZNYWHaU-unsplash.jpg
+      type: text
+    size:
+      value: 1964216
+      type: number
+    width:
+      value: 5309
+      type: number
+    height:
+      value: 3530
+      type: number
+    focalPoint:
+      value:
+        x: 0.63
+        'y': 0.57
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:53.796096+00:00'
+modified: '2025-08-18T14:28:53.796096+00:00'

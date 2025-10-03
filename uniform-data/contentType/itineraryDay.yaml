@@ -1,0 +1,51 @@
+id: itineraryDay
+name: Itinerary Day
+created: '2025-08-18T19:22:26.023481+00:00'
+updated: '2025-08-18T19:22:26.023481+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+    localizable: true
+  - id: title
+    name: Title
+    type: text
+    helpText: E.g. Quito/Puerto Ayora
+    typeConfig:
+      required: true
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+    localizable: true
+  - id: activities
+    name: Activities
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      min: 1
+      isMulti: true
+      allowedContentTypes:
+        - activity
+    localizable: false
+entryName: name
+description: >-
+  An ITINERARY DAY is a unit of an ITINERARY on a TRIP. It usually reflects a
+  single calendar day. It contains the ACTIVITIES that will occur on that day.
+
+
+  An ITINERARY DAY is a local object to an ITINERARY, and is not reused, so it
+  is managed as a Block on ITINERARY.
+icon: calendar-today
+type: block
+permissions: []
+previewConfigurations: []

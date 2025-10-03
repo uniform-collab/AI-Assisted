@@ -1,0 +1,141 @@
+created: '2025-08-18T19:31:26.570254+00:00'
+modified: '2025-08-20T15:07:37.769113+00:00'
+pattern: false
+entry:
+  _id: 2f8a5b1c-9d3e-4f7a-8c6b-5e2a1f9d8c7b
+  _name: Outback Adventure
+  _slug: outback-adventure
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/DxCIJJt_QPOI5G-A1194ew-australia-ondrej-machart-WEtXkeIlMoM-unsplash.jpg
+  type: tour
+  fields:
+    end:
+      type: text
+      value: Alice Springs
+    name:
+      type: text
+      value: Outback Adventure
+    start:
+      type: text
+      value: Alice Springs
+    duration:
+      type: text
+      value: 10 days
+    tourCode:
+      type: text
+      value: OUTBACK-ADV-10
+    tourType:
+      type: multi-select
+      value:
+        - Small group
+        - Mini adventure
+    description:
+      type: text
+      value: >-
+        Discover the heart of Australia with our 10-day Outback Adventure—a
+        journey designed for eco-friendly explorers and nature lovers. Together,
+        we’ll camp under star-filled skies, travel by 4WD across red desert
+        tracks, and connect with the land through hands-on activities that
+        celebrate Australia’s unique environment and heritage.
+
+
+        What You’ll Experience:
+
+        • Camp in swags beneath the Southern Cross, embracing low-impact,
+        planet-positive living
+
+        • Explore remote trails by 4WD, bushwalk through ancient gorges, and
+        spot native wildlife in their natural habitat
+
+        • Try rock climbing, abseiling, mountain biking, and canoeing—all with a
+        focus on safety and sustainability
+
+        • Learn about Aboriginal culture, local ecology, and ways to reduce your
+        environmental footprint
+
+
+        Your 10-Day Itinerary:
+
+        Day 1: Arrive in Alice Springs, meet your group, and hike the West
+        MacDonnell Ranges
+
+        Day 2: Spot rock wallabies at Simpsons Gap, bushwalk, and set up camp
+        together
+
+        Day 3: Hike and swim at Ormiston Gorge, then stargaze and share stories
+
+        Day 4: 4WD to Glen Helen, visit Aboriginal sites, and cook over a
+        campfire
+
+        Day 5: Take on the Kings Canyon rim walk, try abseiling, and camp in the
+        wilderness
+
+        Day 6: Experience a sunrise camel trek at Uluru, hike Kata Tjuta, and
+        enjoy a cultural sunset
+
+        Day 7: Cross the desert by 4WD to Curtin Springs, visit a working cattle
+        station
+
+        Day 8: Ride mountain bikes in the Great Western Woodlands, track
+        wildlife, and learn bush skills
+
+        Day 9: Explore Finke Gorge’s Palm Valley, discover rare plants, and
+        cross rivers
+
+        Day 10: Return to Alice Springs, walk the historic Telegraph Station,
+        and reflect on your journey
+
+
+        Join us for an adventure that’s as much about community and learning as
+        it is about excitement. Every step you take helps protect Australia’s
+        wild places and supports local communities. Let’s make a positive
+        impact—together!
+    travelStyle:
+      type: multi-select
+      value:
+        - Active
+    serviceLevel:
+      type: select
+      value: Rustic
+    featuredImage:
+      type: asset
+      value:
+        - _id: 32c18453-0b92-48e5-b13d-217b7248aab6
+          type: image
+          fields:
+            id:
+              type: text
+              value: 467fcc23-ed21-4a26-a44f-8a9dfaa97669
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/DxCIJJt_QPOI5G-A1194ew-australia-ondrej-machart-WEtXkeIlMoM-unsplash.jpg
+              type: text
+            file:
+              type: file
+              value: edd947ff-9f93-4cdb-97f2-60e160731141
+            size:
+              value: 3327593
+              type: number
+            title:
+              type: text
+              value: australia-ondrej-machart-WEtXkeIlMoM-unsplash.jpg
+            width:
+              value: 5098
+              type: number
+            height:
+              value: 3399
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.53
+                'y': 0.81
+              type: focalPoint
+          _source: uniform-assets
+    physicalRating:
+      type: select
+      value: 4 - Demanding
+  _overridability:
+    hideLockedParameters: true

@@ -1,0 +1,441 @@
+@import "tailwindcss";
+
+:root {
+  /* EcoQuest Brand Colors */
+  --primary: #1E3F3F; /* Deep teal */
+  --secondary: #B85B14; /* Warm orange */
+  --accent: #F4C4A6; /* Light peach */
+  --neutral: #B8B1A8; /* Warm grey */
+  --success: #7EA686; /* Sage green */
+  --eq-tomato: #DE4300; /* EQ Tomato for eyebrow text */
+  --background: #ffffff;
+  --foreground: #171717;
+  --card-background: #ffffff;
+  --card-border: rgba(30, 63, 63, 0.1);
+  
+  /* Regular text colors */
+  --regular-text-white: #ffffff;
+  --regular-text-dark: #2C2C2C;
+  
+  /* Muted colors */
+  --muted-olive-text-white: #ffffff;
+  --muted-olive-text-dark: #8A8A8A;
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-neutral: var(--neutral);
+  --color-success: var(--success);
+  --color-eq-tomato: var(--eq-tomato);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card-background: var(--card-background);
+  --color-card-border: var(--card-border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --card-background: #1a1a1a;
+    --card-border: rgba(248, 248, 248, 0.1);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+}
+
+/* Responsive headline that adjusts to container width */
+.responsive-headline {
+  /* Force single line with no wrapping */
+  white-space: nowrap;
+  overflow: hidden;
+  
+  /* Container query setup */
+  container-type: inline-size;
+  
+  /* Ensure full width usage */
+  width: 100%;
+  max-width: 100%;
+  
+  /* Base line height for all headings */
+  line-height: 1.2;
+}
+
+/* H1 responsive sizing - 64px */
+.responsive-headline h1,
+h1.responsive-headline {
+  font-size: clamp(2rem, 8cqw, 4rem);
+}
+
+/* H2 responsive sizing - 48px */
+.responsive-headline h2,
+h2.responsive-headline {
+  font-size: clamp(1.5rem, 6cqw, 3rem);
+}
+
+/* H3 responsive sizing - 30px */
+.responsive-headline h3,
+h3.responsive-headline {
+  font-size: clamp(1.125rem, 4cqw, 1.875rem);
+}
+
+/* H4 responsive sizing - 26px */
+.responsive-headline h4,
+h4.responsive-headline {
+  font-size: clamp(1rem, 3.5cqw, 1.625rem);
+}
+
+/* H5 responsive sizing - 20px */
+.responsive-headline h5,
+h5.responsive-headline {
+  font-size: clamp(0.875rem, 3cqw, 1.25rem);
+}
+
+/* H6 responsive sizing - 18px */
+.responsive-headline h6,
+h6.responsive-headline {
+  font-size: clamp(0.75rem, 2.5cqw, 1.125rem);
+}
+
+/* Container query adjustments for very small containers */
+@container (max-width: 200px) {
+  h1.responsive-headline { font-size: 2rem; }    /* 32px minimum for H1 */
+  h2.responsive-headline { font-size: 1.5rem; }  /* 24px minimum for H2 */
+  h3.responsive-headline { font-size: 1.125rem; } /* 18px minimum for H3 */
+  h4.responsive-headline { font-size: 1rem; }    /* 16px minimum for H4 */
+  h5.responsive-headline { font-size: 0.875rem; } /* 14px minimum for H5 */
+  h6.responsive-headline { font-size: 0.75rem; }  /* 12px minimum for H6 */
+}
+
+/* Container query adjustments for larger containers */
+@container (min-width: 400px) {
+  h1.responsive-headline { font-size: 4rem; }     /* 64px target for H1 */
+  h2.responsive-headline { font-size: 3rem; }     /* 48px target for H2 */
+  h3.responsive-headline { font-size: 1.875rem; } /* 30px target for H3 */
+  h4.responsive-headline { font-size: 1.625rem; } /* 26px target for H4 */
+  h5.responsive-headline { font-size: 1.25rem; }  /* 20px target for H5 */
+  h6.responsive-headline { font-size: 1.125rem; } /* 18px target for H6 */
+}
+
+
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom button styles */
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #2A5555;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #D66A1B;
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* Card styles */
+.card {
+  background: var(--card-background);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Hero section styles */
+.hero-overlay {
+  background: linear-gradient(
+    135deg,
+    rgba(30, 63, 63, 0.8) 0%,
+    rgba(126, 166, 134, 0.6) 50%,
+    rgba(184, 91, 20, 0.3) 100%
+  );
+}
+
+/* Section spacing */
+.section-padding {
+  padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+}
+
+/* Responsive text */
+.text-responsive-xl {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.text-responsive-lg {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+/* EcoQuest Top Border Decoration - Single Large Wave (Left to Right) */
+.eq-box-bg-top {
+  position: relative;
+  height: 12px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.eq-box-bg-top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background: white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 33%, 95% 66%, 85% 100%, 75% 66%, 65% 33%, 55% 66%, 45% 100%, 35% 66%, 25% 33%, 15% 66%, 5% 100%, 0% 66%);
+}
+
+/* Alternative solid color versions with wavy pattern */
+.eq-box-bg-top-moss {
+  position: relative;
+  height: 12px;
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.eq-box-bg-top-moss::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background-color: #C0DAC5;
+  mask: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0 6 Q 50 0 100 6 Q 150 12 200 6 Q 250 0 300 6 Q 350 12 400 6 Q 450 0 500 6 Q 550 12 600 6 Q 650 0 700 6 L 700 12 L 0 12 Z' fill='%23000'/%3e%3c/svg%3e") repeat-x;
+  mask-size: 100px 12px;
+}
+
+.eq-box-bg-top-terracotta {
+  position: relative;
+  height: 12px;
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.eq-box-bg-top-terracotta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background-color: #FAC09E;
+  mask: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0 6 Q 50 0 100 6 Q 150 12 200 6 Q 250 0 300 6 Q 350 12 400 6 Q 450 0 500 6 Q 550 12 600 6 Q 650 0 700 6 L 700 12 L 0 12 Z' fill='%23000'/%3e%3c/svg%3e") repeat-x;
+  mask-size: 100px 12px;
+}
+
+.eq-box-bg-top-pine {
+  position: relative;
+  height: 12px;
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.eq-box-bg-top-pine::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background-color: #00413A;
+  mask: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0 6 Q 50 0 100 6 Q 150 12 200 6 Q 250 0 300 6 Q 350 12 400 6 Q 450 0 500 6 Q 550 12 600 6 Q 650 0 700 6 L 700 12 L 0 12 Z' fill='%23000'/%3e%3c/svg%3e") repeat-x;
+  mask-size: 100px 12px;
+}
+
+/* EcoQuest Bottom Border Decoration - Single Large Wave (Right to Left) */
+.eq-box-bg-bottom {
+  position: relative;
+  height: 12px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.eq-box-bg-bottom::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background: white;
+  clip-path: polygon(0% 33%, 5% 0%, 15% 33%, 25% 66%, 35% 33%, 45% 0%, 55% 33%, 65% 66%, 75% 33%, 85% 0%, 95% 33%, 100% 66%, 100% 100%, 0% 100%);
+}
+
+/* Bottom border solid color versions */
+.eq-box-bg-bottom-moss {
+  position: relative;
+  height: 12px;
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.eq-box-bg-bottom-moss::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background-color: #C0DAC5;
+  mask: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0 0 L 0 6 Q 50 12 100 6 Q 150 0 200 6 Q 250 12 300 6 Q 350 0 400 6 Q 450 12 500 6 Q 550 0 600 6 Q 650 12 700 6 L 700 0 Z' fill='%23000'/%3e%3c/svg%3e") repeat-x;
+  mask-size: 100px 12px;
+}
+
+.eq-box-bg-bottom-terracotta {
+  position: relative;
+  height: 12px;
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.eq-box-bg-bottom-terracotta::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background-color: #FAC09E;
+  mask: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0 0 L 0 6 Q 50 12 100 6 Q 150 0 200 6 Q 250 12 300 6 Q 350 0 400 6 Q 450 12 500 6 Q 550 0 600 6 Q 650 12 700 6 L 700 0 Z' fill='%23000'/%3e%3c/svg%3e") repeat-x;
+  mask-size: 100px 12px;
+}
+
+.eq-box-bg-bottom-pine {
+  position: relative;
+  height: 12px;
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.eq-box-bg-bottom-pine::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background-color: #00413A;
+  mask: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0 0 L 0 6 Q 50 12 100 6 Q 150 0 200 6 Q 250 12 300 6 Q 350 0 400 6 Q 450 12 500 6 Q 550 0 600 6 Q 650 12 700 6 L 700 0 Z' fill='%23000'/%3e%3c/svg%3e") repeat-x;
+  mask-size: 100px 12px;
+}
+
+/* Fix for Tailwind CSS Grid Classes - Override broken grid-column properties */
+.col-span-1 { grid-column: span 1 !important; }
+.col-span-2 { grid-column: span 2 !important; }
+.col-span-3 { grid-column: span 3 !important; }
+.col-span-4 { grid-column: span 4 !important; }
+.col-span-5 { grid-column: span 5 !important; }
+.col-span-6 { grid-column: span 6 !important; }
+.col-span-7 { grid-column: span 7 !important; }
+.col-span-8 { grid-column: span 8 !important; }
+.col-span-9 { grid-column: span 9 !important; }
+.col-span-10 { grid-column: span 10 !important; }
+.col-span-11 { grid-column: span 11 !important; }
+.col-span-12 { grid-column: span 12 !important; }
+
+.col-start-1 { grid-column-start: 1 !important; }
+.col-start-2 { grid-column-start: 2 !important; }
+.col-start-3 { grid-column-start: 3 !important; }
+.col-start-4 { grid-column-start: 4 !important; }
+.col-start-5 { grid-column-start: 5 !important; }
+.col-start-6 { grid-column-start: 6 !important; }
+.col-start-7 { grid-column-start: 7 !important; }
+.col-start-8 { grid-column-start: 8 !important; }
+.col-start-9 { grid-column-start: 9 !important; }
+.col-start-10 { grid-column-start: 10 !important; }
+.col-start-11 { grid-column-start: 11 !important; }
+.col-start-12 { grid-column-start: 12 !important; }
+
+/* Nuclear option - Force all divs in grid containers to respect grid properties */
+.grid > div[style*="grid-column"] {
+  grid-column: var(--grid-column) !important;
+}
+
+/* Force grid properties on all elements with grid-column inline styles */
+[style*="grid-column: span"] {
+  display: block !important;
+}
+
+/* Specific fix for Uniform components */
+[data-uniform-component="gridItem"] {
+  display: block !important;
+}
+
+/* Override any potential Uniform CSS that might interfere */
+.uniform-component {
+  display: block !important;
+}

@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: af17d4f3-2073-464d-9f41-8840a9449e67
+  _name: cape-town-table-mountain-brent-ninaber-L6EP96_w1Fc-unsplash.jpg
+  fields:
+    title:
+      type: text
+      value: cape-town-table-mountain-brent-ninaber-L6EP96_w1Fc-unsplash.jpg
+    file:
+      type: file
+      value: 99593401-7487-48e5-8732-8d313ee53900
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/IoXJXnlZT2C1hauIRd2KRw-cape-town-table-mountain-brent-ninaber-L6EP96_w1Fc-unsplash.jpg
+      type: text
+    size:
+      value: 2155265
+      type: number
+    width:
+      value: 4800
+      type: number
+    height:
+      value: 2700
+      type: number
+    focalPoint:
+      value:
+        x: 0.48
+        'y': 0.54
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:19.171803+00:00'
+modified: '2025-08-18T14:28:19.171803+00:00'

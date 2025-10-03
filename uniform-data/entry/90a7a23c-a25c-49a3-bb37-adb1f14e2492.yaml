@@ -1,0 +1,120 @@
+created: '2025-08-19T13:09:29.668672+00:00'
+modified: '2025-08-19T13:09:29.668672+00:00'
+pattern: false
+entry:
+  _id: 90a7a23c-a25c-49a3-bb37-adb1f14e2492
+  _name: Epic Australia
+  _slug: epic-australia
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/diuD54LGSxeNxzrHrn_F-g-sydney-photoholgic-jK9dT34TfuI-unsplash.jpg
+  type: tour
+  fields:
+    end:
+      type: text
+      value: Sydney
+    name:
+      type: text
+      value: Epic Australia
+    start:
+      type: text
+      value: Cairns
+    duration:
+      type: text
+      value: 20 days
+    tourCode:
+      type: text
+      value: AU-CASY
+    tourType:
+      type: multi-select
+      value:
+        - Independent travel
+    interests:
+      type: $enr
+      value:
+        - cat: '1'
+          key: '6'
+          str: 50
+        - cat: '1'
+          key: '4'
+          str: 25
+        - cat: '1'
+          key: '3'
+          str: 25
+    description:
+      type: text
+      value: >-
+        Embark on a 20-day adventure from Cairns to Sydney, exploring
+        Australia's breathtaking coastal landscapes, ancient rainforests,
+        vibrant cities, and iconic wildlife. From the Great Barrier Reef to the
+        Blue Mountains, this journey offers a rich mix of natural wonders and
+        unique cultural experiences, with stops in laid-back towns and World
+        Heritage sites along the way. Discover Australia’s incredible
+        biodiversity and scenic coastlines through eco-friendly activities and
+        sustainable travel practices that highlight the country’s beauty while
+        supporting its conservation efforts.
+    destination:
+      type: contentReference
+      value: ${#jptr:/ref-90a7a23c-a25c-49a3-bb37-adb1f14e2492-destination/entries/0}
+    travelStyle:
+      type: multi-select
+      value:
+        - Active
+    serviceLevel:
+      type: select
+      value: Rustic
+    featuredImage:
+      type: asset
+      value:
+        - _id: 68a426d6-f840-40c4-8ad7-04e02c8a3442
+          type: image
+          fields:
+            id:
+              type: text
+              value: 1f7c49d5-bd9f-49ee-9990-027ee40fa198
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/diuD54LGSxeNxzrHrn_F-g-sydney-photoholgic-jK9dT34TfuI-unsplash.jpg
+              type: text
+            file:
+              type: file
+              value: 309202d5-78e6-4a5f-9278-8381705d0ab1
+            size:
+              value: 1451232
+              type: number
+            title:
+              type: text
+              value: sydney-photoholgic-jK9dT34TfuI-unsplash.jpg
+            width:
+              value: 5138
+              type: number
+            height:
+              value: 2423
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.56
+                'y': 0.57
+              type: focalPoint
+          _source: uniform-assets
+    physicalRating:
+      type: select
+      value: 3 - Average
+    relatedInterests:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-90a7a23c-a25c-49a3-bb37-adb1f14e2492-relatedInterests/entries}
+  _dataResources:
+    ref-90a7a23c-a25c-49a3-bb37-adb1f14e2492-destination:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 8808056a-d00c-472e-8d4c-664b26e744b1
+    ref-90a7a23c-a25c-49a3-bb37-adb1f14e2492-relatedInterests:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          3aa80eae-584f-4bcf-9ca4-b2a605c58cdd,b1e42881-42de-477a-95f3-202e9f183592,22d84132-bca6-4ab5-9a38-65c41114d631
+

@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: 02993dc9-93e6-436c-9c4c-3831af12d32c
+  _name: photo-1576485290814-1c72aa4bbb8e.jpg
+  fields:
+    title:
+      type: text
+      value: capetown.jpg
+    file:
+      type: file
+      value: c3df8e0a-b24f-4b65-99e5-750e93f28c19
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/Fk-6mL2_Qk267rjZ-kPKbQ-photo-1576485290814-1c72aa4bbb8e.jpg
+      type: text
+    size:
+      value: 1460230
+      type: number
+    width:
+      value: 3000
+      type: number
+    height:
+      value: 2000
+      type: number
+    focalPoint:
+      value:
+        x: 0.25
+        'y': 0.56
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:53.85185+00:00'
+modified: '2025-08-18T14:28:53.85185+00:00'

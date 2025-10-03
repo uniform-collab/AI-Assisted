@@ -1,0 +1,38 @@
+composition:
+  _name: Sample Rich Text Pattern
+  _id: 254c438a-0d2d-490c-b5d6-dfc0bfc5ca8b
+  type: richText
+  parameters:
+    size:
+      type: select
+      value: large
+    color:
+      type: select
+      value: default
+    content:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children: []
+          direction: null
+    maxWidth:
+      type: select
+      value: medium
+    alignment:
+      type: select
+      value: left
+  _overridability:
+    parameters:
+      size: 'yes'
+      color: 'yes'
+      content: 'yes'
+      maxWidth: 'yes'
+      alignment: 'yes'
+    hideLockedParameters: true
+created: '2025-08-26T15:53:57.989271+00:00'
+modified: '2025-08-26T15:53:57.989271+00:00'
+pattern: true

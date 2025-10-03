@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: 9be1bc68-f147-48d5-a32f-6613988906a8
+  _name: greece-angela-pham-_uqDYFkrmLM-unsplash.jpg
+  fields:
+    title:
+      type: text
+      value: greece-angela-pham-_uqDYFkrmLM-unsplash.jpg
+    file:
+      type: file
+      value: 52b2a0c1-cb53-466a-b2cd-39d3929c66d9
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/3rx7SIScRr2uHT4Ip5s7hQ-greece-angela-pham-_uqDYFkrmLM-unsplash.jpg
+      type: text
+    size:
+      value: 615213
+      type: number
+    width:
+      value: 4853
+      type: number
+    height:
+      value: 3235
+      type: number
+    focalPoint:
+      value:
+        x: 0.96
+        'y': 0.46
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:17.496512+00:00'
+modified: '2025-08-18T19:52:58.697559+00:00'

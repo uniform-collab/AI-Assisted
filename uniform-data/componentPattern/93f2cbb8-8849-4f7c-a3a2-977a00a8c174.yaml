@@ -1,0 +1,72 @@
+composition:
+  _name: Travel Information Tabs
+  _id: 93f2cbb8-8849-4f7c-a3a2-977a00a8c174
+  type: tabs
+  parameters:
+    title:
+      type: text
+      value: Plan Your Trip
+    padding:
+      type: select
+      value: medium
+    variant:
+      type: select
+      value: underline
+    subtitle:
+      type: text
+      value: Everything you need to know before you go
+    alignment:
+      type: select
+      value: left
+  slots:
+    tabPanels:
+      - _id: f6ba559d-0f94-437b-b806-4c1f71c50956
+        type: tabPanel
+        parameters:
+          tabIndex:
+            type: number
+            value: 0
+          tabLabel:
+            type: text
+            value: What to Pack
+        _overridability:
+          parameters:
+            tabIndex: 'yes'
+            tabLabel: 'yes'
+      - _id: 12300c72-fb7e-4e43-9e61-9e7d50e46b17
+        type: tabPanel
+        parameters:
+          tabIndex:
+            type: number
+            value: 1
+          tabLabel:
+            type: text
+            value: Travel Tips
+        _overridability:
+          parameters:
+            tabIndex: 'yes'
+            tabLabel: 'yes'
+      - _id: 3884af60-635f-47c1-ae62-97d46f5c1af7
+        type: tabPanel
+        parameters:
+          tabIndex:
+            type: number
+            value: 2
+          tabLabel:
+            type: text
+            value: Local Customs
+        _overridability:
+          parameters:
+            tabIndex: 'yes'
+            tabLabel: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+      padding: 'yes'
+      variant: 'yes'
+      subtitle: 'yes'
+      alignment: 'yes'
+    hideLockedParameters: true
+created: '2025-08-19T21:00:17.72205+00:00'
+modified: '2025-08-19T21:03:44.502706+00:00'
+pattern: true

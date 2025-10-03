@@ -1,0 +1,23 @@
+created: '2025-08-18T19:34:51.504382+00:00'
+modified: '2025-08-18T19:34:51.504382+00:00'
+pattern: false
+entry:
+  _id: 1cc02d6c-5e09-40b0-b8e2-a7fd3a2a7e2c
+  _name: Luxury Travel
+  _slug: luxury-travel
+  type: interest
+  fields:
+    name:
+      type: text
+      value: Luxury Travel
+    description:
+      type: text
+      value: >-
+        Indulge in the finest experiences with high-end accommodations, gourmet
+        dining, and exclusive services. Enjoy personalized attention, luxurious
+        amenities, and unique opportunities designed for those who appreciate
+        the best in travel. Whether it's a private suite, a chef’s tasting menu,
+        or VIP access, elevate your journey with unforgettable moments of
+        comfort and sophistication.
+  _overridability:
+    hideLockedParameters: true

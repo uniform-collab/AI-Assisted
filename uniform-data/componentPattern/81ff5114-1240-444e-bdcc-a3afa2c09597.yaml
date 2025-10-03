@@ -1,0 +1,111 @@
+composition:
+  _name: Global Header
+  _id: 81ff5114-1240-444e-bdcc-a3afa2c09597
+  type: header
+  parameters:
+    logo:
+      type: asset
+      value:
+        - _id: 9173bdde-ac55-45b5-b79f-cbb75c7b10ba
+          type: image
+          fields:
+            id:
+              type: text
+              value: 44a0c632-c43c-4f25-b7b8-92c47a2620ac
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/oABHN7VLSiawPyzva-Q1Tg-Eco_Logo.png
+              type: text
+            file:
+              type: file
+              value: c17a89ac-5ef4-4d28-963c-6f036829344d
+            size:
+              value: 1952
+              type: number
+            title:
+              type: text
+              value: Eco_Logo.png
+            width:
+              value: 119
+              type: number
+            height:
+              value: 28
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    companyName:
+      type: text
+      value: EcoQuest
+  slots:
+    navigation:
+      - _id: 74d94f08-6f8c-424e-ada6-9e57d2cbf7be
+        type: navigation
+        slots:
+          navItems:
+            - _id: b91034de-2bc1-4cdc-ba81-3be72212d703
+              type: navItem
+              parameters:
+                url:
+                  type: link
+                  value:
+                    path: /tours
+                    type: projectMapNode
+                    nodeId: cdaa016f-3c29-4273-b798-b993bd5ae020
+                    projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1
+                text:
+                  type: text
+                  value: Tours
+              _overridability:
+                hideLockedParameters: true
+            - _id: ef5b5c4a-593a-49f5-9f2a-bdc2c6719445
+              type: navItem
+              parameters:
+                url:
+                  type: link
+                  value:
+                    path: /destinations
+                    type: projectMapNode
+                    nodeId: e13b9642-4de1-4adf-afcf-fbc321123bad
+                    projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1
+                text:
+                  type: text
+                  value: Destinations
+              _overridability:
+                hideLockedParameters: true
+            - _id: 6cf5697e-9168-4d97-b6ea-aed79074a7ad
+              type: navItem
+              parameters:
+                text:
+                  type: text
+                  value: Interests
+              _overridability:
+                hideLockedParameters: true
+            - _id: 2d9e42b5-3b70-4e5c-800a-23839a02fbd5
+              type: navItem
+              parameters:
+                text:
+                  type: text
+                  value: Partners
+              _overridability:
+                hideLockedParameters: true
+            - _id: 40ebb6bb-23d5-4c48-89f3-b6f66a06ef11
+              type: navItem
+              parameters:
+                text:
+                  type: text
+                  value: About Us
+              _overridability:
+                hideLockedParameters: true
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      logo: 'yes'
+      companyName: 'yes'
+    hideLockedParameters: true
+created: '2025-08-15T19:25:35.283139+00:00'
+modified: '2025-08-18T15:59:06.719933+00:00'
+pattern: true

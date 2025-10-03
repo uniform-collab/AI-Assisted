@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0e601769-41a0-4d3e-b3d5-ac43ec1f01fe
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: AI-generated-image-for-Thumbnail
+    file:
+      type: file
+      value: 8fdd172a-c438-41a6-befb-11c986584115
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/cX26OLDSRemL2BkLiExHnw-AI-generated-image-for-Thumbnail
+      type: text
+    size:
+      value: 1683717
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:48.392264+00:00'
+modified: '2025-08-18T14:28:48.392264+00:00'

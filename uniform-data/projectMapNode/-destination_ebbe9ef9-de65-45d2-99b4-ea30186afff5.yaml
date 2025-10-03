@@ -1,0 +1,11 @@
+id: ebbe9ef9-de65-45d2-99b4-ea30186afff5
+name: Destination Detail
+order: 500
+path: /destinations/:destination
+type: composition
+pathSegment: ':destination'
+data:
+  previewValue: south-africa
+  queryStrings: []
+compositionId: 842e8cdd-a2a7-472a-9e70-4e57088a48ba
+projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1

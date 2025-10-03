@@ -1,0 +1,114 @@
+id: blogPost
+name: Blog post
+created: '2025-08-18T19:22:25.070945+00:00'
+updated: '2025-08-26T14:03:16.825966+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    typeConfig:
+      required: true
+  - id: summaryAbstract
+    name: Summary / Abstract
+    type: text
+    typeConfig:
+      multiline: true
+  - id: featuredImage
+    name: Featured image
+    type: asset
+    helpText: ''
+    typeConfig: {}
+  - id: body
+    name: Body
+    type: richText
+    typeConfig:
+      elements:
+        builtIn:
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - variable
+          - asset
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+      elementsConfig:
+        asset:
+          allowedTypes:
+            - image
+  - id: relatedBlogPosts
+    name: Related blog posts
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - blogPost
+  - id: 20dda58d-306d-4f43-b3dc-ec37ab136dee
+    name: Metadata
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - author
+        - publishDate
+        - category
+        - relatedInterests
+        - interest
+  - id: author
+    name: Author
+    type: contentReference
+    typeConfig:
+      required: true
+      allowedContentTypes:
+        - author
+  - id: publishDate
+    name: Publish date
+    type: date
+    helpText: ''
+    typeConfig:
+      required: false
+  - id: category
+    name: Category
+    type: multi-select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Food and dining
+          value: Food and dining
+        - text: Travel 101
+          value: Travel 101
+        - text: Safety
+          value: Safety
+        - text: Planning and preparation
+          value: Planning and preparation
+  - id: relatedInterests
+    name: Related Interests
+    type: contentReference
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - interest
+entryName: title
+thumbnailField: featuredImage
+icon: file-document
+type: contentType
+permissions: []
+previewConfigurations:
+  - type: project-map
+    id: 8e27b3cb-a94e-4ea2-95f3-f6e14f1f8691
+    label: Blog-preview
+    dynamicInputs:
+      locale: ${locale}
+      blog-post: ${#jptr:/entry/_slug}

@@ -1,0 +1,121 @@
+composition:
+  _name: Tour Showcase
+  _id: 837379f0-1895-4b98-b58b-c661fed11c29
+  type: destinationShowcase
+  parameters:
+    title:
+      type: text
+      value: Explore our most popular tours
+    padding:
+      type: select
+      value: none
+    subtitle:
+      type: text
+      value: Immersive tours and adventures across the globe
+  slots:
+    destinationItems:
+      - _id: 6e11208f-e084-42bc-baad-69f4acb3c490
+        type: grid
+        slots:
+          gridItems:
+            - _id: 32a99cf8-1278-4e88-8d37-2348946a3291
+              type: $loop
+              slots:
+                body:
+                  - _id: 67ee675b-a05a-4b3c-b464-ef41349bebaa
+                    type: tourCard
+                    parameters:
+                      price:
+                        type: text
+                        value: $900
+                      tourUrl:
+                        type: link
+                        value:
+                          path: >-
+                            /tours/${#jptr:/Tour Content entries Loop
+                            Item/entry/_slug}
+                          type: projectMapNode
+                          nodeId: 3926ea8c-5077-4209-99aa-c600fcda41f4
+                          projectMapId: 725e17cb-307f-4d09-8e8d-3826015a01e1
+                          dynamicInputValues:
+                            tour: >-
+                              ${#jptr:/Tour Content entries Loop
+                              Item/entry/_slug}
+                      duration:
+                        type: text
+                        value: >-
+                          ${#jptr:/Tour Content entries Loop
+                          Item/entry/fields/duration/value}
+                      location:
+                        type: text
+                        value: >-
+                          ${#jptr:/Tour Content entries Loop
+                          Item/entry/fields/destination/value/entry/_name}
+                      tourImage:
+                        type: asset
+                        value:
+                          - _id: cb0ab60f-480d-4a54-bea8-732def6d24cc
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  ${#jptr:/Tour Content entries Loop
+                                  Item/entry/fields/featuredImage/value/0/fields/url/value}
+                            _source: custom-url
+                      tourTitle:
+                        type: text
+                        value: >-
+                          ${#jptr:/Tour Content entries Loop
+                          Item/entry/fields/name/value}
+                    _overridability:
+                      hideLockedParameters: true
+              _dataResources:
+                Tour Content entries Loop Item:
+                  type: sys-reserved-loop
+                  variables:
+                    connectedData: '#jptr:/Tour Content/entries:fa=c'
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          gap:
+            type: select
+            value: small
+          columns:
+            type: select
+            value: '3'
+          padding:
+            type: select
+            value: small
+        _overridability:
+          parameters:
+            gap: 'yes'
+            $viz: 'yes'
+            title: 'yes'
+            columns: 'yes'
+            padding: 'yes'
+            subtitle: 'yes'
+          hideLockedParameters: true
+  _dataResources:
+    Tour Content:
+      type: toursSelected
+      variables:
+        limit: '4'
+        search: ''
+        filters: '{"type[eq]":"destination"}'
+        orderBy: updated_at_ASC
+        entryIds: >-
+          90a7a23c-a25c-49a3-bb37-adb1f14e2492,2b58ac44-d28e-4a8e-8cea-e8097fa90204,9072367b-0fb4-4f26-bec8-f97bb0d052b6
+        contentTypes: tour
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      title: 'yes'
+      padding: 'yes'
+      subtitle: 'yes'
+    hideLockedParameters: true
+created: '2025-09-08T14:29:51.311065+00:00'
+modified: '2025-09-08T14:44:53.228871+00:00'
+pattern: true

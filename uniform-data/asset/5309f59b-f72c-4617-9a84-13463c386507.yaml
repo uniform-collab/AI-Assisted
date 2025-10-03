@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: 5309f59b-f72c-4617-9a84-13463c386507
+  _name: paris-normandy-pascal-bernardon-v4xZGuP2ZSM-unsplash.jpg
+  fields:
+    title:
+      type: text
+      value: paris-normandy-pascal-bernardon-v4xZGuP2ZSM-unsplash.jpg
+    file:
+      type: file
+      value: 063618f8-c5e4-4153-9ae6-3e1a86b51ecb
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/qzgh1a7mQW2FjUV_gkMx_w-paris-normandy-pascal-bernardon-v4xZGuP2ZSM-unsplash.jpg
+      type: text
+    size:
+      value: 4674391
+      type: number
+    width:
+      value: 6295
+      type: number
+    height:
+      value: 3080
+      type: number
+    focalPoint:
+      value:
+        x: 0.43
+        'y': 0.31
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:15.419499+00:00'
+modified: '2025-08-18T14:28:15.419499+00:00'

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 05ad6729-4c34-4b48-b0e6-437911c1e306
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: AF-CTVF-alex-teixeira-_oRoy5BzT5s-unsplash.jpg
+    file:
+      type: file
+      value: 400be61d-5b1d-4764-b0d2-fb2075b740db
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/WijznyhkQXuXyBeevL1-Gw-AF-CTVF-alex-teixeira-_oRoy5BzT5s-unsplash.jpg
+      type: text
+    size:
+      value: 3760846
+      type: number
+    width:
+      value: 4032
+      type: number
+    height:
+      value: 3024
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:34.254028+00:00'
+modified: '2025-08-18T14:28:34.254028+00:00'

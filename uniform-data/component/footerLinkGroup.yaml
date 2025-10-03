@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: footerLinkGroup
+name: Footer Link Group
+icon: screen
+parameters:
+  - id: groupTitle
+    name: Group Title
+    type: text
+    guidance: Title for this group of links
+    localizable: true
+description: Group of footer links with a heading
+useTeamPermissions: true
+slots:
+  - id: links
+    name: Links
+    allowedComponents:
+      - footerLink
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: groupTitle
+canBeComposition: false
+created: '2025-08-14T20:06:47.184188+00:00'
+updated: '2025-08-14T20:06:47.184188+00:00'

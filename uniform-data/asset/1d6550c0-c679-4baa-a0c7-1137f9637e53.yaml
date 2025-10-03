@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: 1d6550c0-c679-4baa-a0c7-1137f9637e53
+  _name: santorini-premium_photo-1714679969518-a05e1b8451d8.png
+  fields:
+    title:
+      type: text
+      value: santorini-premium_photo-1714679969518-a05e1b8451d8.png
+    file:
+      type: file
+      value: 4351b9c1-8227-4438-8be9-faa8a0a54502
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/3r66PR8ZS16yBsGH53USAQ-santorini-premium_photo-1714679969518-a05e1b8451d8.png
+      type: text
+    size:
+      value: 5678338
+      type: number
+    width:
+      value: 2832
+      type: number
+    height:
+      value: 1234
+      type: number
+    focalPoint:
+      value:
+        x: 0.33
+        'y': 0.68
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:21.440044+00:00'
+modified: '2025-08-18T19:57:13.792394+00:00'

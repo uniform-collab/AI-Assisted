@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: 1f7c49d5-bd9f-49ee-9990-027ee40fa198
+  _name: sydney-photoholgic-jK9dT34TfuI-unsplash.jpg
+  fields:
+    title:
+      type: text
+      value: sydney-photoholgic-jK9dT34TfuI-unsplash.jpg
+    file:
+      type: file
+      value: 309202d5-78e6-4a5f-9278-8381705d0ab1
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/diuD54LGSxeNxzrHrn_F-g-sydney-photoholgic-jK9dT34TfuI-unsplash.jpg
+      type: text
+    size:
+      value: 1451232
+      type: number
+    width:
+      value: 5138
+      type: number
+    height:
+      value: 2423
+      type: number
+    focalPoint:
+      value:
+        x: 0.56
+        'y': 0.57
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:13.156744+00:00'
+modified: '2025-08-18T14:28:13.156744+00:00'

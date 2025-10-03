@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0867c25d-71c7-4bcc-baa0-82871c2c42ed
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: user-profile-white.png
+    file:
+      type: file
+      value: 22001a3d-c500-4a75-82ec-e422da609b77
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/34_odLSUSTW2hfppVOH9hw-user-profile-white.png
+      type: text
+    size:
+      value: 948
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:42.642709+00:00'
+modified: '2025-08-18T14:28:42.642709+00:00'

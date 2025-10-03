@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: c47b19d5-d912-4e38-a660-d14a7337fccb
+  _name: south-africa-lina-loos-04-C1NZk1hE-unsplash.jpg
+  fields:
+    title:
+      type: text
+      value: south-africa-lina-loos-04-C1NZk1hE-unsplash.jpg
+    file:
+      type: file
+      value: 4a7b226e-adcd-4299-8c3a-169989921d56
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/kRki93W_SZaCix_MVKW8wQ-south-africa-lina-loos-04-C1NZk1hE-unsplash.jpg
+      type: text
+    size:
+      value: 5082553
+      type: number
+    width:
+      value: 5611
+      type: number
+    height:
+      value: 3741
+      type: number
+    focalPoint:
+      value:
+        x: 0.35
+        'y': 0.51
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:19.233141+00:00'
+modified: '2025-08-18T14:28:19.233141+00:00'

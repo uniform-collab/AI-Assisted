@@ -1,0 +1,343 @@
+composition:
+  _name: Blog Listing
+  _id: 87654321-4321-4321-8321-210987654321
+  _slug: blog
+  type: page
+  slots:
+    footer:
+      - _id: blog-footer
+        type: footer
+        _pattern: 45074c59-cda0-4ca5-979f-917d69e6f224
+    header:
+      - _id: blog-header
+        type: header
+        _pattern: 81ff5114-1240-444e-bdcc-a3afa2c09597
+    content:
+      - _id: blog-hero
+        type: hero
+        parameters:
+          layout:
+            type: select
+            value: fullBackground
+          padding:
+            type: select
+            value: large
+          headline:
+            type: text
+            value: Blog
+          description:
+            type: text
+            value: Meta 1 (e.g. quick intro about following content)
+          backgroundColor:
+            type: select
+            value: lightGray
+      - _id: blog-posts-section
+        type: section
+        slots:
+          content:
+            - _id: blog-posts-grid
+              type: grid
+              slots:
+                gridItems:
+                  - _id: blog-post-1
+                    type: card
+                    slots:
+                      cta:
+                        - _id: blog-read-more-1
+                          type: button
+                          parameters:
+                            size:
+                              type: select
+                              value: small
+                            text:
+                              type: text
+                              value: Read More
+                            style:
+                              type: select
+                              value: outline
+                      pills:
+                        - _id: blog-category-pill-1
+                          type: pill
+                          parameters:
+                            text:
+                              type: text
+                              value: Meta 1 (Category)
+                            style:
+                              type: select
+                              value: light
+                    parameters:
+                      layout:
+                        type: select
+                        value: horizontal
+                      margin:
+                        type: select
+                        value: none
+                      padding:
+                        type: select
+                        value: medium
+                      headline:
+                        type: text
+                        value: >-
+                          Title satisne vobis videor pro meo iure in vestris
+                          auribus
+                      description:
+                        type: richText
+                        value: >-
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Voluptatibus quis, nulla! Maiores et perferendis
+                          eaque, exercitationem praesentium nihil.
+                      backgroundColor:
+                        type: select
+                        value: white
+                      backgroundImage:
+                        type: asset
+                        value:
+                          - _id: blog-image-1
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
+                              title:
+                                type: text
+                                value: Blog post image
+                            _source: custom-url
+                  - _id: blog-post-2
+                    type: card
+                    slots:
+                      cta:
+                        - _id: blog-read-more-2
+                          type: button
+                          parameters:
+                            size:
+                              type: select
+                              value: small
+                            text:
+                              type: text
+                              value: Read More
+                            style:
+                              type: select
+                              value: outline
+                      pills:
+                        - _id: blog-category-pill-2
+                          type: pill
+                          parameters:
+                            text:
+                              type: text
+                              value: Travel 101
+                            style:
+                              type: select
+                              value: light
+                    parameters:
+                      layout:
+                        type: select
+                        value: horizontal
+                      margin:
+                        type: select
+                        value: none
+                      padding:
+                        type: select
+                        value: medium
+                      headline:
+                        type: text
+                        value: Sustainable Travel Tips for the Eco-Conscious Explorer
+                      description:
+                        type: richText
+                        value: >-
+                          Discover how to minimize your environmental impact
+                          while maximizing your travel adventures and creating
+                          meaningful connections.
+                      backgroundColor:
+                        type: select
+                        value: white
+                      backgroundImage:
+                        type: asset
+                        value:
+                          - _id: blog-image-2
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
+                              title:
+                                type: text
+                                value: Sustainable travel
+                            _source: custom-url
+                  - _id: blog-post-3
+                    type: card
+                    slots:
+                      cta:
+                        - _id: blog-read-more-3
+                          type: button
+                          parameters:
+                            size:
+                              type: select
+                              value: small
+                            text:
+                              type: text
+                              value: Read More
+                            style:
+                              type: select
+                              value: outline
+                      pills:
+                        - _id: blog-category-pill-3
+                          type: pill
+                          parameters:
+                            text:
+                              type: text
+                              value: Safety
+                            style:
+                              type: select
+                              value: light
+                    parameters:
+                      layout:
+                        type: select
+                        value: horizontal
+                      margin:
+                        type: select
+                        value: none
+                      padding:
+                        type: select
+                        value: medium
+                      headline:
+                        type: text
+                        value: Wildlife Conservation Through Responsible Tourism
+                      description:
+                        type: richText
+                        value: >-
+                          Learn how your travel choices can contribute to
+                          wildlife preservation efforts and support local
+                          conservation initiatives.
+                      backgroundColor:
+                        type: select
+                        value: white
+                      backgroundImage:
+                        type: asset
+                        value:
+                          - _id: blog-image-3
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
+                              title:
+                                type: text
+                                value: Wildlife conservation
+                            _source: custom-url
+                  - _id: blog-post-4
+                    type: card
+                    slots:
+                      cta:
+                        - _id: blog-read-more-4
+                          type: button
+                          parameters:
+                            size:
+                              type: select
+                              value: small
+                            text:
+                              type: text
+                              value: Read More
+                            style:
+                              type: select
+                              value: outline
+                      pills:
+                        - _id: blog-category-pill-4
+                          type: pill
+                          parameters:
+                            text:
+                              type: text
+                              value: Planning and preparation
+                            style:
+                              type: select
+                              value: light
+                    parameters:
+                      layout:
+                        type: select
+                        value: horizontal
+                      margin:
+                        type: select
+                        value: none
+                      padding:
+                        type: select
+                        value: medium
+                      headline:
+                        type: text
+                        value: 'Planning Your First Adventure: A Complete Guide'
+                      description:
+                        type: richText
+                        value: >-
+                          Everything you need to know to plan your first
+                          adventure trip, from choosing destinations to packing
+                          essentials.
+                      backgroundColor:
+                        type: select
+                        value: white
+                      backgroundImage:
+                        type: asset
+                        value:
+                          - _id: blog-image-4
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80
+                              title:
+                                type: text
+                                value: Adventure planning
+                            _source: custom-url
+              parameters:
+                gap:
+                  type: select
+                  value: medium
+                name:
+                  type: text
+                  value: Blog Posts
+                columns:
+                  type: select
+                  value: '1'
+                padding:
+                  type: select
+                  value: none
+        parameters:
+          padding:
+            type: select
+            value: large
+          backgroundColor:
+            type: select
+            value: white
+      - _id: blog-pagination
+        type: section
+        slots:
+          content:
+            - _id: pagination-component
+              type: pagination
+              parameters:
+                totalPages:
+                  type: number
+                  value: 12
+                currentPage:
+                  type: number
+                  value: 2
+                showPrevNext:
+                  type: checkbox
+                  value: true
+                showFirstLast:
+                  type: checkbox
+                  value: false
+                maxVisiblePages:
+                  type: number
+                  value: 5
+        parameters:
+          padding:
+            type: select
+            value: medium
+          backgroundColor:
+            type: select
+            value: white
+created: '2025-09-02T19:08:36.096068+00:00'
+modified: '2025-09-03T19:04:32.917607+00:00'
+pattern: false

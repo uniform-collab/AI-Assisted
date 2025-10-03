@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: caf2abd8-c20f-41e4-8dea-3fc6536fe739
+  _name: 90ab9da18a1b218ab7364906fe1d0f060ecdd2de-(1).png
+  fields:
+    title:
+      type: text
+      value: 90ab9da18a1b218ab7364906fe1d0f060ecdd2de-(1).png
+    file:
+      type: file
+      value: 23fa1bbb-b33b-419f-ba11-eeb86a07159f
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/mLhOcOABTlyUf-V7bhgjfQ-90ab9da18a1b218ab7364906fe1d0f060ecdd2de-(1).png
+      type: text
+    size:
+      value: 17026363
+      type: number
+    width:
+      value: 2734
+      type: number
+    height:
+      value: 4096
+      type: number
+    focalPoint:
+      value:
+        x: 0.21
+        'y': 0.4
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:23.237741+00:00'
+modified: '2025-08-18T19:46:46.734422+00:00'

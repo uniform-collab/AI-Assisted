@@ -1,0 +1,24 @@
+created: '2025-08-18T19:33:49.735566+00:00'
+modified: '2025-08-18T19:33:49.735566+00:00'
+pattern: false
+entry:
+  _id: f35c94c2-3e26-4c71-a8d1-abbdedea4739
+  _name: Food & Culinary
+  _slug: food-and-culinary
+  type: interest
+  fields:
+    name:
+      type: text
+      value: Food & Culinary
+    description:
+      type: text
+      value: >-
+        Discover the flavors of your destination with our focus on local
+        cuisine. Join food tours to taste authentic dishes, explore vibrant
+        markets, and connect with the community through shared meals. Take part
+        in hands-on cooking classes to learn traditional recipes and sustainable
+        cooking practices. Whether you're a seasoned foodie or just curious,
+        you'll find delicious ways to support local producers and make
+        planet-positive choices with every bite.
+  _overridability:
+    hideLockedParameters: true

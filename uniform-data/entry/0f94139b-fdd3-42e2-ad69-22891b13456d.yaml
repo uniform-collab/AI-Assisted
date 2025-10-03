@@ -1,0 +1,124 @@
+created: '2025-08-19T13:09:30.129363+00:00'
+modified: '2025-09-23T13:30:29.718338+00:00'
+pattern: false
+entry:
+  _id: 0f94139b-fdd3-42e2-ad69-22891b13456d
+  _name: Europe
+  _slug: europe
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/JsK3Wv3jS3-U9UyXnCdC1g-europe-pedro-lastra-5g8dJvtYRYA-unsplash.jpg
+  type: destination
+  fields:
+    name:
+      type: text
+      value: Europe
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Europe offers a diverse array of ecotourism experiences,
+                    from the untouched wilderness of Scandinavia to the stunning
+                    coastal paths of the Mediterranean. Travelers can explore
+                    sustainable destinations like the national parks of the
+                    Alps, cycle through eco-friendly cities, or visit UNESCO
+                    World Heritage sites that showcase Europe’s commitment to
+                    conservation. With rich biodiversity, green travel options,
+                    and a focus on preserving cultural and natural heritage,
+                    Europe invites eco-conscious adventurers to discover its
+                    landscapes in a responsible and rewarding way.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+          direction: ltr
+    enrichments:
+      type: $enr
+      value:
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: cultural-heritage
+          str: 10
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: sustainable-transport
+          str: 9
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: cultural-explorers
+          str: 10
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: eco-conscious-travelers
+          str: 9
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: archaeology-history
+          str: 8
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: local-community
+          str: 7
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: educational-groups
+          str: 8
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: research-driven
+          str: 9
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: early-planner
+          str: 8
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: seasonal-traveler
+          str: 7
+    featuredImage:
+      type: asset
+      value:
+        - _id: 91b56f69-ed5b-47b1-ad61-05ee61a67bc1
+          type: image
+          fields:
+            id:
+              type: text
+              value: fb2a931d-748e-48fb-b3c6-1fc7c6bf4f04
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/JsK3Wv3jS3-U9UyXnCdC1g-europe-pedro-lastra-5g8dJvtYRYA-unsplash.jpg
+              type: text
+            file:
+              type: file
+              value: 8b440b52-f345-444f-a27b-017893d27fed
+            size:
+              value: 1944592
+              type: number
+            title:
+              type: text
+              value: europe-pedro-lastra-5g8dJvtYRYA-unsplash.jpg
+            width:
+              value: 3426
+              type: number
+            height:
+              value: 2200
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.51
+                'y': 0.5
+              type: focalPoint
+          _source: uniform-assets
+    quickOverview:
+      type: text
+      value: >-
+        Europe is a leader in sustainable tourism, offering a remarkable variety
+        of eco-friendly destination

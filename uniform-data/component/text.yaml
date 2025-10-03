@@ -1,0 +1,82 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: text
+name: Text
+icon: screen
+parameters:
+  - id: text
+    name: Text
+    type: text
+    guidance: The text content to display
+    localizable: true
+  - id: size
+    name: Size
+    type: select
+    guidance: Text size - default is 18pt
+    typeConfig:
+      options:
+        - text: Extra Small (12px)
+          value: xsmall
+        - text: Small (14px)
+          value: small
+        - text: Default (18px)
+          value: default
+        - text: Large (20px)
+          value: large
+        - text: Extra Large (24px)
+          value: xlarge
+  - id: color
+    name: Color
+    type: select
+    guidance: Text color theme
+    typeConfig:
+      options:
+        - text: Default (Dark Gray)
+          value: default
+        - text: Muted (Medium Gray)
+          value: muted
+        - text: Light (Light Gray)
+          value: light
+        - text: White
+          value: white
+        - text: Primary (Orange)
+          value: primary
+        - text: Secondary
+          value: secondary
+  - id: alignment
+    name: Alignment
+    type: select
+    guidance: Text alignment
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Center
+          value: center
+        - text: Right
+          value: right
+        - text: Justify
+          value: justify
+  - id: weight
+    name: Weight
+    type: select
+    guidance: Font weight
+    typeConfig:
+      options:
+        - text: Light
+          value: light
+        - text: Normal
+          value: normal
+        - text: Medium
+          value: medium
+        - text: Semi Bold
+          value: semibold
+        - text: Bold
+          value: bold
+description: Simple text component with size, color, alignment, and weight options
+useTeamPermissions: true
+slots: []
+titleParameter: text
+canBeComposition: false
+created: '2025-08-20T14:46:08.221465+00:00'
+updated: '2025-08-20T15:42:47.71903+00:00'

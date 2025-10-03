@@ -1,0 +1,34 @@
+id: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+name: Shopper-type
+cap: 15
+values:
+  - id: comparison-shopper
+    value: comparison-shopper
+  - id: deal-seeker
+    value: deal-seeker
+  - id: early-planner
+    value: early-planner
+  - id: first-time-traveler
+    value: first-time-traveler
+  - id: gift-purchaser
+    value: gift-purchaser
+  - id: group-organizer
+    value: group-organizer
+  - id: impulse-buyer
+    value: impulse-buyer
+  - id: last-minute-booker
+    value: last-minute-booker
+  - id: mobile-first-shopper
+    value: mobile-first-shopper
+  - id: newsletter-subscriber
+    value: newsletter-subscriber
+  - id: premium-buyer
+    value: premium-buyer
+  - id: repeat-customer
+    value: repeat-customer
+  - id: research-driven
+    value: research-driven
+  - id: seasonal-traveler
+    value: seasonal-traveler
+  - id: social-influenced
+    value: social-influenced

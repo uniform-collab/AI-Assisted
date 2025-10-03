@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: footer
+name: Footer
+icon: screen
+parameters:
+  - id: companyName
+    name: Company Name
+    type: text
+    guidance: Company name displayed in footer
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    guidance: Company description text
+    localizable: true
+  - id: copyrightText
+    name: Copyright Text
+    type: text
+    guidance: Copyright notice text
+    localizable: true
+  - id: newsletterTitle
+    name: Newsletter Title
+    type: text
+    guidance: Title for newsletter signup section
+    localizable: true
+  - id: subscribeButtonText
+    name: Subscribe Button Text
+    type: text
+    guidance: Text for subscribe button
+    localizable: true
+description: Website footer with company information, links, and newsletter signup
+useTeamPermissions: true
+slots:
+  - id: footerLinks
+    name: Footer Links
+    allowedComponents:
+      - footerLinkGroup
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: companyName
+canBeComposition: false
+created: '2025-08-14T20:06:41.636999+00:00'
+updated: '2025-08-14T20:06:41.636999+00:00'

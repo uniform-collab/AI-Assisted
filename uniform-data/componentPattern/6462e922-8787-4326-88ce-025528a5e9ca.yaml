@@ -1,0 +1,23 @@
+composition:
+  _name: Secondary Button Example
+  _id: 6462e922-8787-4326-88ce-025528a5e9ca
+  type: button
+  parameters:
+    size:
+      type: select
+      value: medium
+    text:
+      type: text
+      value: Learn More
+    style:
+      type: select
+      value: secondary
+  _overridability:
+    parameters:
+      size: 'yes'
+      text: 'yes'
+      style: 'yes'
+    hideLockedParameters: true
+created: '2025-08-19T19:09:12.374643+00:00'
+modified: '2025-08-19T19:09:12.374643+00:00'
+pattern: true

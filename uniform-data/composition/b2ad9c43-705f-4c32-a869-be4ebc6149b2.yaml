@@ -1,0 +1,17 @@
+composition:
+  _name: test
+  _id: b2ad9c43-705f-4c32-a869-be4ebc6149b2
+  _slug: test
+  type: page
+  slots:
+    footer:
+      - _id: 51bcef21-1321-455a-9157-7d04252a857d
+        type: footer
+        _pattern: 45074c59-cda0-4ca5-979f-917d69e6f224
+    header:
+      - _id: 87a34928-a33c-4bf3-b560-01cdd0e5adee
+        type: header
+        _pattern: 81ff5114-1240-444e-bdcc-a3afa2c09597
+created: '2025-08-18T19:53:49.919291+00:00'
+modified: '2025-09-15T13:26:24.589986+00:00'
+pattern: false

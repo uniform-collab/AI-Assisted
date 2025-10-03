@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: f12381f0-d2f7-45a8-b768-2dc652a67cdb
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Eco_Logo.png
+    file:
+      type: file
+      value: 6ee59713-08d5-4bd3-8422-d15e41107588
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/cloGc7w0RMynvuP81bF1Qw-Eco_Logo.png
+      type: text
+    size:
+      value: 1952
+      type: number
+    width:
+      value: 119
+      type: number
+    height:
+      value: 28
+      type: number
+    custom: {}
+created: '2025-08-15T19:27:21.825226+00:00'
+modified: '2025-08-15T19:27:21.825226+00:00'

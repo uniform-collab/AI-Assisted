@@ -1,0 +1,45 @@
+composition:
+  _name: Destination Image Hero
+  _id: 34034808-4a75-4078-a07e-4da7fab77e66
+  type: imageHero
+  parameters:
+    title:
+      type: text
+      value: "Explore South Africa"
+    link:
+      type: link
+      value:
+        path: "/destinations/south-africa"
+        type: projectMapNode
+    padding:
+      type: select
+      value: medium
+    margin:
+      type: select
+      value: medium
+    backgroundImage:
+      type: asset
+      value:
+        - _id: destination-hero-image
+          type: image
+          fields:
+            url:
+              type: text
+              value: "https://images.unsplash.com/photo-1571771019784-3ff35f4f4277?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80"
+            title:
+              type: text
+              value: "South Africa Landscape"
+          _source: custom-url
+  slots: {}
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      title: 'yes'
+      link: 'yes'
+      padding: 'yes'
+      margin: 'yes'
+      backgroundImage: 'yes'
+    hideLockedParameters: false
+created: '2025-09-15T12:00:00.000000+00:00'
+modified: '2025-09-15T12:00:00.000000+00:00'
+pattern: true

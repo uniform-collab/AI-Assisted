@@ -1,0 +1,46 @@
+created: '2025-08-19T13:09:33.707163+00:00'
+modified: '2025-08-19T13:09:33.707163+00:00'
+pattern: false
+entry:
+  _id: c4a0f238-70a7-4975-880d-350999a0dffc
+  _name: Kiersten Rich
+  _slug: kiersten-rich
+  type: author
+  fields:
+    bio:
+      type: richText
+      locales:
+        en:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Kiersten Rich is the founder of The Blonde Abroad, a
+                      leading travel blog dedicated to empowering and inspiring
+                      women to explore the world solo. As a solo female travel
+                      expert, she shares practical tips, destination guides, and
+                      personal stories to help women travel confidently and
+                      independently.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    name:
+      type: text
+      locales:
+        en: Kiersten Rich
+

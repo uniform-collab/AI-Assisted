@@ -1,0 +1,104 @@
+composition:
+  _name: Tour Types Tabs
+  _id: b0d58b4c-9a5e-4c3b-8604-2a84e824c569
+  type: tabs
+  parameters:
+    title:
+      type: text
+      value: Choose Your Adventure
+    padding:
+      type: select
+      value: large
+    variant:
+      type: select
+      value: pills
+    subtitle:
+      type: text
+      value: >-
+        Discover sustainable adventures and meaningful ways to connect with our
+        planet and community.
+    alignment:
+      type: select
+      value: center
+  slots:
+    tabPanels:
+      - _id: 677b16c1-cb72-4903-bfdc-b9258bfa0b85
+        type: tabPanel
+        slots:
+          content:
+            - _id: d6331b49-db49-4daf-aebe-ac3635f16b0d
+              type: $slotSection
+              parameters:
+                name:
+                  type: text
+                  value: Content
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          tabIndex:
+            type: number
+            value: 0
+          tabLabel:
+            type: text
+            value: 🏔️ Adventure
+        _overridability:
+          parameters:
+            tabIndex: 'yes'
+            tabLabel: 'yes'
+      - _id: 0701320a-de91-4031-83a8-80a4e246198a
+        type: tabPanel
+        slots:
+          content:
+            - _id: d889010c-a9c6-4177-8fee-b260a14343a1
+              type: $slotSection
+              parameters:
+                name:
+                  type: text
+                  value: Content
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          tabIndex:
+            type: number
+            value: 1
+          tabLabel:
+            type: text
+            value: 🏛️ Cultural
+        _overridability:
+          parameters:
+            tabIndex: 'yes'
+            tabLabel: 'yes'
+      - _id: c9fc325d-58ae-4051-bbf2-d7910ca5fd95
+        type: tabPanel
+        slots:
+          content:
+            - _id: d1b8f725-6fc5-4eb2-a82b-317d88f13540
+              type: $slotSection
+              parameters:
+                name:
+                  type: text
+                  value: Content
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          tabIndex:
+            type: number
+            value: 2
+          tabLabel:
+            type: text
+            value: 🌿 Eco-Tours
+        _overridability:
+          parameters:
+            tabIndex: 'yes'
+            tabLabel: 'yes'
+  _overridability:
+    parameters:
+      title: 'yes'
+      padding: 'yes'
+      variant: 'yes'
+      subtitle: 'yes'
+      alignment: 'yes'
+    hideLockedParameters: true
+created: '2025-08-19T20:59:52.826184+00:00'
+modified: '2025-08-19T21:06:39.590632+00:00'
+pattern: true

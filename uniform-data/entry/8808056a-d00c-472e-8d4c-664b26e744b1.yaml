@@ -1,0 +1,132 @@
+created: '2025-08-19T13:09:26.724332+00:00'
+modified: '2025-09-23T13:24:25.78076+00:00'
+pattern: false
+entry:
+  _id: 8808056a-d00c-472e-8d4c-664b26e744b1
+  _name: Australia
+  _slug: australia
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/DxCIJJt_QPOI5G-A1194ew-australia-ondrej-machart-WEtXkeIlMoM-unsplash.jpg
+  type: destination
+  fields:
+    name:
+      type: text
+      value: Australia
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Australia is a premier destination for ecotourism, offering
+                    diverse landscapes, unique wildlife, and a commitment to
+                    conservation. From the Great Barrier Reef’s vibrant marine
+                    life to the ancient rainforests of the Daintree and the
+                    rugged beauty of the Outback, Australia provides
+                    eco-conscious travelers with endless opportunities for
+                    adventure. Visitors can engage in sustainable experiences,
+                    including snorkeling pristine coral reefs, hiking through
+                    UNESCO World Heritage rainforests, and exploring the
+                    cultural heritage of Indigenous communities. Australia’s
+                    dedication to preserving its natural wonders ensures a
+                    memorable and responsible travel experience.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+          direction: ltr
+    enrichments:
+      type: $enr
+      value:
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: wildlife-conservation
+          str: 10
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: adventure-seekers
+          str: 9
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: photography-nature
+          str: 9
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: hiking-trekking
+          str: 8
+        - cat: 2a729d76-0a0d-4b64-b6a5-3f66711c9caf
+          key: marine-activities
+          str: 7
+        - cat: ce3586be-d714-42e6-a201-dfdbd0270ed5
+          key: eco-conscious-travelers
+          str: 9
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: research-driven
+          str: 8
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: early-planner
+          str: 7
+        - cat: 4af66be8-8e5e-4c91-b09b-68edeeebba86
+          key: seasonal-traveler
+          str: 6
+    featuredImage:
+      type: asset
+      value:
+        - _id: 20d9dad6-d2e8-44a4-b348-0c998cb7d3a5
+          type: image
+          fields:
+            id:
+              type: text
+              value: 467fcc23-ed21-4a26-a44f-8a9dfaa97669
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/DxCIJJt_QPOI5G-A1194ew-australia-ondrej-machart-WEtXkeIlMoM-unsplash.jpg
+              type: text
+            file:
+              type: file
+              value: edd947ff-9f93-4cdb-97f2-60e160731141
+            size:
+              value: 3327593
+              type: number
+            title:
+              type: text
+              value: australia-ondrej-machart-WEtXkeIlMoM-unsplash.jpg
+            width:
+              value: 5098
+              type: number
+            height:
+              value: 3399
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.53
+                'y': 0.81
+              type: focalPoint
+          _source: uniform-assets
+    featuredTours:
+      type: contentReference
+      value: ${#jptr:/ref-8808056a-d00c-472e-8d4c-664b26e744b1-featuredTours/entries}
+    quickOverview:
+      type: text
+      value: >-
+        Australia is a premier destination for ecotourism, offering diverse
+        landscapes, unique wildlife, an
+  _dataResources:
+    ref-8808056a-d00c-472e-8d4c-664b26e744b1-featuredTours:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 90a7a23c-a25c-49a3-bb37-adb1f14e2492

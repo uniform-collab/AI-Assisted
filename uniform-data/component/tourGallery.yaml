@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: tourGallery
+name: Tour Gallery
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main title for the tour gallery
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Supporting subtitle or description
+    localizable: true
+description: Gallery section showcasing various tour experiences
+useTeamPermissions: true
+slots:
+  - id: tourGalleryItems
+    name: Tour Gallery Items
+    allowedComponents:
+      - tourGalleryItem
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-08-14T20:06:23.228284+00:00'
+updated: '2025-08-14T20:06:23.228284+00:00'

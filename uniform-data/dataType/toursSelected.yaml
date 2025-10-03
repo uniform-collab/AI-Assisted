@@ -1,0 +1,17 @@
+id: toursSelected
+displayName: Tours Selected
+ttl: 30
+path: /multiple
+custom:
+  proposedName: Multiple Tour
+  allowedContentTypes:
+    - tour
+method: GET
+purgeKey: 84356a7e-ef0d-40be-9754-0e8764be68a0
+archetype: multipleEntries
+variables:
+  entryIds:
+    type: text
+    default: ''
+dataSourceId: ecoquestCursor
+allowedOnComponents: []

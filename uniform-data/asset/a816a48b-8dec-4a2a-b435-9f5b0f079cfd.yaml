@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: a816a48b-8dec-4a2a-b435-9f5b0f079cfd
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: AF-CTVF-pexels-frans-van-heerden-201846-3625010.jpg
+    file:
+      type: file
+      value: 2304f853-0103-4052-8102-49514e270f07
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/zxxkQ4DBRDedvw7TVM3goQ-AF-CTVF-pexels-frans-van-heerden-201846-3625010.jpg
+      type: text
+    size:
+      value: 1951339
+      type: number
+    width:
+      value: 5568
+      type: number
+    height:
+      value: 3712
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:35.885416+00:00'
+modified: '2025-08-18T14:28:35.885416+00:00'

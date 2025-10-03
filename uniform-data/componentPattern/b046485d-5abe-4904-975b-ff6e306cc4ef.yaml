@@ -1,0 +1,27 @@
+composition:
+  _name: Tour Pill Pattern
+  _id: b046485d-5abe-4904-975b-ff6e306cc4ef
+  type: pill
+  parameters:
+    size:
+      type: select
+      value: small
+    text:
+      type: text
+      value: Tour
+    style:
+      type: select
+      value: light
+    position:
+      type: select
+      value: topLeft
+  _overridability:
+    parameters:
+      size: 'yes'
+      text: 'yes'
+      style: 'yes'
+      position: 'no'
+    hideLockedParameters: true
+created: '2025-08-20T14:20:10.135676+00:00'
+modified: '2025-08-20T14:40:35.814529+00:00'
+pattern: true

@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: blogArticle
+name: Blog Article
+icon: screen
+parameters:
+  - id: articleTitle
+    name: Article Title
+    type: text
+    guidance: Title of the blog article
+    localizable: true
+  - id: articleExcerpt
+    name: Article Excerpt
+    type: text
+    guidance: Brief excerpt or summary
+    localizable: true
+  - id: articleImage
+    name: Article Image
+    type: asset
+    guidance: Featured image for the article
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: authorName
+    name: Author Name
+    type: text
+    guidance: Article author name
+    localizable: true
+  - id: authorAvatar
+    name: Author Avatar
+    type: asset
+    guidance: Author profile image
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: publishDate
+    name: Publish Date
+    type: date
+    guidance: Article publication date
+  - id: articleUrl
+    name: Article URL
+    type: link
+    guidance: Link to full article
+description: Individual blog article card with image, title, and excerpt
+useTeamPermissions: true
+slots: []
+titleParameter: articleTitle
+thumbnailParameter: articleImage
+canBeComposition: false
+created: '2025-08-14T20:05:52.785311+00:00'
+updated: '2025-08-14T20:05:52.785311+00:00'

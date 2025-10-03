@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: navItem
+name: Nav Item
+icon: screen
+parameters:
+  - id: text
+    name: Text
+    type: text
+    guidance: Link text
+  - id: url
+    name: URL
+    type: link
+    guidance: Navigation link destination
+  - id: isActive
+    name: Is Active
+    type: checkbox
+    guidance: Whether this item should be highlighted as active
+description: Navigation link
+useTeamPermissions: true
+slots: []
+titleParameter: text
+canBeComposition: false
+created: '2025-08-15T19:21:41.897647+00:00'
+updated: '2025-08-15T19:21:49.087625+00:00'

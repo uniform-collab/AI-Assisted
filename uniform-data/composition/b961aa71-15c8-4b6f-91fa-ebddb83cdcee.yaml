@@ -1,0 +1,90 @@
+composition:
+  _name: Destinations
+  _id: b961aa71-15c8-4b6f-91fa-ebddb83cdcee
+  _slug: destinations
+  type: page
+  slots:
+    footer:
+      - _id: b4ca7c3f-178d-4924-a3d8-6d6fe4a44033
+        type: footer
+        _pattern: 45074c59-cda0-4ca5-979f-917d69e6f224
+    header:
+      - _id: f9f2f3e2-31b7-4f6d-8f51-571b7b2ff8b5
+        type: header
+        _pattern: 81ff5114-1240-444e-bdcc-a3afa2c09597
+    content:
+      - _id: 8f9cf4fa-29b1-4df4-a2ad-e1376202202a
+        type: hero
+        _pattern: c8a16d10-c0c6-4103-b9b4-633b25b31fe4
+      - _id: 58532337-df70-45f9-a1a5-a02ea0699ee8
+        type: destinationShowcase
+        _pattern: 33b6c1e8-cafb-40b4-8801-52f6efb3d907
+  _overrides:
+    58532337-df70-45f9-a1a5-a02ea0699ee8:
+      parameters:
+        padding:
+          type: select
+          value: small
+      dataResources:
+        Destinations Content:
+          type: destinations
+          variables:
+            search: ''
+            filters: '{"type[eq]":"destination"}'
+            contentTypes: destination
+    8f9cf4fa-29b1-4df4-a2ad-e1376202202a:
+      parameters:
+        layout:
+          type: select
+          value: imageRight
+        headline:
+          type: text
+          value: Destinations
+        backgroundColor:
+          type: select
+          value: moss
+        backgroundImage:
+          type: asset
+          value:
+            - _id: b3a1cd49-7c0c-4b16-aae9-6606bd1269dc
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: caf2abd8-c20f-41e4-8dea-3fc6536fe739
+                url:
+                  value: >-
+                    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/mLhOcOABTlyUf-V7bhgjfQ-90ab9da18a1b218ab7364906fe1d0f060ecdd2de-(1).png
+                  type: text
+                file:
+                  type: file
+                  value: 23fa1bbb-b33b-419f-ba11-eeb86a07159f
+                size:
+                  value: 17026363
+                  type: number
+                title:
+                  type: text
+                  value: 90ab9da18a1b218ab7364906fe1d0f060ecdd2de-(1).png
+                width:
+                  value: 2734
+                  type: number
+                height:
+                  value: 4096
+                  type: number
+                mediaType:
+                  value: image/png
+                  type: text
+                focalPoint:
+                  value:
+                    x: 0.21
+                    'y': 0.4
+                  type: focalPoint
+              _source: uniform-assets
+    58532337-df70-45f9-a1a5-a02ea0699ee8|6e11208f-e084-42bc-baad-69f4acb3c490:
+      parameters:
+        padding:
+          type: select
+          value: none
+created: '2025-08-18T13:50:27.247484+00:00'
+modified: '2025-08-18T18:37:16.47404+00:00'
+pattern: false

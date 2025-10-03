@@ -1,0 +1,31 @@
+composition:
+  _name: Featured Grid Item
+  _id: 12d2a551-a9ba-45c0-b341-21506822bfbc
+  type: gridItem
+  parameters:
+    shadow:
+      type: select
+      value: small
+    padding:
+      type: select
+      value: medium
+    columnSpan:
+      type: number
+      value: 2
+    borderRadius:
+      type: select
+      value: medium
+    backgroundColor:
+      type: select
+      value: moss
+  _overridability:
+    parameters:
+      shadow: 'yes'
+      padding: 'yes'
+      columnSpan: 'yes'
+      borderRadius: 'yes'
+      backgroundColor: 'yes'
+    hideLockedParameters: true
+created: '2025-08-21T13:09:52.742698+00:00'
+modified: '2025-08-21T13:09:52.742698+00:00'
+pattern: true

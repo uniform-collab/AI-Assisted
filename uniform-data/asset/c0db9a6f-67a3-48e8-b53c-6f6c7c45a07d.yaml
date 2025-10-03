@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c0db9a6f-67a3-48e8-b53c-6f6c7c45a07d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: GR-SAMY-pexels-iglp11.jpg
+    file:
+      type: file
+      value: b75d0ba5-6196-4922-85c3-34ceb3613336
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/IUpakDt3RoariDZSrdX-HQ-GR-SAMY-pexels-iglp11.jpg
+      type: text
+    size:
+      value: 4069032
+      type: number
+    width:
+      value: 8067
+      type: number
+    height:
+      value: 5381
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:25.546806+00:00'
+modified: '2025-08-18T14:28:25.546806+00:00'

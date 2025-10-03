@@ -1,0 +1,118 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: section
+name: Section
+icon: view-grid
+parameters:
+  - id: eyebrow
+    name: Eyebrow Text
+    type: text
+    guidance: Small text that appears above the headline
+    localizable: true
+  - id: headline
+    name: Headline
+    type: text
+    guidance: Main engaging headline for the container section
+    localizable: true
+  - id: headlineTag
+    name: Headline Tag
+    type: select
+    guidance: HTML tag for the headline (affects SEO and accessibility)
+    typeConfig:
+      options:
+        - text: H1
+          value: h1
+        - text: H2 (Default)
+          value: h2
+        - text: H3
+          value: h3
+        - text: H4
+          value: h4
+        - text: H5
+          value: h5
+        - text: H6
+          value: h6
+  - id: description
+    name: Description
+    type: text
+    guidance: Supporting description text for the container
+    localizable: true
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: 'Container background image (recommended: 2070x1080px)'
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: padding
+    name: Padding
+    type: select
+    guidance: Vertical padding around the container section
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small (2rem)
+          value: small
+        - text: Medium (3rem)
+          value: medium
+        - text: Large (4rem)
+          value: large
+        - text: Extra Large (6rem)
+          value: xlarge
+      required: false
+  - id: backgroundColor
+    name: Background Color
+    type: select
+    guidance: Background color theme for the container section
+    typeConfig:
+      options:
+        - text: Moss Green
+          value: moss
+        - text: EQ-Dust
+          value: lightGray
+        - text: Terracotta Orange
+          value: terracotta
+        - text: Off White
+          value: offWhite
+        - text: Pine Green
+          value: pine
+        - text: Warm Gray
+          value: warmGray
+      required: false
+  - id: layout
+    name: Layout
+    type: select
+    typeConfig:
+      options:
+        - text: Full Background
+          value: fullBackground
+        - text: Image Left
+          value: imageLeft
+        - text: Image Right
+          value: imageRight
+description: >-
+  Section with headline, description, background image, content area and CTA
+  functionality
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: cta
+    name: CTA
+    maxComponents: 1
+    allowedComponents:
+      - search
+      - button
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: headline
+thumbnailParameter: backgroundImage
+canBeComposition: false
+created: '2025-08-19T19:46:05.821268+00:00'
+updated: '2025-09-03T19:04:31.361209+00:00'

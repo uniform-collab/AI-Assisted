@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: header
+name: Header
+icon: screen
+parameters:
+  - id: companyName
+    name: Company Name
+    type: text
+    guidance: Name of the company/brand
+    localizable: true
+  - id: logo
+    name: Logo
+    type: asset
+    guidance: Company logo image
+    typeConfig:
+      allowedTypes:
+        - image
+description: Website header with navigation and branding
+useTeamPermissions: true
+slots:
+  - id: navigation
+    name: Navigation
+    allowedComponents:
+      - navigation
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: companyName
+thumbnailParameter: logo
+canBeComposition: false
+created: '2025-08-15T19:04:34.742668+00:00'
+updated: '2025-08-15T19:22:30.922631+00:00'

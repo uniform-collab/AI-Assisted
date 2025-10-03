@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: feb9eec0-fc09-4d74-965f-09012861f602
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Onika.avif
+    file:
+      type: file
+      value: f8851938-3d2e-43ff-90ee-00d1baeea615
+    mediaType:
+      value: image/avif
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/JbmcU9DCT0W_Nkqep2SgcQ-Onika.avif
+      type: text
+    size:
+      value: 84343
+      type: number
+    width:
+      value: 1024
+      type: number
+    height:
+      value: 1024
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:47.758174+00:00'
+modified: '2025-08-18T14:28:47.758174+00:00'

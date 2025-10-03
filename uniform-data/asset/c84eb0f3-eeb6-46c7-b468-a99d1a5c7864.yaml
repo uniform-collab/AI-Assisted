@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: c84eb0f3-eeb6-46c7-b468-a99d1a5c7864
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: AF-CTVF-pexels-athraa-voterson-1922239912-32402432.jpg
+    file:
+      type: file
+      value: 50e22bcb-49ef-4e64-bdfb-df0eac6f3651
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/Zev0FK9eRRm1_nzyXTQJ1A-AF-CTVF-pexels-athraa-voterson-1922239912-32402432.jpg
+      type: text
+    size:
+      value: 2723730
+      type: number
+    width:
+      value: 3072
+      type: number
+    height:
+      value: 4096
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:33.338127+00:00'
+modified: '2025-08-18T14:28:33.338127+00:00'

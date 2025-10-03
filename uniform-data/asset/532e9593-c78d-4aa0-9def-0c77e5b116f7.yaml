@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: 532e9593-c78d-4aa0-9def-0c77e5b116f7
+  _name: sydney-peter-jedidiah-banton-sp7yuyOXhiU-unsplash.jpg
+  fields:
+    title:
+      type: text
+      value: sydney-peter-jedidiah-banton-sp7yuyOXhiU-unsplash.jpg
+    file:
+      type: file
+      value: 8152a062-cce5-4314-8394-1a2cf2f4e0d0
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/svgitPxERsms3DS5kVAj9g-sydney-peter-jedidiah-banton-sp7yuyOXhiU-unsplash.jpg
+      type: text
+    size:
+      value: 2351491
+      type: number
+    width:
+      value: 4192
+      type: number
+    height:
+      value: 3144
+      type: number
+    focalPoint:
+      value:
+        x: 0.4
+        'y': 0.59
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:16.423046+00:00'
+modified: '2025-08-18T14:28:16.423046+00:00'

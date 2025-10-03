@@ -1,0 +1,55 @@
+created: '2025-08-19T13:22:16.311266+00:00'
+modified: '2025-08-19T13:22:40.124367+00:00'
+pattern: false
+entry:
+  _id: f7e3f608-cf8e-4865-9db7-53a47676c713
+  _name: Beaches
+  _slug: beaches
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/cWRpc9-tQFKTOpFCcXYDmA-beach.svg
+  type: interest
+  fields:
+    icon:
+      type: asset
+      value:
+        - _id: 3985dda6-e566-4614-94f4-3889f418a889
+          type: image
+          fields:
+            id:
+              type: text
+              value: 418b9119-14ad-4d48-9c49-f470e4e70afd
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/cWRpc9-tQFKTOpFCcXYDmA-beach.svg
+              type: text
+            file:
+              type: file
+              value: f53d2a59-e570-4f54-84f1-e0a0d8a09893
+            size:
+              value: 777
+              type: number
+            title:
+              type: text
+              value: beach.svg
+            width:
+              value: 24
+              type: number
+            height:
+              value: 24
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+    name:
+      type: text
+      value: Beaches
+    description:
+      type: text
+      value: >-
+        Experience the joy of relaxing on sandy shores, swimming in clear
+        waters, and exploring a variety of coastal activities. Whether you’re
+        looking to unwind, connect with nature, or try something new, our
+        community celebrates the simple pleasures of beach life. Join us to
+        discover eco-friendly ways to enjoy the coast, reduce your impact, and
+        make every beach day a planet-positive adventure.

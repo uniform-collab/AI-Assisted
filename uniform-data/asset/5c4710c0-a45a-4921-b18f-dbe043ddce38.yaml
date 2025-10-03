@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 5c4710c0-a45a-4921-b18f-dbe043ddce38
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: AF-CTVF-pexels-joolsmagools-27785865.jpg
+    file:
+      type: file
+      value: 04fbf87f-5542-454e-8632-a0b6c4e960dd
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/8hBfyKriSsuYDJCrnSLwXQ-AF-CTVF-pexels-joolsmagools-27785865.jpg
+      type: text
+    size:
+      value: 1737233
+      type: number
+    width:
+      value: 3522
+      type: number
+    height:
+      value: 2845
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:36.927425+00:00'
+modified: '2025-08-18T14:28:36.927425+00:00'

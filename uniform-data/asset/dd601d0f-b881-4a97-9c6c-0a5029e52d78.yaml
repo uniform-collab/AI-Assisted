@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: dd601d0f-b881-4a97-9c6c-0a5029e52d78
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: star.svg
+    file:
+      type: file
+      value: 553bfa41-4ad2-46f6-8034-e1f627e5c714
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/m-LWBkEjRe2S3PPytgjtEg-star.svg
+      type: text
+    size:
+      value: 429
+      type: number
+    width:
+      value: 24
+      type: number
+    height:
+      value: 24
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:41.118243+00:00'
+modified: '2025-08-18T14:28:41.118243+00:00'

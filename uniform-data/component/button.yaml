@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: button
+name: Button
+icon: cursor-click
+parameters:
+  - id: text
+    name: Text
+    type: text
+    guidance: Text displayed on the button
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    guidance: Where the button should navigate to
+  - id: style
+    name: Style
+    type: select
+    guidance: Visual style of the button
+    typeConfig:
+      options:
+        - text: Primary
+          value: primary
+        - text: Secondary
+          value: secondary
+        - text: Outline
+          value: outline
+      required: false
+  - id: size
+    name: Size
+    type: select
+    guidance: Size of the button
+    typeConfig:
+      options:
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+      required: false
+  - id: fullWidth
+    name: Full Width
+    type: checkbox
+    guidance: Make button span full width of container
+description: Single button component with customizable text, link, and styling
+useTeamPermissions: true
+slots: []
+titleParameter: text
+canBeComposition: false

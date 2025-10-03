@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 2cd0dd04-0796-4550-a52e-1d100bdedbdf
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ''
+    file:
+      type: file
+      value: aad375af-4147-433f-a77d-6c046cddafad
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/bMd8_Nb5SOyG8KPEvjyODA-DSC01633-1440x960.jpg
+      type: text
+    size:
+      value: 240006
+      type: number
+    width:
+      value: 1440
+      type: number
+    height:
+      value: 960
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:49.797783+00:00'
+modified: '2025-08-18T14:28:49.797783+00:00'

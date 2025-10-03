@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 5b013d8d-8d55-468a-a4c1-9c6eab993591
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: AF-CTVF-pexels-travel-with-lenses-734723610-26058054.jpg
+    file:
+      type: file
+      value: 555698da-87bf-4ada-82a8-3d1678673b2f
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/iU7OhMQOSVWRKlTngMobbA-AF-CTVF-pexels-travel-with-lenses-734723610-26058054.jpg
+      type: text
+    size:
+      value: 5105044
+      type: number
+    width:
+      value: 5688
+      type: number
+    height:
+      value: 3792
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:39.478736+00:00'
+modified: '2025-08-18T14:28:39.478736+00:00'

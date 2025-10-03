@@ -1,0 +1,52 @@
+created: '2025-08-19T13:09:41.252461+00:00'
+modified: '2025-08-19T13:09:41.252461+00:00'
+pattern: false
+entry:
+  _id: 0ec16407-00b5-4db1-87dc-1a78e60f57c4
+  _name: Wine & Culinary
+  _slug: wine-and-culinary-experiences
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/KJlT22kSSzaNOURFXzb8DA-glass-full.svg
+  type: interest
+  fields:
+    icon:
+      type: asset
+      locales:
+        en:
+          - _id: 248f6292-2a85-4dcc-86a2-ed2e93b6d3cd
+            type: image
+            fields:
+              id:
+                type: text
+                value: a3447a1b-fcd6-4139-8983-f8d21b64c17a
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/KJlT22kSSzaNOURFXzb8DA-glass-full.svg
+                type: text
+              file:
+                type: file
+                value: 50967be2-cf43-4df7-a458-9da32d40e83c
+              size:
+                value: 646
+                type: number
+              title:
+                type: text
+                value: glass-full.svg
+              width:
+                value: 24
+                type: number
+              height:
+                value: 24
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+    name:
+      type: text
+      value: 'Wine & Culinary '
+    description:
+      type: text
+      locales:
+        en: Wine & Culinary featured experiences
+

@@ -1,0 +1,35 @@
+asset:
+  type: image
+  _id: 467fcc23-ed21-4a26-a44f-8a9dfaa97669
+  _name: australia-ondrej-machart-WEtXkeIlMoM-unsplash.jpg
+  fields:
+    title:
+      type: text
+      value: australia-ondrej-machart-WEtXkeIlMoM-unsplash.jpg
+    file:
+      type: file
+      value: edd947ff-9f93-4cdb-97f2-60e160731141
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/DxCIJJt_QPOI5G-A1194ew-australia-ondrej-machart-WEtXkeIlMoM-unsplash.jpg
+      type: text
+    size:
+      value: 3327593
+      type: number
+    width:
+      value: 5098
+      type: number
+    height:
+      value: 3399
+      type: number
+    focalPoint:
+      value:
+        x: 0.53
+        'y': 0.81
+      type: focalPoint
+    custom: {}
+created: '2025-08-18T14:28:53.151265+00:00'
+modified: '2025-08-18T14:28:53.151265+00:00'

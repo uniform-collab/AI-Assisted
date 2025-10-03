@@ -1,0 +1,31 @@
+composition:
+  _name: Sample Text Pattern
+  _id: 528d0c43-42fb-47c8-8dd6-6c6ab4b5cc7e
+  type: text
+  parameters:
+    size:
+      type: select
+      value: default
+    text:
+      type: text
+      value: This is sample text content at the default 18pt size.
+    color:
+      type: select
+      value: default
+    weight:
+      type: select
+      value: normal
+    alignment:
+      type: select
+      value: left
+  _overridability:
+    parameters:
+      size: 'yes'
+      text: 'yes'
+      color: 'yes'
+      weight: 'yes'
+      alignment: 'yes'
+    hideLockedParameters: true
+created: '2025-08-20T14:46:27.210799+00:00'
+modified: '2025-08-20T14:46:27.210799+00:00'
+pattern: true

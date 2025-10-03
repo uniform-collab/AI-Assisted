@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: tabPanel
+name: Tab Panel
+icon: screen
+parameters:
+  - id: tabLabel
+    name: Tab Label
+    type: text
+    guidance: Text displayed on the tab button
+    localizable: true
+  - id: icon
+    name: Icon
+    type: text
+    guidance: Optional icon name or class for the tab
+  - id: isDisabled
+    name: Is Disabled
+    type: checkbox
+    guidance: Whether this tab is disabled
+  - id: tabIndex
+    name: Tab Index
+    type: number
+    guidance: The index of this tab (0, 1, 2, etc.)
+description: Individual tab panel with label and content area
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents:
+      - hero
+      - section
+      - grid
+      - blogSection
+      - destinationShowcase
+      - photoGallery
+      - tourGallery
+      - popularTours
+      - partners
+      - button
+      - spacer
+      - $loop
+      - card
+      - text
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: tabLabel
+canBeComposition: false
+created: '2025-08-19T20:53:48.981659+00:00'
+updated: '2025-08-20T14:48:38.637464+00:00'

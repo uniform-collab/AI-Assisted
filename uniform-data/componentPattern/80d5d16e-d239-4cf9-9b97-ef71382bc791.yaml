@@ -1,0 +1,54 @@
+composition:
+  _name: Destination Card
+  _id: 80d5d16e-d239-4cf9-9b97-ef71382bc791
+  type: horizontalCard
+  parameters:
+    title:
+      type: text
+      value: DESTINATION.Name
+    backgroundImage:
+      type: asset
+      value:
+        - _id: c8b8b8b8-c8b8-c8b8-c8b8-c8b8b8b8c8b8
+          type: image
+          fields:
+            url:
+              type: text
+              value: https://res.cloudinary.com/uniformdev/image/upload/v1692282736/csk-travel/destinations/europe-hero_l2mfqk.jpg
+            title:
+              type: text
+              value: European Destination
+            width:
+              type: number
+              value: 800
+            height:
+              type: number
+              value: 400
+          _source: custom-url
+    cardLink:
+      type: link
+      value:
+        path: /destinations/europe
+        type: projectMapNode
+    margin:
+      type: select
+      value: medium
+    padding:
+      type: select
+      value: medium
+    contentAlignment:
+      type: select
+      value: left
+  slots: {}
+  _overridability:
+    parameters:
+      title: 'yes'
+      backgroundImage: 'yes'
+      cardLink: 'yes'
+      margin: 'yes'
+      padding: 'yes'
+      contentAlignment: 'yes'
+    hideLockedParameters: true
+created: '2025-09-15T18:30:00.000000+00:00'
+modified: '2025-09-15T18:30:00.000000+00:00'
+pattern: true

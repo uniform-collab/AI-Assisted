@@ -1,0 +1,109 @@
+created: '2025-08-19T13:09:30.954896+00:00'
+modified: '2025-08-19T14:52:50.431823+00:00'
+pattern: false
+entry:
+  _id: fb45a52f-a1a0-40cf-a21f-99054ac99ce4
+  _name: France
+  _slug: france
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/wh2HSA9nRa6GG-y6Cphxdg-france-chris-karidis-nnzkZNYWHaU-unsplash.jpg
+  type: destination
+  fields:
+    name:
+      type: text
+      value: France
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    France is an ideal ecotourism destination, combining
+                    breathtaking natural landscapes with a commitment to
+                    sustainable travel. From the pristine beaches of Brittany to
+                    the biodiverse wetlands of the Camargue and the stunning
+                    peaks of the French Alps, France offers diverse environments
+                    perfect for outdoor enthusiasts. Visitors can hike lush
+                    vineyard trails, explore eco-friendly villages, and enjoy
+                    farm-to-table dining that supports local producers. With its
+                    dedication to environmental conservation and sustainable
+                    tourism, France invites travelers to experience its natural
+                    beauty responsibly.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+              textFormat: 0
+          direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: ab3b31db-feef-4614-b098-7255f5886f44
+          type: image
+          fields:
+            id:
+              type: text
+              value: e12cde22-0e77-40ff-a5f0-95d44255c952
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/wh2HSA9nRa6GG-y6Cphxdg-france-chris-karidis-nnzkZNYWHaU-unsplash.jpg
+              type: text
+            file:
+              type: file
+              value: 3b875c34-ed0b-4c10-a639-40cbb0797605
+            size:
+              value: 1964216
+              type: number
+            title:
+              type: text
+              value: france-chris-karidis-nnzkZNYWHaU-unsplash.jpg
+            width:
+              value: 5309
+              type: number
+            height:
+              value: 3530
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.63
+                'y': 0.57
+              type: focalPoint
+          _source: uniform-assets
+    featuredTours:
+      type: contentReference
+      value: ${#jptr:/ref-fb45a52f-a1a0-40cf-a21f-99054ac99ce4-featuredTours/entries}
+    quickOverview:
+      type: text
+      value: >-
+        France is an ideal ecotourism destination, combining breathtaking
+        natural landscapes with sustainable travel.
+    parentDestination:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-fb45a52f-a1a0-40cf-a21f-99054ac99ce4-parentDestination/entries/0}
+  _dataResources:
+    ref-fb45a52f-a1a0-40cf-a21f-99054ac99ce4-featuredTours:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b8236b59-2259-41c9-ba98-45bffdb171bf
+    ref-fb45a52f-a1a0-40cf-a21f-99054ac99ce4-parentDestination:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 0f94139b-fdd3-42e2-ad69-22891b13456d

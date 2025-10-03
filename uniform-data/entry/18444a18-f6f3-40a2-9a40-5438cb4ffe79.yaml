@@ -1,0 +1,65 @@
+created: '2025-08-19T13:09:40.685563+00:00'
+modified: '2025-08-19T14:41:45.603207+00:00'
+pattern: false
+entry:
+  _id: 18444a18-f6f3-40a2-9a40-5438cb4ffe79
+  _name: Spain
+  _slug: spain
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/jJ3uhuRFQ5em5H2ES9gtdQ-spain-tania-fernandez-zVdf2Hmrcxw-unsplash.jpg
+  type: destination
+  fields:
+    name:
+      type: text
+      value: Spain
+    featuredImage:
+      type: asset
+      value:
+        - _id: c9308c2a-c726-4281-9d01-1f2700a953cb
+          type: image
+          fields:
+            id:
+              type: text
+              value: 1163a31b-22f0-4f87-9fb0-b7df890a92c4
+            url:
+              value: >-
+                https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/jJ3uhuRFQ5em5H2ES9gtdQ-spain-tania-fernandez-zVdf2Hmrcxw-unsplash.jpg
+              type: text
+            file:
+              type: file
+              value: a308020f-3611-45f6-9831-a07b518a16b6
+            size:
+              value: 1406475
+              type: number
+            title:
+              type: text
+              value: spain-tania-fernandez-zVdf2Hmrcxw-unsplash.jpg
+            width:
+              value: 2887
+              type: number
+            height:
+              value: 2658
+              type: number
+            mediaType:
+              value: image/jpeg
+              type: text
+            focalPoint:
+              value:
+                x: 0.64
+                'y': 0.51
+              type: focalPoint
+          _source: uniform-assets
+    quickOverview:
+      type: text
+      value: >-
+        Discover Spain's vibrant eco-tourism scene—explore national parks, green
+        cities, and sustainable travel.
+    parentDestination:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-18444a18-f6f3-40a2-9a40-5438cb4ffe79-parentDestination/entries/0}
+  _dataResources:
+    ref-18444a18-f6f3-40a2-9a40-5438cb4ffe79-parentDestination:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 0f94139b-fdd3-42e2-ad69-22891b13456d

@@ -1,0 +1,23 @@
+created: '2025-08-18T19:35:02.537762+00:00'
+modified: '2025-08-18T19:35:02.537762+00:00'
+pattern: false
+entry:
+  _id: 671439bf-9dac-4301-aa74-398ff330ef55
+  _name: Festivals & Events
+  _slug: festivals-and-events
+  type: interest
+  fields:
+    name:
+      type: text
+      value: Festivals & Events
+    description:
+      type: text
+      value: >-
+        Experience the vibrant energy of local festivals, concerts, and cultural
+        celebrations. Join us as we explore unique traditions, enjoy live music,
+        and connect with communities through unforgettable events. Whether
+        you're discovering new cultures or celebrating familiar ones, these
+        gatherings offer a fun and meaningful way to support local artists and
+        create lasting memories together.
+  _overridability:
+    hideLockedParameters: true

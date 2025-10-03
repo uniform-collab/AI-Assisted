@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e4667b67-bbe9-4a7e-9f5e-f95a51873cc2
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Vector.png
+    file:
+      type: file
+      value: 157af3d4-f53b-4b7e-95bb-2fc195ceb3ab
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/CwKk6u4HScOjU74RdZi4HA-Vector.png
+      type: text
+    size:
+      value: 487
+      type: number
+    width:
+      value: 14
+      type: number
+    height:
+      value: 14
+      type: number
+    custom: {}
+created: '2025-08-18T14:28:07.556962+00:00'
+modified: '2025-08-18T14:28:07.556962+00:00'

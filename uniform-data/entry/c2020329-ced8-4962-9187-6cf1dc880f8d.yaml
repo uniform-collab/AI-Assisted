@@ -1,0 +1,25 @@
+created: '2025-08-18T19:33:25.212485+00:00'
+modified: '2025-08-18T19:33:25.212485+00:00'
+pattern: false
+entry:
+  _id: c2020329-ced8-4962-9187-6cf1dc880f8d
+  _name: Adventure
+  _slug: adventure
+  type: interest
+  fields:
+    name:
+      type: text
+      value: Adventure
+    description:
+      type: text
+      value: >-
+        Adventure travel is all about embracing thrilling experiences—think
+        hiking scenic trails, climbing rugged peaks, or trying out extreme
+        sports in breathtaking destinations. Whether you’re a seasoned explorer
+        or just starting out, you’ll find opportunities to challenge yourself,
+        connect with nature, and create unforgettable memories. Join our
+        community to discover new adventures, share your stories, and inspire
+        others to take bold steps toward a more active, planet-positive
+        lifestyle.
+  _overridability:
+    hideLockedParameters: true

@@ -1,0 +1,71 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: page
+name: Page
+icon: template
+parameters: []
+description: Main page composition component that contains all page content
+useTeamPermissions: true
+slots:
+  - id: header
+    name: Header
+    maxComponents: 1
+    minComponents: 0
+    allowedComponents:
+      - header
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: content
+    name: Content
+    allowedComponents:
+      - hero
+      - partners
+      - popularTours
+      - blogSection
+      - destinationShowcase
+      - photoGallery
+      - tourGallery
+      - searchContainer
+      - spacer
+      - section
+      - tabs
+      - card
+      - grid
+      - gridItem
+      - pagination
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: footer
+    name: Footer
+    maxComponents: 1
+    minComponents: 0
+    allowedComponents:
+      - footer
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+defaults:
+  type: page
+  slots:
+    footer:
+      - type: footer
+        _pattern: 45074c59-cda0-4ca5-979f-917d69e6f224
+        _overridability:
+          parameters:
+            companyName: 'yes'
+            description: 'yes'
+            copyrightText: 'yes'
+            newsletterTitle: 'yes'
+            subscribeButtonText: 'yes'
+          hideLockedParameters: true
+    header:
+      - type: header
+        _pattern: 81ff5114-1240-444e-bdcc-a3afa2c09597
+        _overridability:
+          parameters:
+            $viz: 'yes'
+            logo: 'yes'
+            companyName: 'yes'
+          hideLockedParameters: true
+canBeComposition: true
+created: '2025-08-14T20:04:58.358192+00:00'
+updated: '2025-09-02T18:53:47.213155+00:00'

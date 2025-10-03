@@ -1,0 +1,190 @@
+id: tour
+name: Tour
+created: '2025-08-18T19:22:26.359028+00:00'
+updated: '2025-08-26T14:05:11.666169+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    typeConfig:
+      required: true
+  - id: description
+    name: Description
+    type: text
+    typeConfig:
+      multiline: true
+      linesCount: 10
+  - id: featuredImage
+    name: Featured image
+    type: asset
+    helpText: ''
+    typeConfig:
+      min: 1
+    notLocalizedByDefault: true
+  - id: itinerary
+    name: Itinerary
+    type: $block
+    typeConfig:
+      min: 1
+      allowedTypes:
+        - itineraryDay
+  - id: trips
+    name: Trips
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - trip
+  - id: 74a23d7e-0507-478b-bc68-3e327a54047c
+    name: Details
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - destination
+        - start
+        - end
+        - duration
+        - physicalRating
+        - travelStyle
+        - tourType
+        - serviceLevel
+        - tourCode
+  - id: destination
+    name: Destination
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      allowedContentTypes:
+        - destination
+  - id: start
+    name: Start
+    type: text
+    typeConfig: null
+  - id: end
+    name: End
+    type: text
+    typeConfig: null
+  - id: duration
+    name: Duration
+    type: text
+    typeConfig:
+      required: true
+  - id: physicalRating
+    name: Physical rating
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: 1 - Easy
+          value: 1 - Easy
+        - text: 2 - Light
+          value: 2 - Light
+        - text: 3 - Average
+          value: 3 - Average
+        - text: 4 - Demanding
+          value: 4 - Demanding
+        - text: 5 - Challenging
+          value: 5 - Challenging
+      required: true
+  - id: travelStyle
+    name: Travel style
+    type: multi-select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: 18-to-Thirtysomethings
+          value: 18-to-Thirtysomethings
+        - text: Active
+          value: Active
+        - text: Family
+          value: Family
+        - text: Local living
+          value: Local living
+        - text: Marine
+          value: Marine
+        - text: Rail
+          value: Rail
+        - text: Wellness
+          value: Wellness
+  - id: tourType
+    name: Tour type
+    type: multi-select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Small group
+          value: Small group
+        - text: Day tour
+          value: Day tour
+        - text: Independent travel
+          value: Independent travel
+        - text: Mini adventure
+          value: Mini adventure
+  - id: serviceLevel
+    name: Service level
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Basic
+          value: Basic
+        - text: Rustic
+          value: Rustic
+        - text: Standard
+          value: Standard
+        - text: Premium
+          value: Premium
+      required: true
+  - id: tourCode
+    name: Tour code
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+  - id: 4ec61c9d-c52a-414d-a9b7-6faa3bfa5b94
+    name: Related Information
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - partners
+        - travelerPhotos
+        - relatedInterests
+        - interests
+  - id: partners
+    name: Partners
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - partner
+  - id: travelerPhotos
+    name: Traveler photos
+    type: asset
+    typeConfig: {}
+  - id: relatedInterests
+    name: Related interests
+    type: contentReference
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - interest
+entryName: name
+thumbnailField: featuredImage
+description: >-
+  A TOUR is a packaged offering that has one or more TRIPS that share an
+  ITINERARY with various ACTIVITIES.
+icon: album
+type: contentType
+permissions: []
+previewConfigurations:
+  - type: project-map
+    id: 3926ea8c-5077-4209-99aa-c600fcda41f4
+    label: Tour Detail
+    dynamicInputs:
+      tour: ${#jptr:/entry/_slug}

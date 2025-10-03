@@ -1,0 +1,23 @@
+created: '2025-08-18T19:35:12.753497+00:00'
+modified: '2025-08-18T19:35:12.753497+00:00'
+pattern: false
+entry:
+  _id: 066040cb-1506-40aa-b3aa-0b4f25e708f3
+  _name: Eco & Sustainable Travel
+  _slug: eco-and-sustainable-travel
+  type: interest
+  fields:
+    name:
+      type: text
+      value: Eco & Sustainable Travel
+    description:
+      type: text
+      value: >-
+        Discover how you can travel responsibly by making eco-friendly choices
+        that protect the environment and support local communities. Learn
+        practical tips for reducing your footprint, respecting local cultures,
+        and contributing to conservation efforts wherever you go. Together, we
+        can make every journey planet-positive and meaningful for everyone
+        involved.
+  _overridability:
+    hideLockedParameters: true

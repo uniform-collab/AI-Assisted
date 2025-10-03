@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: popularTours
+name: Popular Tours
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Main title for the popular tours section
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    guidance: Supporting subtitle or description
+    localizable: true
+description: Section showcasing popular tour offerings
+useTeamPermissions: true
+slots:
+  - id: tourCards
+    name: Tour Cards
+    maxComponents: 6
+    allowedComponents:
+      - tourCard
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: true
+titleParameter: title
+canBeComposition: false
+created: '2025-08-14T20:05:31.320854+00:00'
+updated: '2025-08-14T20:05:31.320854+00:00'

@@ -1,0 +1,19 @@
+composition:
+  _name: EcoQuest Search
+  _id: 6a4f8e45-d650-48df-8972-6248cecebbbc
+  type: search
+  parameters:
+    buttonText:
+      type: text
+      value: Explore Tours
+    searchPlaceholder:
+      type: text
+      value: Where do you want to go?
+  _overridability:
+    parameters:
+      buttonText: 'yes'
+      searchPlaceholder: 'yes'
+    hideLockedParameters: true
+created: '2025-08-18T18:20:42.167929+00:00'
+modified: '2025-08-18T18:20:42.167929+00:00'
+pattern: true

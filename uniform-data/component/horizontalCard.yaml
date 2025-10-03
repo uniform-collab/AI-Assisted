@@ -1,0 +1,86 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: horizontalCard
+name: Horizontal Card
+icon: card
+parameters:
+  - id: title
+    name: Title
+    type: text
+    guidance: Card title that appears over the background image
+    localizable: true
+  - id: backgroundImage
+    name: Background Image
+    type: asset
+    guidance: Background image for the card
+    typeConfig:
+      allowedTypes:
+        - image
+  - id: cardLink
+    name: Card Link
+    type: link
+    guidance: Optional link to make the entire card clickable
+  - id: styling
+    name: Styling
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - margin
+        - padding
+        - contentAlignment
+  - id: margin
+    name: Margin
+    type: select
+    guidance: Margin around the card container
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Extra Large
+          value: xlarge
+  - id: padding
+    name: Padding
+    type: select
+    guidance: Internal spacing around content
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Extra Large
+          value: xlarge
+  - id: contentAlignment
+    name: Content Alignment
+    type: select
+    guidance: How to align the title content within the card
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Center
+          value: center
+        - text: Right
+          value: right
+categoryId: 70d03350-bbf9-457d-abc0-cf7d7aa2a3a4
+description: >-
+  A simple horizontal card component with background image and clickable link,
+  perfect for destination or category navigation.
+useTeamPermissions: true
+slots: []
+titleParameter: title
+thumbnailParameter: backgroundImage
+canBeComposition: false
+created: '2025-09-15T18:30:00.000000+00:00'
+updated: '2025-09-15T18:30:00.000000+00:00'

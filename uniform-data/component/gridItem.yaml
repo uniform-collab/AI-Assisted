@@ -1,0 +1,110 @@
+# yaml-language-server: $schema=https://uniform.app/schemas/json-schema/component-definition/v1.json
+$schema: https://uniform.app/schemas/json-schema/component-definition/v1.json
+id: gridItem
+name: Grid Item
+icon: screen
+parameters:
+  - id: columnStart
+    name: Column Start
+    type: number
+    guidance: Starting column position (1-based). Leave empty for auto-placement.
+  - id: columnSpan
+    name: Column Span
+    type: number
+    guidance: Number of columns to span. Defaults to 1.
+    typeConfig:
+      min: 1
+  - id: rowStart
+    name: Row Start
+    type: number
+    guidance: Starting row position (1-based). Leave empty for auto-placement.
+  - id: rowSpan
+    name: Row Span
+    type: number
+    guidance: Number of rows to span. Defaults to 1.
+    typeConfig:
+      min: 1
+  - id: padding
+    name: Padding
+    type: select
+    guidance: Internal spacing around the content
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Extra Large
+          value: xlarge
+  - id: backgroundColor
+    name: Background Color
+    type: select
+    guidance: Background color for the grid item
+    typeConfig:
+      options:
+        - text: Transparent
+          value: transparent
+        - text: White
+          value: white
+        - text: Moss Green
+          value: moss
+        - text: Light Gray
+          value: lightGray
+        - text: Terracotta
+          value: terracotta
+        - text: Off White
+          value: offWhite
+        - text: Pine Green
+          value: pine
+        - text: Warm Gray
+          value: warmGray
+  - id: borderRadius
+    name: Border Radius
+    type: select
+    guidance: Corner rounding for the grid item
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Full
+          value: full
+  - id: shadow
+    name: Shadow
+    type: select
+    guidance: Drop shadow effect for the grid item
+    typeConfig:
+      options:
+        - text: None
+          value: none
+        - text: Small
+          value: small
+        - text: Medium
+          value: medium
+        - text: Large
+          value: large
+        - text: Extra Large
+          value: xlarge
+description: >-
+  A flexible grid item component that can be positioned within a grid layout
+  with customizable styling options.
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents: []
+    allowAllComponents: false
+    inheritAllowedComponents: true
+    patternsInAllowedComponents: true
+canBeComposition: false
+created: '2025-08-21T13:09:35.262236+00:00'
+updated: '2025-08-21T13:16:05.326482+00:00'

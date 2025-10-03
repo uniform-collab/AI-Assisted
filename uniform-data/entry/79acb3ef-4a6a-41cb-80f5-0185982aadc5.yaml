@@ -1,0 +1,57 @@
+created: '2025-08-19T13:09:36.014902+00:00'
+modified: '2025-08-19T13:17:23.869248+00:00'
+pattern: false
+entry:
+  _id: 79acb3ef-4a6a-41cb-80f5-0185982aadc5
+  _name: Nature & Wildlife
+  _slug: nature-and-wildlife
+  _thumbnail: >-
+    https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/DB7p5TR3TDOcHidtUW2wWw-trees.svg
+  type: interest
+  fields:
+    icon:
+      type: asset
+      locales:
+        en:
+          - _id: b9cb820a-fe92-4634-a8fa-3d7dd2983228
+            type: image
+            fields:
+              id:
+                type: text
+                value: 316e5289-2285-431f-8662-55e795779438
+              url:
+                value: >-
+                  https://img.uniform.global/p/8M-p6NZqT6uAiJVFDOd2CA/DB7p5TR3TDOcHidtUW2wWw-trees.svg
+                type: text
+              file:
+                type: file
+                value: 8d7e1239-4a33-402e-b55d-267dbffa0352
+              size:
+                value: 608
+                type: number
+              title:
+                type: text
+                value: trees.svg
+              width:
+                value: 24
+                type: number
+              height:
+                value: 24
+                type: number
+              mediaType:
+                value: image/svg+xml
+                type: text
+            _source: uniform-assets
+    name:
+      type: text
+      value: Nature & Wildlife
+    description:
+      type: text
+      locales:
+        en: >-
+          Experience the beauty of natural landscapes and connect with wildlife
+          in their natural habitats. Join us to explore breathtaking scenery,
+          observe animals responsibly, and learn how your adventures can support
+          conservation and sustainable travel. Every step you take helps protect
+          our planet and its incredible biodiversity.
+

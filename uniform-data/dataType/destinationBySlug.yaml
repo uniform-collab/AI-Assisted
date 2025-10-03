@@ -1,0 +1,17 @@
+id: destinationBySlug
+displayName: Destination by Slug
+ttl: 30
+path: /single-by-slug
+custom:
+  proposedName: Destination
+  allowedContentTypes:
+    - destination
+method: GET
+purgeKey: d92baf08-0823-4672-ad29-9686ba7f134e
+archetype: singleEntryBySlug
+variables:
+  slug:
+    type: text
+    default: ''
+dataSourceId: ecoquestCursor
+allowedOnComponents: []

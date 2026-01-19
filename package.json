@@ -21,7 +21,7 @@
     "@uniformdev/context-react": "^20.30.0",
     "@uniformdev/project-map": "^20.30.0",
     "classnames": "^2.5.1",
-    "next": "15.4.6",
+    "next": "15.4.10",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
